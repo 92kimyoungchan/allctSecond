@@ -33,6 +33,13 @@
 	}
 }
 
+@media screen and (max-width:580px) {
+	div.clinical-status table {
+	    width: 90%;
+    	margin-left: 5%;
+	}
+}
+
 
 @media only screen and (max-width: 767px) {
 	.clinical_content_box .info-article {
@@ -41,6 +48,38 @@
 		margin: 0 0 10% 40% !important;
     	float: none;
 	}
+	
+	.clinical-status > table > thead {
+		display: none;
+	}
+	div.clinical-status > .jobInfo-table tbody > tr > td:first-of-type {
+		display: none;
+	}
+	
+	div.status-content {
+	    padding: 0px 30px 13px;
+	}
+	
+	div.clinical-status > .jobInfo-table tbody > tr > td:nth-of-type(2) {
+	    padding: 13px 5px 0 30px;
+	    display: inline-block;
+	    color: #3caa69;
+	}
+	
+	div.status-content-date {
+		width: 100%;	
+	}
+	
+	.jobInfo-table > tbody > tr > td:nth-of-type(4) {
+		display: inline-block;
+    	padding-top: 14px;
+    	color: #ababab;
+	}
+	
+	div.academy-trash-btn {
+		display: none;
+	}
+	
 }
 
 
@@ -49,6 +88,7 @@
 @media screen and (max-width:991px) {
 	
 	/* 구직정보, 학술정보 페이지 */
+	
 	.subP-academy h2 {
 		float: none;
 		text-align: center;
@@ -68,25 +108,25 @@
 	.subP-academy .small_navigation {
 		display: none;
 		}
-	.jobInfo-table-header {
+	.jobInfo > table > .jobInfo-table-header {
 		display: none;
 		}
-	.jobInfo-table tbody > tr > td:first-of-type {
+	.jobInfo > table > tbody > tr > td:first-of-type {
     	padding: 25px 0 0 25px;
     	float: left;
     	font-size: 15px;
 		}
-	.jobInfo-table tbody > tr > td:nth-of-type(2) {
+	.jobInfo > table > tbody > tr > td:nth-of-type(2) {
 	    padding: 13px 25px 0;
 	    float: left;
 		}
-	.jobInfo-table-body > td > strong {
+	.jobInfo > table > tbody > tr > td > strong {
 		font-size: 17px;
 	}
-	.jobInfo-table > tbody > tr > td > p {
+	.jobInfo > table > tbody > tr > td > p {
 	    margin: 12px 0 0;
 	}
-	.jobInfo-table > tbody > tr > td > p:first-of-type {
+	.jobInfo > table > tbody > tr > td > p:first-of-type {
 		display: none;
 	}
 	.jopInfo-table-content {
@@ -109,13 +149,11 @@
 	.jobInfo-table > tbody > tr > td:nth-child(3) {
 		float: left;
 	}
-	.jobInfo-table > tbody > tr > td:nth-of-type(4) {
-		color: #ababab;
-	}
 	.jobInfo-table-body > .jopInfo-mobile-date {
 		color: #ababab;
 		padding: 25px 0 0 25px;
 	}
+
 	
 	/* 임상시험 소개 관련 페이지 */
 	
@@ -137,8 +175,20 @@
 	.subP-clinical-title .small_navigation {
 		display: none;
 	}
+	
+	.subP-clinical-status h2 {
+		float: none;
+	}
 	.clinical_content_box .info-article {
 		margin-bottom: 131px;
+	}
+	
+	div.subP-clinical-status {
+		width: 100%;
+	}
+	
+	div.subP-clinical-status .small_navigation {
+		display: none;
 	}
 	
 	
