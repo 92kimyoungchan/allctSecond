@@ -10,7 +10,8 @@
 					</div>
 
 					<ul id="memberManage">
-						<li class=""><a href="/RealALL/admin/admin_MemberList.jsp">회원목록</a></li>
+						<li class=""><a href="/RealALL/admin/admin_MemberList.jsp">일반회원목록</a></li>
+						<li class=""><a href="/RealALL/admin/admin_ClientList.jsp">의뢰자회원목록</a></li>
 						<li class=""><a href="/RealALL/admin/admin_blackList.jsp">블랙리스트</a></li>
 					</ul>
 					<div class="admin_x-sidebar-header">
@@ -42,7 +43,9 @@
 						<li class=""><a href="/RealALL/board/board_news.jsp">교육 및 뉴스</a></li>
 						<li class=""><a href="#">Q&A</a></li>
 					</ul>
-
+					<div class="admin_x-sidebar-header">
+						<span><a href="#">사이트통계</a></span>
+					</div>
 
 
 				</div>
