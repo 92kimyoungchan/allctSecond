@@ -5,7 +5,7 @@
 
 	<div class="userInfo">
 		<div class="img-box">
-			<img src="/RealALL/assets/images/practice/sampleCircle.png" />
+			<img src="/allctSecond/assets/images/practice/sampleCircle.png" />
 		</div>
 		<div class="info-box">
 			<h2>김민수</h2>
@@ -27,16 +27,16 @@
 		</div>
 
 	<ul id="sideContent">
-		<li class="contentElement"><a href="/RealALL/myMenu/myFavorite.jsp">나의 관심공고</a></li>
-		<li class="contentElement"><a href="/RealALL/myMenu/myAddinfo.jsp">추가정보 입력</a></li>
-		<li class="contentElement"><a href="/RealALL/myMenu/myModify.jsp">회원정보수정</a></li>
-		<li class="contentElement"><a href="/RealALL/myMenu/myWork.jsp">나의 시험이력</a></li>
-		<li class="contentElement"><a href="/RealALL/myMenu/myResearch.jsp">사전설문조사</a></li>
-		<li class="contentElement"><a href="/RealALL/myMenu/myModifyBefore.jsp">회원정보수정-비밀번호검증</a></li>
-		<li class="contentElement"><a href="/RealALL/myMenu/myIdGet.jsp">아이디찾기</a></li>
-		<li class="contentElement"><a href="/RealALL/myMenu/myPasswordGet.jsp">비밀번호 찾기</a></li>
-		<li class="contentElement"><a href="/RealALL/myMenu/myPasswordSet.jsp">비밀번호 수정</a></li>
-		<li class="contentElement"><a href="/RealALL/myMenu/myChangeDone.jsp">변경완료</a></li>
+		<li class="contentElement"><a href="/allctSecond/myMenu/myFavorite.jsp">나의 관심공고</a></li>
+		<li class="contentElement"><a href="/allctSecond/myMenu/myAddinfo.jsp">추가정보 입력</a></li>
+		<li class="contentElement"><a href="/allctSecond/myMenu/myModify.jsp">회원정보수정</a></li>
+		<li class="contentElement"><a href="/allctSecond/myMenu/myWork.jsp">나의 시험이력</a></li>
+		<li class="contentElement"><a href="/allctSecond/myMenu/myResearch.jsp">사전설문조사</a></li>
+		<li class="contentElement"><a href="/allctSecond/myMenu/myModifyBefore.jsp">회원정보수정-비밀번호검증</a></li>
+		<li class="contentElement"><a href="/allctSecond/myMenu/myIdGet.jsp">아이디찾기</a></li>
+		<li class="contentElement"><a href="/allctSecond/myMenu/myPasswordGet.jsp">비밀번호 찾기</a></li>
+		<li class="contentElement"><a href="/allctSecond/myMenu/myPasswordSet.jsp">비밀번호 수정</a></li>
+		<li class="contentElement"><a href="/allctSecond/myMenu/myChangeDone.jsp">변경완료</a></li>
 		
 
 	</ul>

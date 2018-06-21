@@ -8,9 +8,9 @@
 	</div>
 	
 	<ul id="sideContent">
-		<li class="contentElement"><a href="/RealALL/board/board_notice.jsp">공지사항</a></li>
-		<li class="contentElement"><a href="/RealALL/board/board_news.jsp">문의 및 상담</a></li>
-		<li class="contentElement"><a href="/RealALL/board/board_faq.jsp">자주하는 질문</a></li>
+		<li class="contentElement"><a href="/allctSecond/board/board_notice.jsp">공지사항</a></li>
+		<li class="contentElement"><a href="/allctSecond/board/board_news.jsp">문의 및 상담</a></li>
+		<li class="contentElement"><a href="/allctSecond/board/board_faq.jsp">자주하는 질문</a></li>
 		
 	</ul>
 	<div class="divider"></div>

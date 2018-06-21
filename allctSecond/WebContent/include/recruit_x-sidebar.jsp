@@ -8,7 +8,7 @@
 	</div>
 	
 	<ul id="sideContent">
-		<li class="contentElement"><a href="/RealALL/recruit/recruit.jsp">모집공고 </a></li>
+		<li class="contentElement"><a href="/allctSecond/recruit/recruit.jsp">모집공고 </a></li>
 		
 		
 	</ul>

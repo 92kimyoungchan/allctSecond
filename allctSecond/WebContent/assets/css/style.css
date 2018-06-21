@@ -876,7 +876,7 @@ div.subP .recruit-detail {
 }
 
 .recruit-detail .detail-header {
-	border-top: 1px solid #d9d4d4;
+	border-top: 1px solid #e4e4e4;
 }
 
 .recruit-detail .detail-header:after {
@@ -888,7 +888,7 @@ div.subP .recruit-detail {
 .recruit-detail .detail-header p {
 	margin-bottom: 0;
 	padding: 6px 0;
-	border-top: 1px solid #d9d4d4;
+	border-top: 1px solid #e4e4e4;
 	border-bottom: 1px solid gray;
 }
 
@@ -903,6 +903,7 @@ div.subP .recruit-detail {
 .recruit-detail .detail-header p>label {
 	margin-right: 4px;
 	margin-left: 4px;
+	font-weight: bold;
 	margin-bottom: 0;
 }
 
@@ -948,7 +949,7 @@ p.attachment-p strong {
 
 div.subP .recruit-detail:before {
 	content: "생동";
-	background: green;
+	background: #3caa69;
 	color: white;
 	text-align: center;
 	padding: 4px 17px;
@@ -966,7 +967,7 @@ div.subP .recruit-detail:before {
 
 .recruit-detail h2.content-h {
 	font-size: 19px;
-	color: #5fcc67;
+	color: #3caa69;
 	text-align: left;
 	letter-spacing: 0.2px;
 	padding: 12px 0;
@@ -1012,8 +1013,8 @@ div.subP .recruit-detail:before {
 	margin: 0 5px;
 	padding: 17px 29px;
 	font-size: 18px;
-	width: 185px;
-	background: #6cd073;
+	width: 190px;
+	background: #3caa69;
 }
 
 .recruit-detail .button-box span:first-of-type {
@@ -1022,17 +1023,18 @@ div.subP .recruit-detail:before {
 }
 
 .recruit-detail .button-box i {
-	color: #ffe000;
+	color: #b5b5b5;
 	font-size: 18px;
 	margin-left: 10px;
 }
 
 .recruit-detail .button-box button:first-of-type {
-	background: #808080 !important;
+	background: #e4e4e4 !important;
+	color: #4a4a4a;
 }
 
 .recruit-detail .infoArea {
-	border: 1px solid #d9d4d4;
+	border: 1px solid #cecece;
 	margin-top: 35px;
 }
 
@@ -1042,11 +1044,10 @@ div.subP .recruit-detail:before {
 }
 
 .infoArea .infoSet:first-of-type {
-	border-bottom: 1px solid #d9d4d4;
+	border-bottom: 1px solid #cecece;
 }
 
 .infoArea .infoSet:last-of-type {
-	border-bottom: 1px solid #d9d4d4;
 }
 
 .infoSet .detailHeader {
@@ -1055,7 +1056,7 @@ div.subP .recruit-detail:before {
 	vertical-align: middle;
 	display: table-cell;
 	padding: 13px 27px;
-	border-right: 1px solid #d9d4d4;
+	border-right: 1px solid #cecece;
 }
 
 .detailHeader h2 {
@@ -1085,8 +1086,8 @@ div.subP .recruit-detail:before {
 	margin-bottom: 0;
 }
 
-.infoContent p span {
-	
+.infoContent p span.dateSpan {
+	margin-left:5px;
 }
 
 section.incarousel {
@@ -1146,10 +1147,9 @@ margin-bottom: 25px;
 .subPage h2 {
 	float: left;
 	font-size: 27px;
-	color: #32b76e;
 	margin-bottom: 0;
 	padding-bottom: 10px;
-	color: #1c9035;
+	color: #3caa69;
 	margin-bottom: 4px;
 }
 
@@ -1405,19 +1405,6 @@ h2 {
 	
 }
 
-.recruit-box:after {
-	clear:both;
-	display:block;
-	content:"";
-}
-
-.recruit-box .mobileBtn {
-	display:none;
-	float:left;
-}
-
-
-
 .recruit-box h2 {
 	letter-spacing: -0.4px;
 	font-size: 20.6px;
@@ -1445,8 +1432,8 @@ h2 {
 }
 
 .recruit-box .search-icon {
-	border: 1.4px solid #1c9035;
-	background: #1c9035;
+	border: #3caa69;
+	background: #3caa69;
 	width: 42px;
 	height: 43px;
 }
@@ -1627,7 +1614,7 @@ div .recruit-box-search ul:first-child, div .recruit-apply ul:first-child
 .recruit-create .select-styled:active:after, .select-styled.active:after
 	{
 	top: 6px !important;
-	border-color: transparent transparent #0769f0 transparent;
+	border-color: transparent transparent #3caa69 transparent;
 }
 
 .recruit-create .article .multiple {
@@ -1762,7 +1749,7 @@ section .notice ul>li>a.active, div .recruit-box-search ul>li>a.active {
 }
 
 section .notice li.green, div .recruit-box-search li.green {
-	background: green;
+	background: #3caa69;
 }
 
 section .notice li>a, div .recruit-box-search li>a {
@@ -1807,7 +1794,7 @@ section .notice li>a, div .recruit-box-search li>a {
 
 .tab-hashtag .hashtag-title {
 	font-weight: bold;
-	background: #9cd09c;
+	background: #3caa69;
 	color: white;
 	width: 160px;
 	padding: 25px 30px;
@@ -1835,7 +1822,7 @@ section .notice li>a, div .recruit-box-search li>a {
 	align-items: center;
 	display: flex;
 	padding: 10px;
-	background: green;
+	background: #3caa69;
 }
 
 .tab-hashtag .searchRecruit p {
@@ -1907,7 +1894,7 @@ section .notice li>a, div .recruit-box-search li>a {
 	width: 0;
 	height: 0;
 	border: 7px solid transparent;
-	border-color: #1c9035 transparent transparent transparent;
+	border-color: #3caa69 transparent transparent transparent;
 	position: absolute;
 	top: 16px;
 	right: 15px;
@@ -1923,7 +1910,7 @@ section .notice li>a, div .recruit-box-search li>a {
 
 .select-styled:active:after, .select-styled.active:after {
 	top: 9px;
-	border-color: transparent transparent #0769f0 transparent;
+	border-color: transparent transparent #3caa69 transparent;
 }
 
 .select-options {
@@ -2073,7 +2060,7 @@ section .notice li>a, div .recruit-box-search li>a {
 
 .x-sidebar .x-sidebar-header {
 	padding: 40px 20px;
-	background: #1c9035;
+	background: #3caa69;
 	border-top-left-radius: 7px;
 }
 
@@ -2090,7 +2077,7 @@ section .notice li>a, div .recruit-box-search li>a {
 }
 
 #sideContent>.contentElement.is-checked>a {
-	color: #32b76e !important
+	color: #3caa69 !important;
 }
 
 #sideContent>.contentElement>a {
@@ -2495,33 +2482,6 @@ div.tab-content .filter-area:last-child {
 	font-weight: bold
 }
 
-.table tbody>tr>td .secondBox .clear .mobileHead {
-	
-}
-
-.table tbody>tr>td .secondBox .clear .mobileHead:after {
-	clear:both;
-	display:block;
-	content:"";
-}
-
-.table tbody>tr>td .secondBox .clear .mobileHead span {
-	display:none;
-	float:left;
-	font-size:12px;
-	padding:0;
-	margin:0;
-}
-.table tbody>tr>td .secondBox .clear .mobileHead span:first-of-type {
-	margin-right:7px;
-}
-
-.table tbody>tr>td .secondBox .clear .mobileHead span:last-of-type {
-		
-	
-}
-
-
  .table tbody>tr>td .secondBox .clear h6 {
 	margin-bottom: 10px;
 	font-size: 16px;
@@ -2732,8 +2692,8 @@ div.tab-content .filter-area:last-child {
 }
 
 .page-item.active .page-link {
-	background-color: #1c9035;
-	border-color: #1c9035;
+	background-color: #3caa69;
+	border-color: #3caa69;
 }
 
 .pagination-sm .page-link {
@@ -3173,7 +3133,7 @@ a.scrollTop>i {
 }
 
 .divider {
-	background: #1c9035;
+	background: #3caa69;
 	padding: 2.5%;
 }
 
@@ -3570,7 +3530,7 @@ span#jopInfo-searchCount {
 }
 
 .b-bottom {
-	border-bottom: 1.4px solid #d9d4d4;
+	border-bottom: 1.4px solid #95989a;
 	margin-bottom: 20px;
 }
 
@@ -4568,7 +4528,7 @@ p.button-top {
 	display: table-cell;
 	height: 100%;
 	float: left;
-	padding: 17px 27px;
+	padding: 17px 22px;
 	width: calc(100% - 240px);
 }
 
@@ -4590,11 +4550,12 @@ p.button-top {
 	font-weight: bold;
 	width: 47px;
 	margin: 0 6px 0 0;
-	color: green;
+	color: #3caa69;
 }
 
 .companyInfo p span {
 	font-weight: bold;
+	
 }
 
 .beforeNone {
@@ -4970,3 +4931,4 @@ div.separateBtn button {
 .table thead th {
 	border-top:none;
 }
+
