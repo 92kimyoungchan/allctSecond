@@ -682,12 +682,7 @@
 
 	<script defer src="../assets/js/fontawesome-all.js"></script>
 
-
-
 	<script type="text/javascript" src="../assets/js/select.js"></script>
-
-	
-
 
 
 </body>

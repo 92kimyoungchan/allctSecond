@@ -806,7 +806,7 @@ button {
 }
 
 th.admin-agree-check:after {
-    content: "ìˆ˜ì‹ ë™ì˜ì—¬ë¶€";
+    content: "요청승인여부";
 }
 
 /* ë¯¸ë””ì–´ íƒœê·¸ ì‹œìž‘  */
@@ -858,7 +858,7 @@ th.admin-agree-check:after {
 	}
 
 	th.admin-agree-check:after {
-    	content: "ìˆ˜ì‹ ë™ì˜";
+    	content: "요청승인";
 	}
 	.am-admin-image-wrapper {
     	height: 150px;
