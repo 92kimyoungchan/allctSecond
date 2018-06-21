@@ -37,7 +37,7 @@
 							<div class="blackList-title">
 
 								<div class="am-ab-title">
-									<label>총 <span id ="">20</span>명</label>
+									<label class ="blackList-count">총 <span id ="">20</span>명</label>
 								</div>
 
 								<div class="am-ab-title-right">

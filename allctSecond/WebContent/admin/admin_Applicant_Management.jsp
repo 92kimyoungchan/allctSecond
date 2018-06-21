@@ -116,16 +116,18 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td>
+											<td>
+											 <div class = "admin-function-btn-Form">
 												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
+												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+											</div>	
+										</td>
 											</tr>
-											<tr class="ab-table-body blackListTableBody">
+											<tr class="ab-table-body blackListTableBody"> 
 												<td>
 													<div class="consent admin-consent">
-														<label class="labelCheck" for="ad-tr-12"> <input
-															type="checkbox" id="ad-tr-12" name="" class="info"
+														<label class="labelCheck" for="ad-tr-13"> <input
+															type="checkbox" id="ad-tr-13" name="" class="info" 
 															value="" /> <span class="checkmark"></span>
 														</label>
 													</div>
@@ -137,219 +139,198 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
-											</tr>				<tr class="ab-table-body blackListTableBody">
-												<td>
-													<div class="consent admin-consent">
-														<label class="labelCheck" for="ad-tr-11"> <input
-															type="checkbox" id="ad-tr-11" name="" class="info"
-															value="" /> <span class="checkmark"></span>
-														</label>
-													</div>
-												</td>
-												<td>admin72</td>
-												<td>김민수</td>
-												<td>남성</td>
-												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
-											</tr>				<tr class="ab-table-body blackListTableBody">
-												<td>
-													<div class="consent admin-consent">
-														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="" class="info"
-															value="" /> <span class="checkmark"></span>
-														</label>
-													</div>
-												</td>
-												<td>admin72</td>
-												<td>김민수</td>
-												<td>남성</td>
-												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
-											</tr>				<tr class="ab-table-body blackListTableBody">
-												<td>
-													<div class="consent admin-consent">
-														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="" class="info"
-															value="" /> <span class="checkmark"></span>
-														</label>
-													</div>
-												</td>
-												<td>admin72</td>
-												<td>김민수</td>
-												<td>남성</td>
-												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
-											</tr>				<tr class="ab-table-body blackListTableBody">
-												<td>
-													<div class="consent admin-consent">
-														<label class="labelCheck" for="ad-tr-3"> <input
-															type="checkbox" id="ad-tr-3" name="" class="info"
-															value="" /> <span class="checkmark"></span>
-														</label>
-													</div>
-												</td>
-												<td>admin72</td>
-												<td>김민수</td>
-												<td>남성</td>
-												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
-											</tr>				<tr class="ab-table-body blackListTableBody">
-												<td>
-													<div class="consent admin-consent">
-														<label class="labelCheck" for="ad-tr-4"> <input
-															type="checkbox" id="ad-tr-4" name="" class="info"
-															value="" /> <span class="checkmark"></span>
-														</label>
-													</div>
-												</td>
-												<td>admin72</td>
-												<td>김민수</td>
-												<td>남성</td>
-												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
-											</tr>				<tr class="ab-table-body blackListTableBody">
-												<td>
-													<div class="consent admin-consent">
-														<label class="labelCheck" for="ad-tr-5"> <input
-															type="checkbox" id="ad-tr-5" name="" class="info"
-															value="" /> <span class="checkmark"></span>
-														</label>
-													</div>
-												</td>
-												<td>admin72</td>
-												<td>김민수</td>
-												<td>남성</td>
-												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
-											</tr>				<tr class="ab-table-body blackListTableBody">
-												<td>
-													<div class="consent admin-consent">
-														<label class="labelCheck" for="ad-tr-6"> <input
-															type="checkbox" id="ad-tr-6" name="" class="info"
-															value="" /> <span class="checkmark"></span>
-														</label>
-													</div>
-												</td>
-												<td>admin72</td>
-												<td>김민수</td>
-												<td>남성</td>
-												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
-											</tr>				<tr class="ab-table-body blackListTableBody">
-												<td>
-													<div class="consent admin-consent">
-														<label class="labelCheck" for="ad-tr-7"> <input
-															type="checkbox" id="ad-tr-7" name="" class="info"
-															value="" /> <span class="checkmark"></span>
-														</label>
-													</div>
-												</td>
-												<td>admin72</td>
-												<td>김민수</td>
-												<td>남성</td>
-												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
-											</tr>				<tr class="ab-table-body blackListTableBody">
-												<td>
-													<div class="consent admin-consent">
-														<label class="labelCheck" for="ad-tr-8"> <input
-															type="checkbox" id="ad-tr-8" name="" class="info"
-															value="" /> <span class="checkmark"></span>
-														</label>
-													</div>
-												</td>
-												<td>admin72</td>
-												<td>김민수</td>
-												<td>남성</td>
-												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
-											</tr>				<tr class="ab-table-body blackListTableBody">
-												<td>
-													<div class="consent admin-consent">
-														<label class="labelCheck" for="ad-tr-9"> <input
-															type="checkbox" id="ad-tr-9" name="" class="info"
-															value="" /> <span class="checkmark"></span>
-														</label>
-													</div>
-												</td>
-												<td>admin72</td>
-												<td>김민수</td>
-												<td>남성</td>
-												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
-											</tr>				<tr class="ab-table-body blackListTableBody">
-												<td>
-													<div class="consent admin-consent">
-														<label class="labelCheck" for="ad-tr-10"> <input
-															type="checkbox" id="ad-tr-10" name="" class="info"
-															value="" /> <span class="checkmark"></span>
-														</label>
-													</div>
-												</td>
-												<td>admin72</td>
-												<td>김민수</td>
-												<td>남성</td>
-												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
+											<td>
+											 <div class = "admin-function-btn-Form">
+												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+											</div>	
+										</td>
 											</tr>
+											<tr class="ab-table-body blackListTableBody"> 
+												<td>
+													<div class="consent admin-consent">
+														<label class="labelCheck" for="ad-tr-13"> <input
+															type="checkbox" id="ad-tr-13" name="" class="info" 
+															value="" /> <span class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김민수</td>
+												<td>남성</td>
+												<td>만27세</td>
+												<td>시험진행중</td>
+												<td>O</td>
+												<td>4회</td>
+											<td>
+											 <div class = "admin-function-btn-Form">
+												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+											</div>	
+										</td>
+											</tr>
+											<tr class="ab-table-body blackListTableBody"> 
+												<td>
+													<div class="consent admin-consent">
+														<label class="labelCheck" for="ad-tr-13"> <input
+															type="checkbox" id="ad-tr-13" name="" class="info" 
+															value="" /> <span class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김민수</td>
+												<td>남성</td>
+												<td>만27세</td>
+												<td>시험진행중</td>
+												<td>O</td>
+												<td>4회</td>
+											<td>
+											 <div class = "admin-function-btn-Form">
+												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+											</div>	
+										</td>
+											</tr>
+											<tr class="ab-table-body blackListTableBody"> 
+												<td>
+													<div class="consent admin-consent">
+														<label class="labelCheck" for="ad-tr-13"> <input
+															type="checkbox" id="ad-tr-13" name="" class="info" 
+															value="" /> <span class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김민수</td>
+												<td>남성</td>
+												<td>만27세</td>
+												<td>시험진행중</td>
+												<td>O</td>
+												<td>4회</td>
+											<td>
+											 <div class = "admin-function-btn-Form">
+												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+											</div>	
+										</td>
+											</tr>
+											<tr class="ab-table-body blackListTableBody"> 
+												<td>
+													<div class="consent admin-consent">
+														<label class="labelCheck" for="ad-tr-13"> <input
+															type="checkbox" id="ad-tr-13" name="" class="info" 
+															value="" /> <span class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김민수</td>
+												<td>남성</td>
+												<td>만27세</td>
+												<td>시험진행중</td>
+												<td>O</td>
+												<td>4회</td>
+											<td>
+											 <div class = "admin-function-btn-Form">
+												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+											</div>	
+										</td>
+											</tr>
+											<tr class="ab-table-body blackListTableBody"> 
+												<td>
+													<div class="consent admin-consent">
+														<label class="labelCheck" for="ad-tr-13"> <input
+															type="checkbox" id="ad-tr-13" name="" class="info" 
+															value="" /> <span class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김민수</td>
+												<td>남성</td>
+												<td>만27세</td>
+												<td>시험진행중</td>
+												<td>O</td>
+												<td>4회</td>
+											<td>
+											 <div class = "admin-function-btn-Form">
+												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+											</div>	
+										</td>
+											</tr>
+											<tr class="ab-table-body blackListTableBody"> 
+												<td>
+													<div class="consent admin-consent">
+														<label class="labelCheck" for="ad-tr-13"> <input
+															type="checkbox" id="ad-tr-13" name="" class="info" 
+															value="" /> <span class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김민수</td>
+												<td>남성</td>
+												<td>만27세</td>
+												<td>시험진행중</td>
+												<td>O</td>
+												<td>4회</td>
+											<td>
+											 <div class = "admin-function-btn-Form">
+												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+											</div>	
+										</td>
+											</tr>
+											<tr class="ab-table-body blackListTableBody"> 
+												<td>
+													<div class="consent admin-consent">
+														<label class="labelCheck" for="ad-tr-13"> <input
+															type="checkbox" id="ad-tr-13" name="" class="info" 
+															value="" /> <span class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김민수</td>
+												<td>남성</td>
+												<td>만27세</td>
+												<td>시험진행중</td>
+												<td>O</td>
+												<td>4회</td>
+											<td>
+											 <div class = "admin-function-btn-Form">
+												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+											</div>	
+										</td>
+											</tr>
+											<tr class="ab-table-body blackListTableBody"> 
+												<td>
+													<div class="consent admin-consent">
+														<label class="labelCheck" for="ad-tr-13"> <input
+															type="checkbox" id="ad-tr-13" name="" class="info" 
+															value="" /> <span class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김민수</td>
+												<td>남성</td>
+												<td>만27세</td>
+												<td>시험진행중</td>
+												<td>O</td>
+												<td>4회</td>
+											<td>
+											 <div class = "admin-function-btn-Form">
+												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+											</div>	
+										</td>
+											</tr>
+										
 										</tbody>
 									</table>
 

@@ -15,7 +15,22 @@
 
 
 @media screen and (max-width:480px) {
+	.clinical_mobile_imgBox {
+		display: block !important;
+	}
+	.clinical_imgBox {
+		display: none !important;
+	}
+
+	div.clinical_info_content_box h2 {
+		text-align: left !important;
+	    letter-spacing: 1.5px !important;
+	    font-size: 20px;
+	}
 	
+	div.clinical_info_content_box p:last-of-type {
+	    margin: 35px 0;
+	}
 }
 
 
@@ -112,9 +127,12 @@
 		width: 100%;
 	}
 	
+	div.subPage.b-bottom h2 {
+		text-align: center;
+	}
+	
 	.subP-clinical-title h2 {
 		float: none;
-		text-align: center;
 	}
 	.subP-clinical-title .small_navigation {
 		display: none;
