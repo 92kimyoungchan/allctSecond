@@ -404,11 +404,25 @@ div.clinical_content_box p {
 
 div.clinical_info_imgBox .clinical_imgBox {
 	margin-top: 60px;
+	display: block;
 }
 
 div.clinical_imgBox > img {
     width: 100%;
     height: 27%;
+}
+
+div.clinical_mobile_imgBox {
+	display: none;
+}
+
+div.clinical_mobile_imgBox > img {
+    width: 100%;
+    height: 27%;
+}
+
+div.clinical_mobile_imgBox > img:first-of-type {
+    height: auto;
 }
 
 div.clinical_info_content_box h2 {
@@ -418,13 +432,20 @@ div.clinical_info_content_box h2 {
     word-spacing: -2.2px;
 }
 
-div.clinical_info_content_box p {
+div.clinical_info_content_box p:first-of-type {
 	font-weight: bold;
     line-height: 33px;
     font-size: 16px;
     word-spacing: 4px;
-    margin: 11px 0 30px 0;
-    color: black;
+    margin: 11px 0 -10px 0;
+}
+
+div.clinical_info_content_box p:last-of-type {
+	font-weight: bold;
+    line-height: 33px;
+    font-size: 16px;
+    word-spacing: 4px;
+    margin: 11px 0 0;
 }
 
 div.clinical_justice h2 {

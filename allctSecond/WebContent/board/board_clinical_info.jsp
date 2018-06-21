@@ -20,7 +20,8 @@
 		<div class="row-noneflex">
 			<div class="main">
 				<%@ include file="../include/clinical_x-sidebar.jsp"%>
-
+				
+				<div class="container">
 				<div class="subP-clinical-title">
 					<div class="subPage b-bottom">
 						<h2>임상시험과 생동성시험</h2>
@@ -36,6 +37,9 @@
 						<div class="clinical_imgBox">
 							<img src="../assets/images/clinical_info1.png">
 						</div>
+						<div class="clinical_mobile_imgBox">
+							<img src="../assets/images/clinical_mobile_info1.png">
+						</div>
 					</div>
 					<div class="clinical_info_content_box">
 						<div class="clinical_content">
@@ -44,7 +48,8 @@
 								임상시험은 질환을 앓고 있는 환자, 더 나아가 인류 건강과 복지에 기여하는 신약개발을 위한 필수불가결한 과정입니다.
 								임상시험이 있었기에 현재 환자들은 신약의 혜택을 받고, 임상시험으로 인해 미래의 환자들도 잠재적 유익을 받을 수
 								있게 됐습니다. 때론 인체실험이라고 오해되는 임상시험은 이렇듯 환자들의 건강과 행복을 위해 반드시 경유해야 하는
-								필수과정입니다.<br> 임상시험과 생동성시험 모두 시험계획서가 식약처와 실시하는 의료기관의
+								필수과정입니다.</p> 
+								<p>임상시험과 생동성시험 모두 시험계획서가 식약처와 실시하는 의료기관의
 								심의위원회(IBB)의 승인을 받지 못하면 시험을 진행할 수 없음. (엄격한 과학적 윤리 규정에 따라 심사가
 								실시됩니다.) <br> 이를 통해 시험에 참여한 대상자는 권리와 안전을 보호받을 수 있도록 장치화하고
 								있습니다. 약의 개발도 중요하지만 모든 시험은 대상자의 권리와 이익을 최우선으로 하고 있습니다.
@@ -53,6 +58,9 @@
 
 						<div class="clinical_justice">
 							<div class="clinical_content_justice">
+								<div class="clinical_mobile_imgBox">
+							<img src="../assets/images/clinical_mobile_info2.png">
+						</div>
 								<h2>임상시험의 정의</h2>
 								<div class="clinical_imgBox">
 									<img src="../assets/images/clinical_info2.png">
@@ -63,6 +71,9 @@
 							</div>
 
 							<div class="clinical_bio_justice">
+								<div class="clinical_mobile_imgBox">
+							<img src="../assets/images/clinical_mobile_info3.png">
+						</div>
 								<h2>생물학적동등성시험(생동성시험)의 정의</h2>
 								<div class="clinical_imgBox">
 									<img src="../assets/images/clinical_info3.png">
@@ -76,6 +87,7 @@
 							</div>
 						</div>
 					</div>
+				</div>
 				</div>
 
 
