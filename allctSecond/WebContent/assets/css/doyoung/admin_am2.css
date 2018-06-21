@@ -494,6 +494,7 @@ ul.am-tabs li.active {
 
 div.ad-grid-container>div>span {
 	font-weight: bold;
+	font-size: 16px;
 }
 
 .ad-grid-container:first-child, .ad-grid-container:last-child {
@@ -884,6 +885,8 @@ th.admin-agree-check:after {
     font-size: 10px;
     padding: 6px 6px;
     }
-	
+	div.am-ab-title>.blackList-count {
+    	font-size: 25px !important;
+	}
 	
 }
