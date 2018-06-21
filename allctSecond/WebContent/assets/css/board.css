@@ -619,3 +619,52 @@ div.board-faq > table > tbody > tr > th:nth-child(1) {
     font-size: 15px;
     margin: 0;
 }
+
+/* clinical_status_details.jsp 임상시험의 현황 상세 페이지 */
+
+div.clinical_status_details > table {
+	border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+}
+
+div.clinical_status_details > table > tbody > tr {
+}
+
+div.clinical_status_details > table > tbody > tr:nth-of-type(4) {
+	border-bottom: 1px solid #777;
+}
+
+div.clinical_status_details > table > tbody > tr > td:first-of-type {
+	background-color: #f5f5f5;
+	width: 160px;
+}
+
+div.clinical_status_details > table > tbody > tr > td {
+	padding: 25px 25px 5px;
+}
+
+div.clinical_status_details > table > tbody > tr:nth-of-type(4) > td {
+	padding-bottom: 30px;
+}
+
+div.clinical_status_details > table > tbody > tr:nth-of-type(5) > td:nth-child(1) {
+    padding-bottom: 50px;
+}
+
+div.clinical_status_details > table > tbody > tr:last-of-type > td {
+	padding-bottom: 30px;
+}
+
+div.status_details_btnBox {
+    text-align: center;
+    margin-top: 35px;
+}
+
+div.status_details_btnBox button {
+	color: black;
+    background: #e0e0e0;
+    border: 1px solid #e0e0e0;
+    padding: 13px 43px;
+    font-size: 15px;
+    font-weight: bold;
+}
