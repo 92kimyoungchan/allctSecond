@@ -1405,6 +1405,19 @@ h2 {
 	
 }
 
+.recruit-box:after {
+	clear:both;
+	display:block;
+	content:"";
+}
+
+.recruit-box .mobileBtn {
+	display:none;
+	float:left;
+}
+
+
+
 .recruit-box h2 {
 	letter-spacing: -0.4px;
 	font-size: 20.6px;
@@ -2481,6 +2494,33 @@ div.tab-content .filter-area:last-child {
 	font-size: 12px;
 	font-weight: bold
 }
+
+.table tbody>tr>td .secondBox .clear .mobileHead {
+	
+}
+
+.table tbody>tr>td .secondBox .clear .mobileHead:after {
+	clear:both;
+	display:block;
+	content:"";
+}
+
+.table tbody>tr>td .secondBox .clear .mobileHead span {
+	display:none;
+	float:left;
+	font-size:12px;
+	padding:0;
+	margin:0;
+}
+.table tbody>tr>td .secondBox .clear .mobileHead span:first-of-type {
+	margin-right:7px;
+}
+
+.table tbody>tr>td .secondBox .clear .mobileHead span:last-of-type {
+		
+	
+}
+
 
  .table tbody>tr>td .secondBox .clear h6 {
 	margin-bottom: 10px;

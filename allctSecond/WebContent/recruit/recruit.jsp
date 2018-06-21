@@ -154,7 +154,7 @@
 
 					<div class="recruit-box">
 
-						<h2>총 20 건 검색결과</h2>
+						<h2>총 20 건 검색결과</h2> 
 						<div class="recruit-header">
 
 
@@ -194,16 +194,12 @@
 <table class="table">
 							<thead>
 								<tr class="table-header">
-									<th><div class="firstBox">
-											<i class="far fa-star"></i>
-										</div></th>
+									<th></th>
 									<th>시험종류</th>
 									<th>모집공고</th>
 									<th>기관명</th>
 									<th>마감일</th>
-								 <th class="mobileTh"><div class="firstBox">
-											<i class="far fa-star"></i>
-										</div></th> 
+								 <th class="mobileTh"></th> 
 
 
 								</tr>
@@ -225,7 +221,8 @@
 
 
 											<div class="clear">
-												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
+												<div class="mobileHead"><span>베스티안부천병원</span><span>2016-06-07</span></div>
+												<h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6>
 												<ul class="list-inline">
 													<li><span>건강인</span></li>
 													<li><span>남녀모두</span></li>
@@ -610,6 +607,7 @@
 								</tr>
 							</tbody>
 						</table>
+						<button class="mobileBtn"><i class="far fa-edit"></i>공고작성</button>
 						
 					</div>
 					
