@@ -136,12 +136,7 @@
 
 						</div>
 
-						<div class="button-box">
-							<button>
-								관심공고추가<i class="fas fa-star"></i>
-							</button>
-							<button>지원하기</button>
-						</div>
+						
 
 
 
@@ -162,18 +157,22 @@
 								<p>
 									<label>연락처</label><span>02-0303-0505</span>
 								</p>
+								
 								<p>
-									<label>주소</label><span>경기도 부천시 소사구 심곡로 10번길 68</span>
-								</p>
-								<p class="last">
 									<label>이메일</label><span>kimleepark@bestian.kr</span>
 								</p>
 								<p class="last">
-									<label>대표번호</label><span>1588-7575</span>
+									<label>주소</label><span>경기도 부천시 소사구 심곡로 10번길 68</span>
 								</p>
+								
 							</div>
 						</div>
-
+<div class="button-box">
+							<button>
+								관심공고추가<i class="fas fa-star"></i>
+							</button>
+							<button>지원하기</button>
+						</div>
 
 
 						<div class="author-info"></div>

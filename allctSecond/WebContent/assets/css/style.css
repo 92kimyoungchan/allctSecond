@@ -25,14 +25,14 @@ div {
 }
 
 a {
-	color: black;
+	color: #222222;
 }
 
 .link_another {
 	float: right;
 	font-weight: bold;
 	padding-bottom: 3.5px;
-	border-bottom: 1.5px solid black;
+	border-bottom: 1.5px solid #222222;
 }
 
 ul {
@@ -45,12 +45,12 @@ input[type="checkbox"] {
 }
 
 .labelRadio .checkmark:after {
-	top: 4.25px;
-	left: 4.25px;
+	top: 4.75px;
+	left: 4.75px;
 	width: 15.5px;
 	height: 15.5px;
 	border-radius: 50%;
-	background: #81ff41;
+	background: #95989a54;
 }
 
 .labelRadio .checkmark {
@@ -98,7 +98,7 @@ input[type="checkbox"] {
 .labelCheck {
 	padding: 7px 19px;
 	margin-bottom: 0;
-	border: 1px solid black;
+	border: 1px solid #222222;
 }
 
 #wrap {
@@ -301,7 +301,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h2, h3, h5 {
-	letter-spacing: 4px;
+	letter-spacing: 1.3px;
 	/* text-transform: uppercase; */
 }
 
@@ -313,19 +313,21 @@ h1 {
 }
 
 h2 {
-	color: black;
+	color: #222;
 	font-size: 23px;
 	padding-bottom: 10px;
+	font-weight:bold;
 }
 
 h3 {
+	color: #222;
 	font-size: 1rem;
 	letter-spacing: 1px;
 	padding-bottom: 10px;
 }
 
 h4 {
-	color: #000000;
+	color: #222;
 	font-size: 0.9rem;
 	line-height: 28px;
 	letter-spacing: 1px;
@@ -336,7 +338,7 @@ p {
 	font-weight: 300;
 	line-height: 25px;
 	word-spacing: 1px;
-	color: rgba(33, 31, 31, 0.75);
+	color: #222;
 }
 
 a {
@@ -356,7 +358,7 @@ a:hover, a:focus {
 }
 .container {
 	font-size:0.8rem;
-	color:#666;
+	color: #222;
 }
 
 /* 헤더태그 , 네비게이션, uber-menu */
@@ -547,7 +549,7 @@ nav ul>li:hover>a, .uber i {
 }
 
 nav ul>li>ul:not(.uber-menu) > a {
-	color: black;
+	color: #222222;
 	padding: 12px 16px;
 	display: block;
 	text-align: left;
@@ -641,7 +643,7 @@ div.owl-theme .owl-dots {
 
 div.owl-nav i {
 	font-size: 1.9em;
-	color: black;
+	color: #222222;
 }
 
 div.owl-dot span {
@@ -1213,9 +1215,7 @@ margin-bottom: 25px;
 	padding: 0 10px;
 }
 
-h2 {
-	font-weight: bold;
-}
+
 
 .img-box .img-set4 {
 	width: 22%;
@@ -1270,7 +1270,7 @@ h2 {
 
 .recruit-header button:first-child {
 	padding: 6px 14px;
-	color: black;
+	color: #222222;
 	background: transparent;
 	border: 1.4px solid #ded8d8;
 	height: 43px;
@@ -1605,7 +1605,7 @@ div .recruit-box-search ul:first-child, div .recruit-apply ul:first-child
 	width: 0;
 	height: 0;
 	border: 7px solid transparent;
-	border-color: #4d51ea transparent transparent transparent;
+	border-color: #3caa69 transparent transparent transparent;
 	position: absolute;
 	top: 12px;
 	right: 15px;
@@ -1664,7 +1664,7 @@ div .recruit-box-search ul:first-child, div .recruit-apply ul:first-child
 	margin: 0 8px;
 	background: transparent;
 	height: 31px;
-	color: black;
+	color: #222222;
 	font-weight: bold;
 	background: #dadada;
 	border: none;
@@ -1683,7 +1683,7 @@ div .recruit-box-search ul:first-child, div .recruit-apply ul:first-child
 	margin: 0 0 0 8px;
 	background: transparent;
 	height: 31px;
-	color: black;
+	color: #222222;
 	font-weight: bold;
 	background: #dadada;
 	border: none;
@@ -2081,7 +2081,7 @@ section .notice li>a, div .recruit-box-search li>a {
 }
 
 #sideContent>.contentElement>a {
-	color: black;
+	color: #222222;
 }
 
 .x-sidebar .x-sidebar-footer {
@@ -2566,7 +2566,7 @@ div.tab-content .filter-area:last-child {
 
 .divide>button:first-of-type {
 	background: yellow;
-	color: black;
+	color: #222222;
 }
 
 .divide>button:last-of-type {
@@ -2586,7 +2586,7 @@ div.tab-content .filter-area:last-child {
 
 .button-box>button {
 	padding: 9PX 17PX;
-	background: #1c9035;
+	background: #3caa69;
 	color: white;
 	font-size: 13.6px;
 	font-weight: bold;
@@ -2658,36 +2658,36 @@ div.tab-content .filter-area:last-child {
 }
 
 /* recruit.jsp (모집공고 리스트 페이지 - 페이지네이션) */
-#pagination-demo {
+#pagination {
 	display: flex;
 	margin: 1.75em 0;
 	justify-content: center;
 }
 
-#pagination-demo .prev {
+#pagination .prev {
 	
 }
 
-#pagination-demo .prev>a {
+#pagination .prev>a {
 	height: 31px;
 }
 
-#pagination-demo .next {
+#pagination .next {
 	
 }
 
-#pagination-demo .next>a {
+#pagination .next>a {
 	
 }
 
-#pagination-demo li {
+#pagination li {
 	display: inline-block;
 	margin: 0 3px;
 	width: 33px;
 	text-align: center;
 }
 
-#pagination-demo  a>i {
+#pagination  a  >i {
 	font-size: 22px;
 }
 
@@ -2889,7 +2889,7 @@ section.join .button-box {
 
 .join .terms .button-box button:last-of-type {
 	background: gainsboro;
-	color: black;
+	color: #222222;
 }
 
 .all-consent .labelCheck:first-of-type {
@@ -2965,12 +2965,12 @@ section.join .button-box {
 
 /* On mouse-over, add a grey background color */
 .labelRadio:hover input ~ .checkmark {
-	background-color: #47bfb4;
+	background-color: #00b90f4f;
 }
 
 /* When the checkbox is checked, add a blue background */
 .labelRadio  input:checked ~ .checkmark {
-	background-color: #3ae660;
+	border: #a0a3a5;
 }
 
 /* Show the checkmark when checked */
@@ -3304,7 +3304,7 @@ div.supP-academy .small_navigation {
 }
 
 #sideContent-academy>.contentElement>a {
-	color: black;
+	color: #222222;
 }
 
 .select-header-academy {
@@ -3575,7 +3575,7 @@ span#jopInfo-searchCount {
 }
 
 .range-article .article-set .range-info:first-of-type {
-	border-right: 1px solid black;
+	border-right: 1px solid #222222;
 }
 
 .range-article .article-set .range-info label:first-of-type {
@@ -3716,10 +3716,16 @@ span#jopInfo-searchCount {
 	color: gray;
 }
 
+.form .article .input-block>span.etcSpan {
+	padding:0.5 0;
+	line-height:1.2;
+	
+}
+
 .form .article .input-block {
 	float: left;
 	font-size: 18px;
-	width: calc(100% - 180px);
+	width: calc(100% - 120px);
 	margin-bottom: 0;
 }
 
@@ -3735,6 +3741,8 @@ span#jopInfo-searchCount {
 	height: 24.55px;
 	color: red;
 }
+
+
 
 .input-block input[type=text].password {
 	border: none;
@@ -3865,8 +3873,7 @@ div.recruit-apply ul>li>a.active, div.recruit-research ul>li>a.active {
 }
 
 div .recruit-apply li.green, div.recruit-research li.green {
-	box-shadow: 0px 0 0 0 #c3c3c3 inset, 0 -8px 0 0 #16712a inset, 0px 0px 0
-		0 #c3c3c3 inset, 0px 0 0 0 #c3c3c3 inset, 0 0px 0 0 #c3c3c3 inset;
+	box-shadow: 0px 0 0 0 #c3c3c3 inset, 0 -8px 0 0 #3caa69 inset, 0px 0px 0 0 #c3c3c3 inset, 0px 0 0 0 #c3c3c3 inset, 0 0px 0 0 #c3c3c3 inset;
 }
 
 div .recruit-apply li>a, div.recruit-research li>a {
@@ -3876,7 +3883,7 @@ div .recruit-apply li>a, div.recruit-research li>a {
 
 div.subP .recruit-apply:before, div.subP .recruit-research:before {
 	content: "신청";
-	background: green;
+	background: #3caa69;
 	color: white;
 	text-align: center;
 	padding: 4px 17px;
@@ -3910,7 +3917,7 @@ div .recruit-apply .apply-form {
 	margin: 0 8px;
 	background: #dadada;
 	font-weight: bold;
-	color: black;
+	color: #222222;
 	height: 31px;
 	border: none;
 	outline: 1px solid #ded8d8;
@@ -3972,7 +3979,7 @@ div .recruit-apply .apply-form {
 	width: 0;
 	height: 0;
 	border: 6px solid transparent;
-	border-color: #4d51ea transparent transparent transparent;
+	border-color: #3caa69 transparent transparent transparent;
 	position: absolute;
 	top: 12px;
 	right: 8.5px;
@@ -4024,11 +4031,7 @@ div .recruit-apply .apply-form {
 	display: none !Important;
 }
 
-.form .article input.nameInput {
-	width: 90px !important;
-	border: none;
-	font-size: 16px;
-}
+
 
 .form .article input.caculator {
 	width: 140px !important;
@@ -4057,7 +4060,7 @@ div .recruit-apply .apply-form {
 	padding: 14px 19px;
 	font-size: 18px;
 	width: 165px;
-	background: #6cd073;
+	background: #3caa69;
 }
 
 .applyForm  .button-box span:first-of-type {
@@ -4084,7 +4087,7 @@ div .recruit-apply .apply-form {
 	margin: 0 8px 0 0;
 	background: transparent;
 	height: 31px;
-	color: black;
+	color: #222222;
 	font-weight: bold;
 	background: #dadada;
 	border: none;
@@ -4513,9 +4516,10 @@ p.button-top {
 .businessCard .companyImg {
 	display: table-cell;
 	height: 100%;
-	width: 240px;
+	width: 140px;
 	float: left;
 	padding: 55px 20px;
+	background: #e4e4e452;
 	border-right: 1px solid #d9d4d4;
 }
 
@@ -4529,7 +4533,7 @@ p.button-top {
 	height: 100%;
 	float: left;
 	padding: 17px 22px;
-	width: calc(100% - 240px);
+	width: calc(100% - 140px);
 }
 
 .companyInfo p {
@@ -4540,6 +4544,7 @@ p.button-top {
 
 .companyInfo p.last {
 	margin-bottom: 0;
+	width: auto;
 }
 
 .companyInfo p.last label {
@@ -4932,3 +4937,18 @@ div.separateBtn button {
 	border-top:none;
 }
 
+.form input.phoneForm , .form .article input.caculator , .form input.emailM {
+	border:1px solid #97d9bb;
+}
+
+.preBorder {
+	border:1px solid #ded8d8 !important;
+}
+
+.caculator.preBorder {
+	background:#f4f4f4;
+}
+
+.mglIn15 .select-styled {
+    border: 1px solid #97d9bb !important;
+}
