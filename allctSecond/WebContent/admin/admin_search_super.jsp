@@ -168,6 +168,7 @@ checkbox table
 												<label class="am-h-label">성별</label>
 												</div>
 												<div class ="am-h-row-right">
+ 
 												<ul class="am-h-state">
 													<li>
 														<div class="consent">
@@ -181,12 +182,14 @@ checkbox table
 														<div class="consent">
 															<label class="labelRadio gender" for="female"><input
 																type="radio" id="female" value="" name="gender" />
-																 <span>여성</span> </label>
+							   									 <span>여성</span> </label>
 
 														</div>
 													</li>
-												</ul>
+												</ul> 
 												</div>
+											
+												
 											</div>
 										</div>
 										<div class="am-h-content">

@@ -1,6 +1,6 @@
 @CHARSET "UTF-8";
 
-/* ÃªÂ³ÂµÃ­â€ ÂµÃ«Â¶â‚¬Ã«Â¶â€ž */
+/* ÃƒÂªÃ‚Â³Ã‚ÂµÃƒÂ­Ã¢â‚¬Â Ã‚ÂµÃƒÂ«Ã‚Â¶Ã¢â€šÂ¬ÃƒÂ«Ã‚Â¶Ã¢â‚¬Å¾ */
 .ad-consent {
 	width: 25px;
 	height: 25px;
@@ -20,7 +20,7 @@
 .admin-header {
 	background-color: #3caa69;
 }
-/* am-h Ã«Â¶â‚¬Ã«Â¶â€ž*/
+/* am-h ÃƒÂ«Ã‚Â¶Ã¢â€šÂ¬ÃƒÂ«Ã‚Â¶Ã¢â‚¬Å¾*/
 div.am-h-title>h1 {
 	float: left;
 	font-weight: 500;
@@ -57,7 +57,7 @@ button.btn.btn-search {
 	float: left;
 }
 
-/* ÃªÂ³ÂµÃ­â€ ÂµÃ«Â¶â‚¬Ã«Â¶â€ž end  */
+/* ÃƒÂªÃ‚Â³Ã‚ÂµÃƒÂ­Ã¢â‚¬Â Ã‚ÂµÃƒÂ«Ã‚Â¶Ã¢â€šÂ¬ÃƒÂ«Ã‚Â¶Ã¢â‚¬Å¾ end  */
 .am-h-content>label {
 	margin: 0;
 	padding-top: 8px;
@@ -139,6 +139,9 @@ ul.am-h-state:after {
 
 .am-h-content {
 	margin-bottom: 15px;
+	/* display:  block; */
+	width: 100%;
+	/* content: ""; */
 }
 
 .am-label-wrap {
@@ -320,6 +323,7 @@ div.am-ab-title-selectForm>div>div {
 .am-h-row-right {
 	height: 32px;
 	width: calc(100% - 100px);
+	float: right;
 }
 
 .am-h-label-wrap {
@@ -335,7 +339,7 @@ div.am-ab-title-selectForm>div>div {
 .ab-table .select-options>li {
 	padding-right: 10px;
 }
-/*Ã¬Â¶â€ÃªÂ°â‚¬ Ã«Â¶â‚¬Ã«Â¶â€ž*/
+/*ÃƒÂ¬Ã‚Â¶Ã¢â‚¬ÂÃƒÂªÃ‚Â°Ã¢â€šÂ¬ ÃƒÂ«Ã‚Â¶Ã¢â€šÂ¬ÃƒÂ«Ã‚Â¶Ã¢â‚¬Å¾*/
 label.am-h-label-calendar {
 	line-height: 38px;
 	float: left;
@@ -358,12 +362,19 @@ span.admin-calender-form-span {
 	height: 35px;
 	border: 1.5px solid #cccccc;
 }
+.input-search {
+    width: auto;
+    float: left;
+}
 
+.am-h-content:last-child {
+    display:  inline-block;
+}
 .doyoung-search-icon {
-    border: 1.9px solid #3caa69;
+    border: 2.5px solid #3caa69;
     background: #3caa69;
-	padding: 5px;
-	color: white;
+    padding: 6px;
+    color: white;
 }
 
 .doyoung-input-search-input {
@@ -494,7 +505,6 @@ ul.am-tabs li.active {
 
 div.ad-grid-container>div>span {
 	font-weight: bold;
-	font-size: 16px;
 }
 
 .ad-grid-container:first-child, .ad-grid-container:last-child {
@@ -723,7 +733,7 @@ span.admin-test-recruited {
     margin-right: 4px;
     /* padding-right: 1px; */
 }
-/* 팝업 관리 */
+/* íŒì—… ê´€ë¦¬ */
 .admin-pop_up-container {
 	display: inline-block;
 }
@@ -796,10 +806,10 @@ button {
 }
 
 th.admin-agree-check:after {
-    content: "수신동의여부";
+    content: "ìˆ˜ì‹ ë™ì˜ì—¬ë¶€";
 }
 
-/* 미디어 태그 시작  */
+/* ë¯¸ë””ì–´ íƒœê·¸ ì‹œìž‘  */
 @media screen and (max-width:991px) {
 	.subP_admin {
 		width: 100%;
@@ -848,7 +858,7 @@ th.admin-agree-check:after {
 	}
 
 	th.admin-agree-check:after {
-    	content: "수신동의";
+    	content: "ìˆ˜ì‹ ë™ì˜";
 	}
 	.am-admin-image-wrapper {
     	height: 150px;
@@ -885,8 +895,4 @@ th.admin-agree-check:after {
     font-size: 10px;
     padding: 6px 6px;
     }
-	div.am-ab-title>.blackList-count {
-    	font-size: 25px !important;
-	}
-	
 }

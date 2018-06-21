@@ -114,14 +114,18 @@ $('.labelRadio').on('click',function() {
 
 
 $(function(){
-	
 	setTimeout(function(){
 		$('.admin_x-sidebar').css('height',$('.subP_admin').css('height'));
 		},100)
 	
 }) 
 
+$(document).ready(function() { /*이게 더 좋은 소스*/
+	$(window).resize(function() {
+		$('.admin_x-sidebar').css('height',$('.subP_admin').css('height'));	})
+});
 
+/*
 window.onload = function () {
 	
 	console.log($('.subP_admin').css('height'));
@@ -141,6 +145,6 @@ window.onload = function () {
 		});
 		console.log($('.subP_admin').css('height'));
 	});
-}
+}*/
 
 
