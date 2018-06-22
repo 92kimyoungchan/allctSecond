@@ -38,63 +38,95 @@
 								<label>작성자 :</label><span>베스티안부천병원</span><label>작성일:</label><span>2018.05.21</span>
 							</p>
 							<p>
-								<label>조회수</label><span>52</span><label>조회수</label><span>52</span><label>조회수</label><span>52</span>
+								<label>조회수</label><span>52</span>
 							</p>
 							<div class="divider"></div>
-							<p class="attachment-p">
+							<!-- <p class="attachment-p">
 								<strong>첨부 :</strong><span>사포그릴레이트란?.pdf</span><span>사포그릴레이트란?.pdf</span><span>사포그릴레이트란2?.pdf</span>
-							</p>
+							</p> -->
 						</div>
 						<div class="infoArea">
-							<div class="infoSet">
-								<div class="detailHeader">
-									<h2>공고정보</h2>
-								</div>
-								<div class="infoContent">
-									<p>
-										<label>총 모집인원 :</label><span>30명</span>
-									</p>
-									<p>
-										<label>스크리닝 :</label>시작 <span class="dateSpan">2018-01-31</span> ~ 종료 <span class="dateSpan">2018-03-22</span>
-									</p>
-									<p>
-										<label class="last">사례금:</label><span>216 만원 (세금
-											6.6%포함)</span>
-									</p>
-								</div>
+							<div class="infoSetHeader">
+								<h2>공고정보</h2>
 							</div>
 							<div class="infoSet">
 								<div class="detailHeader">
-									<h2>공고정보</h2>
+								<h2>총 모집인원</h2>
+									<h2>지역</h2>
+									<h2>성별</h2>
+									<h2>대상</h2>
+									<h2>시험종류</h2>
+									<h2>BMI지수</h2>
+									<h2>나이</h2>
+									<h2>사례금</h2>
 								</div>
 								<div class="infoContent">
-									<p>
-										<label>지역 :</label><span>서울</span>
-									</p>
-									<p>
-										<label>성별 :</label><span>남성</span>
-									</p>
-									<p>
-										<label>대상 :</label><span>건강인</span>
-									</p>
-									<p>
-										<label>시험종류 :</label><span>216 만원 (세금 6.6%포함)</span>
-									</p>
-									<p>
-										<label>BMI 지수 :</label><span>22.4</span>
-									</p>
-									<p>
-										<label class="last">나이 :</label><span>30세</span>
-									</p>
+									<div class="infoP">
+										<span>30명</span>
+									</div>
+									<div class="infoP">
+										<span>서울</span>
+									</div>
+									<div class="infoP">
+										<span>남성</span>
+									</div>
+									<div class="infoP">
+										<span>건강인</span>
+									</div>
+									<div class="infoP">
+										<span>216 만원 (세금 6.6%포함)</span>
+									</div>
+									<div class="infoP">
+										<span>22.4</span>
+									</div>
+									<div class="infoP">
+										<span>30세</span>
+									</div>
+									<div class="infoP">
+										<span>50만원</span>
+									</div>
 								</div>
 							</div>
 
+							<div class="infoSetHeader">
+								<h2>스크리닝</h2>
+							</div>
+
+							<div class="infoSet">
+								<div class="detailHeader">
+									<h2>스크리닝 기간</h2>
+								</div>
+								<div class="infoContent withDate">
+									
+									<div class="infoP dateSet">
+										<label>2018-06-14</label>
+										<div class="dateRight">
+											<span>216 만원 (세금6.6%포함)</span><span>216 만원 (세금6.6%포함)</span>
+										</div>
+									</div>
+									<div class="infoP dateSet">
+										<label>2018-06-14</label>
+										<div class="dateRight">
+											<span>216 만원 (세금6.6%포함)</span><span>216 만원 (세금6.6%포함)</span><span>216
+												만원 (세금6.6%포함)</span>
+										</div>
+									</div>
+									<div class="infoP dateSet">
+										<label>2018-06-14</label>
+										<div class="dateRight">
+											<span>216 만원 (세금6.6%포함)</span><span>216 만원 (세금6.6%포함)</span><span>216
+												만원 (세금6.6%포함)</span>
+										</div>
+									</div>
+									
+								</div>
+							</div>
 
 						</div>
 
 						<div class="content">
 
-							<h2 class="content-h">3형 [사포그릴레이트 (공복)] 생동성 시험 안내</h2>
+							<h2 class="content-h">3형 [ 사포그릴레이트 (공복) ] 생동성 시험 안내</h2>
 
 							<div class="content-grid">
 								<h2>시험목적</h2>
@@ -133,20 +165,23 @@
 								<p>4. Lorem Ipsum is simply dummy text</p>
 								<p>5. Lorem Ipsum is simply dummy text</p>
 							</div>
+							
+							<div class="content-grid">
+								<h2>필수확인 첨부파일</h2>
+								<div class="attachmentGrid"><div class="buttonDiv"><button>사포그릴레이트란?사포그릴레이트란?.pdf</button><label>.txt</label><i class="far fa-arrow-alt-circle-down"></i></div><div class="buttonDiv"><button>사포그릴레이트란?사포그릴레이트란?.pdf</button><label>.txt</label><i class="far fa-arrow-alt-circle-down"></i></div><div class="buttonDiv"><button>사포그릴레이트란?사포그릴레이트란?.pdf</button><label>.txt</label><i class="far fa-arrow-alt-circle-down"></i></div></div>
+							</div>
 
 						</div>
 
-						
 
 
 
-							
-							
-							
+
+
+
+
 						<div class="businessCard">
-							<div class="companyImg">
-								
-							</div>
+							<div class="companyImg"></div>
 							<div class="companyInfo">
 								<p>
 									<label>의뢰자</label><span>김이박</span>
@@ -157,17 +192,17 @@
 								<p>
 									<label>연락처</label><span>02-0303-0505</span>
 								</p>
-								
+
 								<p>
 									<label>이메일</label><span>kimleepark@bestian.kr</span>
 								</p>
 								<p class="last">
 									<label>주소</label><span>경기도 부천시 소사구 심곡로 10번길 68</span>
 								</p>
-								
+
 							</div>
 						</div>
-<div class="button-box">
+						<div class="button-box">
 							<button>
 								관심공고추가<i class="fas fa-star"></i>
 							</button>

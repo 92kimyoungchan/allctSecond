@@ -4,16 +4,21 @@
 
 @import url('responsive.css');
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
 @import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
 
 html, body {
 	margin: 0 auto;
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'Roboto' ,'Noto Sans KR', sans-serif;
 	padding: 0;
 	position: relative;
 	text-transform: initial;
 	background: hsl(0, 0%, 100%) !important;
 }
+
+
 
 body {
 	overflow-x: hidden;
@@ -45,12 +50,12 @@ input[type="checkbox"] {
 }
 
 .labelRadio .checkmark:after {
-	top: 4.75px;
-	left: 4.75px;
+	top: 3.75px;
+	left: 3.75px;
 	width: 15.5px;
 	height: 15.5px;
 	border-radius: 50%;
-	background: #95989a54;
+	background: #3dad6b;
 }
 
 .labelRadio .checkmark {
@@ -62,6 +67,7 @@ input[type="checkbox"] {
 	width: 25px;
 	border: none;
 	height: 25px;
+	border: 1px solid #cacbcc !important;
 }
 
 .tab-hashtag ul>li>span input[type="radio"] {
@@ -98,7 +104,7 @@ input[type="checkbox"] {
 .labelCheck {
 	padding: 7px 19px;
 	margin-bottom: 0;
-	border: 1px solid #222222;
+	border: 1px solid #cacbcc;
 }
 
 #wrap {
@@ -306,9 +312,8 @@ h2, h3, h5 {
 }
 
 h1 {
-	font-size: 2.4rem;
+	font-size: 2.2rem;
 	line-height: 3rem;
-	letter-spacing: 4px;
 	padding-bottom: 6px;
 }
 
@@ -334,7 +339,7 @@ h4 {
 }
 
 p {
-	font-size: 13px;
+	font-size: 16px;
 	font-weight: 300;
 	line-height: 25px;
 	word-spacing: 1px;
@@ -854,8 +859,8 @@ div.subP h3:first-of-type {
 
 div.subP h3.pointGreen {
 	font-weight: bold;
-	color: green;
-	border-bottom: 2.2px solid green;
+	color: #3caa69;
+	border-bottom: 2.2px solid #3caa69;
 	padding-bottom: 3.5px;
 }
 
@@ -878,6 +883,7 @@ div.subP .recruit-detail {
 
 .recruit-detail .detail-header {
 	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
 }
 
 .recruit-detail .detail-header:after {
@@ -904,8 +910,8 @@ div.subP .recruit-detail {
 .recruit-detail .detail-header p>label {
 	margin-right: 4px;
 	margin-left: 4px;
-	font-weight: bold;
 	margin-bottom: 0;
+	font-weight: 400;
 }
 
 .recruit-detail .detail-header p>label:first-of-type {
@@ -953,11 +959,12 @@ div.subP .recruit-detail:before {
 	background: #3caa69;
 	color: white;
 	text-align: center;
-	padding: 4px 17px;
+	padding: 6px 17px;
 	border-radius: 12px;
 	float: left;
 	margin-top: 20px;
 	width: 62px;
+	font-size:14.5px;
 }
 
 .recruit-detail h2 {
@@ -988,13 +995,112 @@ div.subP .recruit-detail:before {
 
 .recruit-detail .content .content-grid h2 {
 	text-align: left;
-	padding: 10px 0;
+	padding: 10px 0 0;
 	letter-spacing: 0.62px;
 	font-size: 18px;
+	margin: 8px 0;
 }
 
 .recruit-detail .content .content-grid {
-	margin: 20px 0;
+	margin: 25px 0;
+}
+.recruit-detail .content .content-grid:last-of-type {
+    margin: 35px 0 20px;
+}
+
+.recruit-detail .content .content-grid .attachmentGrid {
+	
+padding: 15px 0;
+	
+overflow: hidden;
+}
+
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv {
+	
+letter-spacing:-1px;
+	
+MARGIN-RIGHT: 10PX;
+	
+border: 1px solid #3caa69;
+	
+padding: 15px 21px;
+	
+border-radius: 8px;
+	
+font-weight: 400;
+	
+float: left;
+	
+text-align: center;
+}
+
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv button {
+	
+border: none;
+	
+text-overflow: ellipsis;
+	
+white-space: nowrap;
+	
+overflow: hidden;
+	
+max-width: 175px;
+	
+background:none;
+	
+padding: 0;
+}
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(1) {
+	background:transparent;
+}
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(1) button {
+	color: #3cd634c2;
+	
+}
+
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(2) {
+	background: #9dd6b4;
+}
+
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(2) button {
+	color: WHITE;
+	
+}
+
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(3) {
+	background: #3dad6b;
+	margin-right: 0;
+}
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(3) button {
+	color: WHITE;
+	
+}
+
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv label {
+	background:transparent;
+	margin-bottom: 0;
+	margin: 0 9px 0 5px;
+}
+
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(1) label {
+	color: #3cd634c2;
+	
+}
+
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(2) label , .recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(3) label {
+	color: WHITE;
+	
+}
+
+
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv  i {
+		color: #3cd634c2;
+		font-size: 25px;
+		vertical-align: middle;
+}
+
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(2) i , .recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(3) i  {
+	color: WHITE !important;
 }
 
 .recruit-detail .content .content-grid span {
@@ -1031,13 +1137,30 @@ div.subP .recruit-detail:before {
 
 .recruit-detail .button-box button:first-of-type {
 	background: #e4e4e4 !important;
-	color: #4a4a4a;
+	color: #222;
 }
 
 .recruit-detail .infoArea {
 	border: 1px solid #cecece;
 	margin-top: 35px;
 }
+
+.recruit-detail .infoArea .infoSetHeader {background: #3caa69;padding: 5px 0;}
+
+
+.recruit-detail .infoArea .infoSetHeader h2 {
+	
+margin: 0;
+	
+padding: 5px 0;
+	
+font-size: 16px;
+	
+color: white;
+	
+letter-spacing: 0.41px;
+}
+
 
 .infoArea .infoSet {
 	display: table;
@@ -1052,44 +1175,99 @@ div.subP .recruit-detail:before {
 }
 
 .infoSet .detailHeader {
-	width: 140px;
-	background: #e0ffe0;
+	width: 152px;
+	background: #f2f2f2;
 	vertical-align: middle;
 	display: table-cell;
-	padding: 13px 27px;
+	padding: 17px 27px;
 	border-right: 1px solid #cecece;
 }
 
 .detailHeader h2 {
 	padding: 0;
-	margin: 0;
+	margin: 0 0 7px 0;
 	font-size: 16px;
-	color: #568456;
+	color: #222;
+	text-align: left;
+	height: 25px;
+	letter-spacing: 0.41px;
+}
+
+.detailHeader h2:last-of-type {
+	margin:0;
 }
 
 .infoSet .infoContent {
-	width: calc(100% - 140px);
+	width: calc(100% - 152px);
 	display: table-cell;
-	padding: 13px 27px;
+	padding: 17px 27px;
 }
 
-.infoContent p {
-	margin-bottom: 0;
+.infoSet .infoContent.withDate {
+	padding:8px 27px !important;
 }
 
-.infoContent p label {
+.infoContent .infoP {
+	margin-bottom: 7px;
+	height:25px;
+}
+
+.infoContent .infoP.dateSet {height: auto;overflow: hidden;display: table;margin-bottom: 15px;}
+
+.infoContent .infoP:last-of-type {
+	margin:0;
+}
+.infoContent .infoP.dateSet:first-of-type {
+    margin-top: 20px;
+}
+.infoContent .infoP.dateSet:last-of-type {
+    margin-bottom: 20px;
+}
+
+/* .infoContent .infoP label {
 	font-weight: bold;
 	margin-right: 6px;
 	width: 80px;
 }
+ */
+.infoContent .infoP.dateSet label {
 
-.infoContent p label.last {
+font-size: 16px;
+
+width:120px;
+
+display: table-cell;
+
+margin-bottom: 0;
+}
+
+.infoContent .infoP.dateSet .dateRight {
+	display: table-cell;
+}
+
+.infoContent .infoP.dateSet .dateRight span {
+	
+clear: both;
+	
+display: block;
+	
+margin-bottom: 5px;
+}
+
+
+.infoContent .infoP label.last {
 	margin-bottom: 0;
 }
 
-.infoContent p span.dateSpan {
+.infoContent .infoP span.dateSpan {
 	margin-left:5px;
 }
+
+.infoContent .infoP span {
+	
+font-size: 16px;
+}
+
 
 section.incarousel {
 	padding: 25px 10% 60px !important;
@@ -1354,7 +1532,7 @@ margin-bottom: 25px;
 }
 
 .slogan-box .slogan:last-child {
-	background: green;
+	background: #3caa69;
 }
 
 .slogan-box .slogan .slogan-img {
@@ -1857,10 +2035,12 @@ section .notice li>a, div .recruit-box-search li>a {
 }
 
 .tab-hashtag ul>li>span {
-	background: #1c9035;
-	border-radius: 7.5px;
-	padding: 7px 20px;
+	background: rgba(60, 170, 105, 0.22);
+	border-radius: 34.5px;
+	padding: 6.5px 13px;
 	color: white;
+	font-size: 14px;
+	color: #3caa69;
 }
 
 /* select-box */
@@ -1920,7 +2100,7 @@ section .notice li>a, div .recruit-box-search li>a {
 	z-index: 999;
 	margin: 0;
 	padding: 0;
-	height: 147px;
+	max-height: 147px;
 	overflow-y: scroll;
 	list-style: none;
 	background-color: #f7f7f7;
@@ -1931,11 +2111,15 @@ section .notice li>a, div .recruit-box-search li>a {
 	margin: 0;
 	padding: 12px 0 12px 12px;
 	font-size: 14px;
-	border-top: 1px solid #777373;
+	border-bottom: 1px solid #cacbcc;
 	-moz-transition: all 0.15s ease-in;
 	-o-transition: all 0.15s ease-in;
 	-webkit-transition: all 0.15s ease-in;
 	transition: all 0.15s ease-in;
+}
+
+.select-options li:last-of-type {
+	border-bottom:none;
 }
 
 .select-options li:hover {
@@ -2023,7 +2207,7 @@ section .notice li>a, div .recruit-box-search li>a {
 	padding: 5px 0;
 	font-size: 18px;
 	letter-spacing: 0.41px;
-	color: green;
+	color: #3caa69;
 	text-align: center;
 }
 
@@ -2272,12 +2456,27 @@ div.tab-content .filter-area:last-child {
 }
 
 .filter-area .filter-article a {
-	
+	font-size:17px;
 }
 
 .filter-area .article-item {
 	
 }
+
+.filter-area .article-item .labelCheck {
+	margin-right:8px;
+	font-size:14px;
+}
+
+.filter-area .article-item .labelCheck:last-of-type {
+	margin-right:0;
+}
+
+.filter-area .article-item .labelRadio {
+	font-size:14px;
+	padding:7px 7px 7px 33.5px !important;
+}
+
 
 .filter-area .article-item .labelCheck2 {
 	
@@ -2492,13 +2691,14 @@ div.tab-content .filter-area:last-child {
 
  .table tbody>tr>td .secondBox .clear h6 {
 	margin-bottom: 10px;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.5em;
 	font-weight: bold;
 	text-overflow: ellipsis;
 	overflow: hidden;
+	letter-spacing: -1px;
 	white-space: nowrap;
-	max-width:430px;
+	max-width: 410px;
 }
 
 .mobileBtn {
@@ -2508,7 +2708,10 @@ div.tab-content .filter-area:last-child {
  .table tbody>tr>td .secondBox .clear ul {
 	margin: 0;
 	padding: 0;
-	color: #9b9b9b
+	color: #9b9b9b;
+	font-size: 15px;
+	font-weight: 400;
+	color: #3caa69;
 }
 
 .table .secondBox {
@@ -2643,6 +2846,8 @@ div.tab-content .filter-area:last-child {
 .table .table-header {
 	text-align: center;
 	background-color: #e2f3ee;
+	border-bottom: 1px solid #ddd;
+	border-top: 2px solid #3caa69;
 }
 
 .table .info {
@@ -2658,13 +2863,13 @@ div.tab-content .filter-area:last-child {
 }
 
 .table .info .info-article.other {
-	background: pink;
+	background: #2da5e1;
 }
 
 .table .info .info-article {
 	width: 59px;
 	height: 59px;
-	background: green;
+	background: #3caa69;
 	border-radius: 50%;
 	display: table;
 	margin: 8.75 auto;
@@ -2747,7 +2952,7 @@ section.join .button-box {
 }
 
 .memberProcedure div.selected>span>a {
-	color: green;
+	color: #3caa69;
 }
 
 .memberProcedure {
@@ -3173,7 +3378,7 @@ a.scrollTop>i {
 
 .vertical-container button>i {
 	font-size: 36px;
-	color: green;
+	color: #3caa69;
 }
 
 ::-webkit-scrollbar {
@@ -3985,9 +4190,11 @@ div .recruit-apply .apply-form {
 }
 
 .heightAuto .select-options {
-	height: auto !important;
-	margin: 0;
-	overflow-y: unset;
+	   height: auto !important;
+   margin: 0;
+   overflow-y: unset;
+   overflow-y:  scroll;
+   max-height: 200px;
 }
 
 .heightAuto .select-styled {
@@ -4222,7 +4429,7 @@ div .recruit-apply .apply-form {
 }
 
 .recruit-done .info-box div.sticker>p {
-	background: green;
+	background: #3caa69;
 	color: white;
 	padding: 4px 17px;
 	border-radius: 12px;
@@ -4264,7 +4471,7 @@ div .recruit-apply .apply-form {
 }
 
 .recruit-done .info-box .done-info p>span:first-of-type {
-	color: green;
+	color: #3caa69;
 	font-weight: bold;
 	margin-right: 10px;
 }
@@ -4295,7 +4502,7 @@ div .recruit-apply .apply-form {
 }
 
 .recruit-done .recruit-answer p>span {
-	color: green;
+	color: #3caa69;
 	font-weight: bold;
 	margin: 0 8px;
 }
@@ -4543,7 +4750,7 @@ p.button-top {
 	width: 140px;
 	float: left;
 	padding: 55px 20px;
-	background: #e4e4e452;
+	background: #f2f2f2;
 	border-right: 1px solid #d9d4d4;
 }
 
@@ -4577,8 +4784,8 @@ p.button-top {
 
 .companyInfo p label {
 	font-weight: bold;
-	width: 47px;
-	margin: 0 6px 0 0;
+	width: 60px;
+	margin: 0 10px 0 0;
 	color: #3caa69;
 }
 
@@ -4793,7 +5000,7 @@ div.separateBtn button {
 .fixedMobile {
 	position: fixed;
 	padding: 20PX;
-	BACKGROUND: GREEN;
+	BACKGROUND: #3caa69;
 	WIDTH: 90%;
 	z-index: 99;
 	transition: 0.5s;
@@ -4859,7 +5066,7 @@ div.separateBtn button {
 .fixedMobile .mobileLogin .button-box button {
 	width: 100%;
 	background: white;
-	color: green;
+	color: #3caa69;
 	margin-bottom: 10px;
 }
 
