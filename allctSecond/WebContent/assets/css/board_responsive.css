@@ -66,6 +66,11 @@
 		padding: 10px 49px;
 	}
 	
+	.clinical_content_body {
+		margin: 0 0 53px 6%;
+		width: 90%;
+	}
+	
 }
 
 
@@ -110,6 +115,18 @@
 	
 	div.clinical_status_details > table > tbody > tr:nth-of-type(5) > td:nth-child(1) {
 		vertical-align: top;
+	}
+	
+	div.subP-clinical > .clinical_content_box > .support_iconBox {
+		float: none;
+    	margin: 0 0 4% 39%;
+    	width: 100px;
+    	height: auto;
+    	text-align: center;
+	}
+	
+	.clinical_content_head h2 {
+		text-align: center;
 	}
 	
 }
@@ -215,9 +232,6 @@
 	.subP-clinical-status h2 {
 		float: none;
 	}
-	.clinical_content_box .info-article {
-		margin-bottom: 131px;
-	}
 	
 	div.subP-clinical-status {
 		width: 100%;
@@ -225,6 +239,10 @@
 	
 	div.subP-clinical-status .small_navigation {
 		display: none;
+	}
+	
+	div.subP-clinical > h2 {
+		text-align: center;
 	}
 	
 	
