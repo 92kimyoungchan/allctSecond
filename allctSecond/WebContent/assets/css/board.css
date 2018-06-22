@@ -325,6 +325,10 @@ span#jopInfo-searchCount {
     color: #32b76e;
 }
 
+span.jopInfo-mobile-date {
+	display: none;
+}
+
 
 /* clinical jsp 임상시험 관련 페이지 */
 
