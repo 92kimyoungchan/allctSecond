@@ -50,10 +50,10 @@ input[type="checkbox"] {
 }
 
 .labelRadio .checkmark:after {
-	top: 3.75px;
-	left: 3.75px;
-	width: 15.5px;
-	height: 15.5px;
+	top: 2.75px;
+	left: 2.75px;
+	width: 12px;
+	height: 12px;
 	border-radius: 50%;
 	background: #3dad6b;
 }
@@ -64,9 +64,9 @@ input[type="checkbox"] {
 	background: white;
 	left: 2px;
 	position: absolute;
-	width: 25px;
+	width: 20px;
 	border: none;
-	height: 25px;
+	height: 20px;
 	border: 1px solid #cacbcc !important;
 }
 
@@ -486,6 +486,7 @@ ul.ul-theory {
 ul.ul-theory li>a {
 	width: 100%;
 	text-align: left;
+	font-weight:bold;
 }
 
 ul.ul-theory .mobile-join {
@@ -1137,7 +1138,7 @@ max-width: 740px;
 }
 
 
-.recruit-detail .button-box button.active i {
+.recruit-detail .button-box i.active {
 	color:yellow;
 }
 
@@ -1454,9 +1455,9 @@ margin-bottom: 25px;
 
 .recruit-header button:first-child {
 	padding: 6px 14px;
-	color: #222222;
+	color: #3caa69;
 	background: transparent;
-	border: 1.4px solid #ded8d8;
+	border: 1.4px solid #3caa69;
 	height: 43px;
 	float: left;
 	outline: none;
@@ -1916,7 +1917,7 @@ section .notice {
 section .notice ul {
 	display: block;
 	overflow: hidden;
-	border: 1px solid #a7a7a7;
+	border: 1px solid #d9d4d4;
 	border-bottom: 0;
 }
 
@@ -1926,6 +1927,10 @@ section .notice ul>li, div .recruit-box-search ul:first-child>li {
 	float: left;
 	padding: 10px 0;
 	font-weight: bold;
+}
+
+ .recruit-box-search ul:first-child>li {
+	height:10px;
 }
 
 section .notice ul>li:nth-of-type(2), div .recruit-box-search ul:first-child>li:nth-of-type(2)
@@ -1982,8 +1987,7 @@ section .notice li>a, div .recruit-box-search li>a {
 }
 
 .tab-hashtag .hashtag-title {
-	font-weight: bold;
-	background: #3caa69;
+	background: #949494;
 	color: white;
 	width: 160px;
 	padding: 25px 30px;
@@ -2000,13 +2004,13 @@ section .notice li>a, div .recruit-box-search li>a {
 	margin: 0;
 	padding: 6px 10px;
 	float: left;
-	border-top: 1px solid #a7a7a7;
-	width: calc(100% - 240px);
-	border-bottom: 1px solid #a7a7a7;
+	border-top: 1px solid #d9d4d4;
+	width: calc(100% - 280px);
+	border-bottom: 1px solid #d9d4d4;
 }
 
 .tab-hashtag .searchRecruit {
-	width: 80px;
+	width: 120px;
 	justify-content: center;
 	align-items: center;
 	display: flex;
@@ -2078,6 +2082,7 @@ section .notice li>a, div .recruit-box-search li>a {
 	background-color: transparent;
 	padding: 8px 40px 8px 18px;
 	margin: 0 3px;
+	font-size: 14px;
 }
 
 
@@ -2266,15 +2271,17 @@ section .notice li>a, div .recruit-box-search li>a {
 	padding: 18px 20px;
 	border: 0px solid #d9d4d4;
 	border-width: 0 1px 1px 1px;
+	
 }
 
 #sideContent>.contentElement.is-checked>a {
 	color: #3caa69 !important;
+	font-weight:600;
 }
 
 #sideContent>.contentElement>a {
 	color: #222222;
-	font-size: 15px;
+	font-size:16px;
 }
 
 .x-sidebar .x-sidebar-footer {
@@ -2376,7 +2383,7 @@ footer div>p>strong {
 
 .recruit-box h2 {
 	letter-spacing: -0.4px;
-	font-size: 23.6px;
+	font-size: 20px;
 	padding-top: 35px;
 }
 
@@ -2390,6 +2397,7 @@ footer div>p>strong {
 	color: #a29c9c;
 	background-color: transparent;
 	float: left;
+	font-size: 14px;
 }
 
 .recruit-header .input-search-box input {
@@ -2445,8 +2453,8 @@ footer div>p>strong {
 
 div.tab-content .filter-grid {
 	padding: 25px 0;
-	border-right: 1px solid #a7a7a7;
-	border-left: 1px solid #a7a7a7;
+	border-right: 1px solid #d9d4d4;
+	border-left: 1px solid #d9d4d4;
 }
 
 div.tab-content .filter-area {
@@ -2473,7 +2481,7 @@ div.tab-content .filter-area:last-child {
 }
 
 .filter-area .article-item .labelCheck {
-	margin-right:8px;
+	margin-right: 2px;
 	font-size:14px;
 }
 
@@ -2483,7 +2491,7 @@ div.tab-content .filter-area:last-child {
 
 .filter-area .article-item .labelRadio {
 	font-size:14px;
-	padding:7px 7px 7px 33.5px !important;
+	padding: 5px 7px 5px 33.5px !important;
 }
 
 
@@ -2734,7 +2742,7 @@ div.tab-content .filter-area:last-child {
 }
 
 .table-text span {
-	font-size: 15px;
+	font-size: 14px;
 	letter-spacing: -0.19px;
 }
 
@@ -2849,7 +2857,8 @@ div.tab-content .filter-area:last-child {
 }
 
 .clear ul>li>span {
-	font-size: 13.6px;
+	font-size: 15px;
+	font-weight: 500;
 }
 
 .table .table-header {
@@ -4111,7 +4120,7 @@ div .recruit-apply ul.nav-tabs>li, div .recruit-research ul.nav-tabs>li
 	float: left;
 	padding: 14px 0;
 	font-weight: bold;
-	border: 1px solid #a7a7a7;
+	border: 1px solid #d9d4d4;
 }
 
 div .recruit-apply ul.nav-tabs>li:first-of-type, div .recruit-research ul.nav-tabs>li:first-of-type
@@ -5179,7 +5188,7 @@ div.separateBtn button {
 
 .mobileButton button {
 	width:100%;
-	border: 1px solid #a7a7a7;
+	border: 1px solid #d9d4d4;
 }
 
 .w100 {

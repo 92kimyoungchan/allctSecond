@@ -229,7 +229,8 @@
 	.owl-carousel .owl-item img {
 		min-height:190px;
 	}
-	ay: contents;
+	.carousel-overlay span>br {
+		display: contents;
 	}
 	.carousel-overlay h2:last-of-type {
 		display: none;

@@ -13,5 +13,5 @@
 		
 	</ul>
 	<div class="divider"></div>
-	<div class="x-sidebar-footer"></div>
+	<!-- <div class="x-sidebar-footer"></div> -->
 </div>
