@@ -78,6 +78,7 @@
 								</thead>
 								<tbody>
 									<tr class="jobInfo-table-body">
+									<div class="status_body">
 										<td>592</td>
 										<td>
 											식약처
@@ -96,8 +97,9 @@
 										18/05/08
 										</div>
 										</td>
-										
+										</div>
 									</tr>
+									
 									
 									<tr class="jobInfo-table-body">
 										<td>592</td>
