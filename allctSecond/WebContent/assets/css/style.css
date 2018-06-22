@@ -1905,7 +1905,9 @@ section .notice li>a, div .recruit-box-search li>a {
 .select-styled.active:after {
 	top: 9px;
 	border-color: transparent transparent #3caa69 transparent;
+	
 }
+
 
 
 
@@ -1922,6 +1924,7 @@ section .notice li>a, div .recruit-box-search li>a {
 	overflow-y: scroll;
 	list-style: none;
 	background-color: #f7f7f7;
+	margin:0 3px;
 }
 
 .select-options li {
@@ -2515,7 +2518,7 @@ div.tab-content .filter-area:last-child {
 }
 
 .table-text {
-	
+	text-align:center;
 }
 
 .table-text span {
@@ -3490,6 +3493,17 @@ span#jopInfo-searchCount {
 }
 
 .jopInfo .select-styled:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border: 7px solid transparent;
+	border-color: #1c9035 transparent transparent transparent;
+	position: absolute;
+	top: 16px;
+	right: 15px;
+}
+
+.select-styled:after {
 	content: "";
 	width: 0;
 	height: 0;
@@ -4956,9 +4970,14 @@ div.separateBtn button {
 }
 
 .caculator.preBorder {
-	background:#f4f4f4;
+	background:#f4f4f4; 
 }
 
 .mglIn15 .select-styled {
     border: 1px solid #97d9bb !important;
 }
+
+
+#pagination .next, #pagination .last, #pagination .prev {
+     width:43px;
+} 
