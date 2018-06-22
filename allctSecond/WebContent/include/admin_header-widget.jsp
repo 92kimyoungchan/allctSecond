@@ -7,7 +7,7 @@
 
 			<div class="brand-logo">
 			<a href="/allctSecond/index.jsp">
-				<img src="/allctSecond/assets/images/allct-logo.png"> </a>
+				<img src="/allctSecond/assets/images/all-logo.png"> </a>
 			</div>
 			<a id="mobilemenu"><i class="fas fa-align-justify"></i></a>
 			<div class="admin-welcome">

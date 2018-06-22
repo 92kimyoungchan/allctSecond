@@ -44,7 +44,7 @@ $("table.ab-table").on('change','.ab-table-body .info',function(){
 	checkBoxValue =  getCheckBox.is(":checked");
 	var row = getCheckBox.parent().parent().parent().parent();
 	if(checkBoxValue){
-		row.css("background-color","#fbf8f8");		
+		row.css("background-color","rgb(229, 230, 230, 1)");		
 	}else{
 		row.css("background-color","rgb(255, 255, 255)");	
 	}	

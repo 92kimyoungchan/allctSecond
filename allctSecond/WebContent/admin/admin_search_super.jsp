@@ -39,10 +39,11 @@ checkbox table
 									</div>
 									<h1> 공고관리</h1>
 								</div>
-								<div class="am-h-title">
-									<span class ="am-h-title-span">공고검색</span>
+								<div class="am-ab-title">
+									<label>공고검색</label>
 								</div>
-
+							 <div class ="admin-clear"></div>
+							 
 								<div class="am-h-content-wrapper">
 									<form action="">
 										<div class="am-h-content">
@@ -286,7 +287,7 @@ checkbox table
 														</label>
 													</div>
 												</th>
-												<th>게시자</th>
+												<th class ="Publisher">게시자</th>
 												<th>시험종류</th>
 												<th>제목</th>
 												<th>기간</th>
@@ -309,7 +310,7 @@ checkbox table
 													</label>
 												</div>
 											</td>
-											<td>admin72</td>
+											<td class ="Publisher">admin72</td>
 											<td>생동성</td>
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
@@ -331,7 +332,7 @@ checkbox table
 													</label>
 												</div>
 											</td>
-											<td>admin72</td>
+											<td class ="Publisher">admin72</td>
 											<td>생동성</td>
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
@@ -353,7 +354,7 @@ checkbox table
 													</label>
 												</div>
 											</td>
-											<td>admin72</td>
+											<td class ="Publisher">admin72</td>
 											<td>생동성</td>
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
@@ -375,7 +376,7 @@ checkbox table
 													</label>
 												</div>
 											</td>
-											<td>admin72</td>
+											<td class ="Publisher">admin72</td>
 											<td>생동성</td>
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
@@ -402,9 +403,9 @@ checkbox table
 									<button class="ad-btn ad-m-btn-create">광고추가</button>
 								</div>
 
-
-								<ul id="pagination-demo" class="pagination-sm">
-								</ul>
+<div class ="admin-pagination-wrap">
+<ul id="pagination-demo" class="pagination-sm"> </ul>
+</div>
 							</div>
 						</div>
 					</div>
@@ -414,12 +415,6 @@ checkbox table
 	</div>
 
 
-
-	<footer class="admin_footer">
-		<div class="container">
-			<div class="row-noneflex"></div>
-		</div>
-	</footer>
 
 	<%@ include file="../include/footer.jsp"%>
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>

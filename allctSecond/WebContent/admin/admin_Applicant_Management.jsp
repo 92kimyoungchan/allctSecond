@@ -29,9 +29,9 @@
 								<div class="am-h-title">
 									<h1>신청자 관리</h1> 
 								</div>  
-								<div class="am-h-title">
-									<span class="am-h-title-span">생동성시험: 1험 인비스정</span>
-								</div>   
+								 <div class="am-ab-title">
+									<label>생동성시험: 1험 인비스정</label>
+								</div>
 								<div class="am-h-title">
 									<span>모집마감일: <span id="">2018-05-21 </span> 시험 시작일: <span
 										id="">2018-05-30</span>시험종료일: <span>2018-06-11</span></span>
@@ -349,8 +349,9 @@
 								<button class="ad-btn ad-m-btn-list">목록으로</button>
 							</div>
 						</div>
-								<ul id="pagination-demo" class="pagination-sm">
-							</ul>
+								<div class ="admin-pagination-wrap">
+<ul id="pagination-demo" class="pagination-sm"> </ul>
+</div>
 							</div>
 						</div>
 					</div>
@@ -360,12 +361,6 @@
 	</div>
 
 
-
-	<footer class="admin_footer">
-		<div class="container">
-			<div class="row-noneflex"></div>
-		</div>
-	</footer>
 
 	<%@ include file="../include/footer.jsp"%>
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>

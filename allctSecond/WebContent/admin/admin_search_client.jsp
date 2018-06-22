@@ -42,11 +42,11 @@ super 페이지 span
 									</div>
 									<h1>공고관리</h1>
 								</div>
-								<div class="am-h-title">
-									<span class="am-h-title-span">공고검색</span>
+						<div class="am-ab-title">
+									<label>공고검색</label>
 								</div>
-
-								<div class="am-h-content-wrapper">
+<div class ="admin-clear"></div> 
+	 							<div class="am-h-content-wrapper">
 									<form action="">
 										<div class="am-h-content">
 											<div class="am-h-state-wrap">
@@ -158,7 +158,6 @@ super 페이지 span
 											<th>제목</th>
 											<th>기간</th>
 											<th>인원수</th>
-											<th>시험기관</th>
 											<th>등록일</th>
 											<th>현재상태</th>
 											<th>신청</th>
@@ -180,7 +179,6 @@ super 페이지 span
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
-											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td><span class ="admin-test-ing">시험진행중</span></td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
@@ -202,7 +200,6 @@ super 페이지 span
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
-											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td><span class ="admin-test-complete">완료</span></td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
@@ -224,7 +221,6 @@ super 페이지 span
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
-											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td><span class ="admin-test-Recruiting">모집중</span></td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
@@ -246,7 +242,6 @@ super 페이지 span
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
-											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td><span class ="admin-test-recruited">모집마감</span></td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
@@ -268,7 +263,6 @@ super 페이지 span
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
-											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td>시험진행중</td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
@@ -290,7 +284,6 @@ super 페이지 span
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
-											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td>시험진행중</td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
@@ -313,9 +306,9 @@ super 페이지 span
 								<button class="ad-btn ad-m-btn-create">광고추가</button>
 							</div>
 
-
-							<ul id="pagination-demo" class="pagination-sm">
-							</ul>
+<div class ="admin-pagination-wrap">
+<ul id="pagination-demo" class="pagination-sm"> </ul>
+</div>
 						</div>
 					</div>
 				</div>
@@ -324,13 +317,6 @@ super 페이지 span
 	</div>
 	</div>
 
-
-
-	<footer class="admin_footer">
-		<div class="container">
-			<div class="row-noneflex"></div>
-		</div>
-	</footer>
 
 	<%@ include file="../include/footer.jsp"%>
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
