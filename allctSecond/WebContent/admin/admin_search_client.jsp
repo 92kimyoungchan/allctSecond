@@ -22,7 +22,7 @@ super 페이지 span
 <!-- 김도영 공고관리 (Announcement Management)  -->
 
 </head>
-<body>
+<body class ="admin-body">
 	<%@ include file="../include/admin_header-widget.jsp"%>
 	<div class="container ab-container">
 		<div class="row-noneflex">
@@ -40,7 +40,7 @@ super 페이지 span
 											<strong>엑셀로저장</strong>
 										</button>
 									</div>
-									<h1>공고관리</h1>
+									<h1 id= "admin4" class ="admin-navNo" >공고관리</h1>
 								</div>
 						<div class="am-ab-title">
 									<label>공고검색</label>
@@ -318,7 +318,7 @@ super 페이지 span
 	</div>
 
 
-	<%@ include file="../include/footer.jsp"%>
+	<%@ include file="../include/footerShort.jsp"%> 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 

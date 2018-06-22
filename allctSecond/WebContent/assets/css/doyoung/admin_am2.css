@@ -259,11 +259,13 @@ tr.ad-table-header {
 	/* color: #808080; */
 	color: white;
 }
-
+body.admin-body {
+    background-color: #595858 !important;
+}
 .ad-table-header th {
-	   padding: 20px 9px 20px 11px;
+	   padding: 8px 9px 8px 11px;
 	text-align: center;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .ad-table-header th:first-of-type {
