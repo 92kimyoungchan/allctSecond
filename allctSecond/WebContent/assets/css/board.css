@@ -341,7 +341,6 @@ div.subP-clinical {
 div.subP-clinical > h2 {
     margin: 0 0 65px 15px;
     padding: 0;
-    letter-spacing: 2px;
     font-size: 24px;
     color: rgba(80,80,80,0.8);
 }
@@ -363,7 +362,6 @@ div.clinical_content_box {
 div.clinical_content_head h2 {
     color: #3caa69;
     padding: 0;
-    letter-spacing: 2px;
     margin-bottom: 10px;
     word-spacing: 0;
     font-size: 18px;
@@ -426,12 +424,11 @@ div.clinical_mobile_imgBox > img:first-of-type {
 div.clinical_info_content_box h2 {
     margin: 25px 0 12px 0;
     padding: 0;
-    letter-spacing: 2.5;
     word-spacing: -2.2px;
 }
 
 div.clinical_info_content_box p:first-of-type {
-	font-weight: bold;
+	font-weight: 500;
     line-height: 33px;
     font-size: 16px;
     word-spacing: 4px;
@@ -439,7 +436,7 @@ div.clinical_info_content_box p:first-of-type {
 }
 
 div.clinical_info_content_box p:last-of-type {
-	font-weight: bold;
+	font-weight: 500;
     line-height: 33px;
     font-size: 16px;
     word-spacing: 4px;
@@ -466,7 +463,6 @@ div.clinical_bio_justice {
 
 div.subP-clinical-allct h2 {
     margin: 35px 0;
-	letter-spacing: 2px;
 	padding: 0;
 }
 
@@ -478,15 +474,9 @@ div.clinical_content_allct p {
 
 div.subP-clinical-qualify h2 {
     margin-top: 40px;
-	letter-spacing: 2px;
 	padding: 0;
 }
 
-div.subP-clinical-qualify h2 {
-    margin: 35px 0;
-	letter-spacing: 2px;
-	padding: 0;
-}
 
 div.clinical_qualify_imgBox .clinical_imgBox > img {
     width: 100%;
@@ -496,6 +486,10 @@ div.clinical_qualify_imgBox .clinical_imgBox > img {
 div.clinical_content_qualify p {
     margin: 25px 0 33px 0;
     color: black;
+}
+
+div.clinical_qualify_imgBox2 {
+	display: none;
 }
 
 /* board_clinical_status.jsp 임상시험의 현황 페이지 */

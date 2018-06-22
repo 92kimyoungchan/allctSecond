@@ -60,7 +60,11 @@
 						
 					</div>
 					
-					
+					<div class="clinical_qualify_imgBox2">
+					<div class="clinical_imgBox">
+						<img src="../assets/images/clinical_qualify_img.png">
+					</div>
+					</div>
 					<div class="clinical_info_content_box">
 						<div class="clinical_content_qualify">
 							<p>

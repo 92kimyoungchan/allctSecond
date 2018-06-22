@@ -19,7 +19,15 @@
 	.clinical_mobile_imgBox {
 		display: block !important;
 	}
-	.clinical_imgBox {
+	.clinical_info_imgBox > .clinical_imgBox {
+		display: none !important;
+	}
+	
+	.clinical_content_justice > .clinical_imgBox {
+		display: none !important;
+	}
+	
+	.clinical_bio_justice > .clinical_imgBox {
 		display: none !important;
 	}
 
@@ -27,10 +35,6 @@
 		text-align: left !important;
 	    letter-spacing: 1.5px !important;
 	    font-size: 20px;
-	}
-	
-	div.clinical_info_content_box p:last-of-type {
-	    margin: 35px 0;
 	}
 	
 	div.clinical_status_details table {
@@ -71,15 +75,21 @@
 		width: 90%;
 	}
 	
+	.clinical_content_qualify p {
+	    width: 90%;
+   		margin-left: 5% !important;
+	}
+	
+	div.clinical_qualify_imgBox2 {
+	display: block;
+}
+	
 }
 
 
 @media only screen and (max-width: 767px) {
-	.clinical_content_box .info-article {
-	    width: 90px;
-    	height: 90px;
-		margin: 0 0 10% 40% !important;
-    	float: none;
+	div.clinical_info_content_box p:last-of-type {
+	    margin: 35px 0;
 	}
 	
 	.clinical-status > table > thead {
@@ -242,6 +252,11 @@
 	}
 	
 	div.subP-clinical > h2 {
+		text-align: center;
+	}
+	
+	div.subP-clinical-qualify h2 {
+		margin: 40px 0;
 		text-align: center;
 	}
 	
