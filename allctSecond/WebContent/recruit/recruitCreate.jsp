@@ -188,23 +188,10 @@
 							</div>
 
 						</div>
-						<div class="input-title">
-							<input type="text" placeholder="제목">
-						</div>
-						<div class="recruit-infoBox">
-							<div class="article">
-								<label class="article-title" style="padding: 5px 0;">첨부파일</label>
-								<div class="fileBox">
-									<input type="text" id="" class="fileName" name="upload"
-										value="" readonly="readonly" /> <label for="uploadBtn"
-										class="btn_file">찾아보기</label> <input type="file"
-										id="uploadBtn" class="uploadBtn">
-								</div>
-
-							</div>
-						</div>
+						
+						
 						<div class="button-box">
-							<button>임시저장</button>
+						
 							<button>등록하기</button>
 						</div>
 

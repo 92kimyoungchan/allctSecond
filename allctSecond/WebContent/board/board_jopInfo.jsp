@@ -79,8 +79,6 @@
 								<tbody>
 									<tr class="jobInfo-table-body">
 										<td>이병소세무회계사무소</td>
-										<!-- <td class="jopInfo-mobile-date">2018/4/15~2018/4/20
-										</td> -->
 										<td><strong>18년 상반기 건축기사/기획/마케팅/개발 신입사원 모집</strong><br>
 											<p>
 												담당업무: 당사는 종합건설회사로 시행, 시공, 분양대행 업무를 하고 있습니다. <br> 2018년도
@@ -96,7 +94,8 @@
 											</div>
 										</td>
 
-										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span></td>
+										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span>
+											<span class="jopInfo-mobile-date">2018/4/15~2018/4/20</span></td>
 									</tr>
 
 									<tr class="jobInfo-table-body">
@@ -116,7 +115,8 @@
 											</div>
 										</td>
 
-										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span></td>
+										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span>
+										<span class="jopInfo-mobile-date">2018/4/15~2018/4/20</span></td>
 									</tr>
 
 									<tr class="jobInfo-table-body">
@@ -136,7 +136,8 @@
 											</div>
 										</td>
 
-										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span></td>
+										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span>
+										<span class="jopInfo-mobile-date">2018/4/15~2018/4/20</span></td>
 									</tr>
 
 									<tr class="jobInfo-table-body">
@@ -156,7 +157,8 @@
 											</div>
 										</td>
 
-										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span></td>
+										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span>
+										<span class="jopInfo-mobile-date">2018/4/15~2018/4/20</span></td>
 									</tr>
 
 									<tr class="jobInfo-table-body">
@@ -176,7 +178,8 @@
 											</div>
 										</td>
 
-										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span></td>
+										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span>
+										<span class="jopInfo-mobile-date">2018/4/15~2018/4/20</span></td>
 									</tr>
 
 

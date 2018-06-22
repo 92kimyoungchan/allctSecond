@@ -187,10 +187,13 @@
 		display: block;
 	}
 	.owl-carousel .owl-item img {
-		min-height: 180px;
+		min-height: 180px !important;
 	}
 	section.incarousel {
 		display: none;
+	}
+	.carousel-overlay span>br {
+		display:contents;
 	}
 }
 
@@ -224,10 +227,9 @@
 		margin-left: 16px;
 	}
 	.owl-carousel .owl-item img {
-		
+		min-height:190px;
 	}
-	.carousel-overlay span>br {
-		display: contents;
+	ay: contents;
 	}
 	.carousel-overlay h2:last-of-type {
 		display: none;
@@ -283,6 +285,11 @@
 		
 		
 	}
+	
+	.owl-carousel .owl-item img {
+		min-height:220px;
+	}
+	
 	div.carousel-overlay-wrap {
 		
 	}
@@ -295,6 +302,13 @@
 	div.carousel-overlay-wrap {
 		
 	}
+}
+
+@media screen and (min-width:646px) and (max-width:767px) {
+	.owl-carousel .owl-item img {
+		min-height:245px;
+	}
+	
 }
 
 @media screen and (min-width:576px) and (max-width:767px) {
@@ -527,6 +541,11 @@ div.subP {
 	float: left;
 	margin-bottom:25px;
 }
+
+section.advertisement {
+		background:url(../images/whatTrial.png) top;
+		background-size:cover;
+	}
 
 .item-grid .item-set:nth-of-type(2n) {
 	margin-right: 0;
@@ -887,6 +906,7 @@ div.subP {
 	.tab-content .tab-pane span:nth-of-type(8) {
 		display: block;
 	} 
+	
 }
 
 @media screen and (max-width:991px) {
@@ -958,7 +978,7 @@ div.subP {
 		float: right;
 		font-size: 30px;
 		padding: 8px 16px;
-		margin-bottom: 8px;
+		margin: 8px 0;
 	}
 	header {
 		display: none !important;

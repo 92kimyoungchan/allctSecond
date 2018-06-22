@@ -47,8 +47,8 @@ div.recruit-apply ul>li>a.active {
 							<div class="article">
 								<label>이름</label>
 								<div class="input-block">
-									<input type="text" readonly name="" class="nameInput" value="홍정연">
-										<p class="hidden"></p>
+									<span class="spanButton">스윗트</span>
+									<p class="hidden"></p>
 								</div>
 							</div>
 
@@ -80,6 +80,28 @@ div.recruit-apply ul>li>a.active {
 								</div>
 							</div>
 							
+							<div class="article mb-20">
+								<label>선호지역</label>
+								<div class="input-block checkArea">
+								
+							<input type="checkbox" id="inputCheck" name="region"
+												value="서울" /> <label class="labelCheck" for="inputCheck">서울</label>
+
+											<input type="checkbox" id="inputCheck2" name="region"
+												value="경기" /> <label class="labelCheck" for="inputCheck2">경기/인천</label>
+
+											<input type="checkbox" id="inputCheck3" name="region"
+												value="인천" /> <label class="labelCheck" for="inputCheck3">인천</label>
+											<input type="checkbox" id="inputCheck4" name="region"
+												value="그 외 지역" /> <label class="labelCheck"
+												for="inputCheck4">그 외 지역</label>
+							
+								</div>
+							</div>
+							
+							
+							
+							
 							<div class="article">
 								<label>키</label>
 								<div class="input-block calcu">
@@ -100,7 +122,7 @@ div.recruit-apply ul>li>a.active {
 							<div class="article">
 								<label>체질량지수<br>(자동 계산)</label>
 								<div class="input-block">
-									<input type="text" name="" readonly class="caculator" readonly><span></span>
+									<input type="text" name="" readonly class="caculator preBorder" readonly><span></span>
 								</div>
 							</div>
 							<div class="button-box">
@@ -129,10 +151,9 @@ div.recruit-apply ul>li>a.active {
 
 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
-	<script defer src="../assets/js/fontawesome-all.js"></script>
-	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script type="text/javascript" src="../assets/js/datepicker.js"></script>
 	<script type="text/javascript" src="../assets/js/select_apply.js"></script>
+	<script type="text/javascript" src="../assets/js/Addinfo.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 
 
