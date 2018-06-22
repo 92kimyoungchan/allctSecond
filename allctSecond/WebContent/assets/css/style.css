@@ -1119,6 +1119,12 @@ max-width: 740px;
 	background: #3caa69;
 }
 
+.recruit-detail .button-box button.active {
+	background: pink !important;
+}
+
+
+
 .recruit-detail .button-box span:first-of-type {
 	text-align: center;
 	margin-bottom: 30px;
@@ -1130,8 +1136,14 @@ max-width: 740px;
 	margin-left: 10px;
 }
 
+
+.recruit-detail .button-box button.active i {
+	color:yellow;
+}
+
+
 .recruit-detail .button-box button:first-of-type {
-	background: #e4e4e4 !important;
+	background: #e4e4e4;
 	color: #222;
 }
 
