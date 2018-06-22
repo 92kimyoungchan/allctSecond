@@ -12,14 +12,16 @@ $('.labelCheck').on('click',function() {
 		if(!flag){
 			$(this).css({
 				background:"green",
-				color:"white"
+				color:"white",
+				border:"none"
 			}) 			
 			
 
 		}else{
 			$(this).css({
 				background:"transparent",
-				color:"inherit"
+				color:"inherit",
+				border:"1px solid #97d9bb"	
 			}) 
 		
 		}

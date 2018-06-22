@@ -388,6 +388,7 @@ header .container .content-icon::after {
 
 .admin-top-area {
 	padding: 20px 65px;
+	background:#ffffff;
 }
 
 .admin-top-area:after {
@@ -1019,8 +1020,6 @@ overflow: hidden;
 	
 letter-spacing:-1px;
 	
-MARGIN-RIGHT: 10PX;
-	
 border: 1px solid #3caa69;
 	
 padding: 15px 21px;
@@ -1032,6 +1031,10 @@ font-weight: 400;
 float: left;
 	
 text-align: center;
+	
+clear: both;
+	
+margin-bottom: 15px;
 }
 
 .recruit-detail .content .content-grid .attachmentGrid .buttonDiv button {
@@ -1044,34 +1047,33 @@ white-space: nowrap;
 	
 overflow: hidden;
 	
-max-width: 175px;
-	
 background:none;
 	
 padding: 0;
+	
+max-width: 740px;
 }
-.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(1) {
-	background:transparent;
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv {
 }
-.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(1) button {
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv button {
 	color: #3cd634c2;
 	
 }
 
-.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(2) {
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:hover {
 	background: #9dd6b4;
 }
 
-.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(2) button {
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:hover button , .recruit-detail .content .content-grid .attachmentGrid .buttonDiv:hover label ,.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:hover i{
 	color: WHITE;
 	
 }
 
-.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(3) {
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:active {
 	background: #3dad6b;
 	margin-right: 0;
 }
-.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(3) button {
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:active button , .recruit-detail .content .content-grid .attachmentGrid .buttonDiv:active label ,.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:active i{
 	color: WHITE;
 	
 }
@@ -1082,15 +1084,11 @@ padding: 0;
 	margin: 0 9px 0 5px;
 }
 
-.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(1) label {
+.recruit-detail .content .content-grid .attachmentGrid .buttonDiv label {
 	color: #3cd634c2;
 	
 }
 
-.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(2) label , .recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(3) label {
-	color: WHITE;
-	
-}
 
 
 .recruit-detail .content .content-grid .attachmentGrid .buttonDiv  i {
@@ -1099,9 +1097,6 @@ padding: 0;
 		vertical-align: middle;
 }
 
-.recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(2) i , .recruit-detail .content .content-grid .attachmentGrid .buttonDiv:nth-of-type(3) i  {
-	color: WHITE !important;
-}
 
 .recruit-detail .content .content-grid span {
 	line-height: 29px;
@@ -3966,12 +3961,12 @@ span#jopInfo-searchCount {
 }
 
 .checkArea .labelCheck {
-	padding: 7px 19px !important;
-	margin-bottom: 0  !important;
-	border: 1px solid #97d9bb !important;
-	margin-right:8px !important;
-	font-size:14px !important;
-	display:inline-block !important;
+	padding: 7px 19px;
+	margin-bottom: 0;
+	border: 1px solid #97d9bb;
+	margin-right:8px;
+	font-size:14px;
+	display:inline-block;
 }
 
 .article .divider {
@@ -4263,13 +4258,13 @@ div .recruit-apply .apply-form {
 	padding: 2px 0 !important;
 }
 
-.form .labelCheck {
+/* .form .labelCheck {
 	border: none;
 	position: relative;
 	padding: 15px 0 0;
 	display: block;
 	clear: both;
-}
+} */
 
 .form .labelRadio input[type="radio"] {
 	display: none !Important;

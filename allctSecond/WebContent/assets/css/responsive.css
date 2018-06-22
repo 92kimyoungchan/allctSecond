@@ -274,7 +274,11 @@
 @media screen and (min-width:576px) {
 	.containerBox {
     max-width: 540px;
-  }
+  	}
+  	
+  	
+  
+  
 }
 
 @media screen and (min-width:576px) and (max-width:645px) {
