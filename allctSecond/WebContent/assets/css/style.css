@@ -2278,14 +2278,11 @@ section .notice li>a, div .recruit-box-search li>a {
 /* footer */
 footer {
 	letter-spacing: 0.8;
-	padding: 30px 0 39px;
-	background: #3c4551;
-	
 }
 
 footer .container {
-	padding-top: 8px;
-	padding-bottom: 8px;
+	background: #3c4551;
+	padding: 30px 0 39px;
 }
 
 footer div.mobile {
@@ -4549,6 +4546,10 @@ div .recruit-apply .apply-form {
 
 .full {
 	width: 100% !Important;
+}
+
+footer.full {
+	background:#3c4551;
 }
 
 .center {
