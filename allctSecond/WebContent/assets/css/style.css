@@ -61,7 +61,7 @@ input[type="checkbox"] {
 .labelRadio .checkmark {
 	border-radius: 50%;
 	top: 6px;
-	background: #eee;
+	background: white;
 	left: 2px;
 	position: absolute;
 	width: 25px;
@@ -342,7 +342,7 @@ p {
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 25px;
-	word-spacing: 1px;
+	word-spacing: 0px;
 	color: #222;
 }
 
@@ -2185,6 +2185,7 @@ section .notice li>a, div .recruit-box-search li>a {
 
 .x-sidebar .userInfo .info-box span {
 	letter-spacing: -0.42px;
+	font-size: 15px;
 }
 
 .x-sidebar .userInfo .info-box span:first-of-type:after {
@@ -2213,19 +2214,20 @@ section .notice li>a, div .recruit-box-search li>a {
 
 .x-sidebar  .userStat div p {
 	margin: 0;
+	font-size: 15px;
 }
 
 .x-sidebar  .userStat .exam {
 	width: 50%;
 	float: left;
-	padding-right: 30px;
+	padding-right: 15px;
 }
 
 .x-sidebar  .userStat .favorite {
 	width: 50%;
 	float: left;
 	text-align: center;
-	padding-left: 30px;
+	padding-left: 15px;
 }
 
 .x-sidebar .userInfo .img-box img {
@@ -2264,6 +2266,7 @@ section .notice li>a, div .recruit-box-search li>a {
 
 #sideContent>.contentElement>a {
 	color: #222222;
+	font-size: 15px;
 }
 
 .x-sidebar .x-sidebar-footer {
@@ -2273,9 +2276,10 @@ section .notice li>a, div .recruit-box-search li>a {
 
 /* footer */
 footer {
-	letter-spacing: 2.4px;
+	letter-spacing: 0.8;
 	padding: 30px 0 39px;
 	background: #3c4551;
+	
 }
 
 footer .container {
@@ -3183,7 +3187,7 @@ section.join .button-box {
 
 /* On mouse-over, add a grey background color */
 .labelRadio:hover input ~ .checkmark {
-	background-color: #00b90f4f;
+	background-color: transparent;
 }
 
 /* When the checkbox is checked, add a blue background */
@@ -3958,6 +3962,19 @@ span#jopInfo-searchCount {
 	margin-bottom: 0;
 }
 
+.form .article .input-block.checkArea input[type="checkbox"] {
+	display:none !important;
+}
+
+.checkArea .labelCheck {
+	padding: 7px 19px !important;
+	margin-bottom: 0  !important;
+	border: 1px solid #97d9bb !important;
+	margin-right:8px !important;
+	font-size:14px !important;
+	display:inline-block !important;
+}
+
 .article .divider {
 	padding: 0;
 	background: transparent;
@@ -4249,7 +4266,7 @@ div .recruit-apply .apply-form {
 .form .labelCheck {
 	border: none;
 	position: relative;
-	padding: 15px 0 0 !important;
+	padding: 15px 0 0;
 	display: block;
 	clear: both;
 }
@@ -5188,3 +5205,6 @@ div.separateBtn button {
 #pagination .next, #pagination .last, #pagination .prev {
      width:43px;
 } 
+.mb-20 {
+	margin-bottom:20px !important;
+}
