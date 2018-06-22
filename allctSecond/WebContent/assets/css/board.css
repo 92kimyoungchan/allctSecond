@@ -225,8 +225,10 @@ span#jopInfo-searchCount {
 }
 
 .jobInfo-table thead > tr {
-   height: 40px;
+    height: 45px;
     border-bottom: 1px solid #ddd;
+    border-top: 2px solid #3caa69;
+    background-color: rgba(60,170,105,0.10);
 }
 
 .jobInfo-table thead > tr > th {
@@ -270,11 +272,13 @@ span#jopInfo-searchCount {
 
 .jobInfo-table > tbody > tr > td > p {
     font-size: 13px;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 20px;
     margin: 5px 0 10px 0;
     word-spacing: 1px;
+    color: rgba(80,80,80,0.8);
 }
+
 
 .jobInfo-table > tbody > tr > td > p:first-of-type {
     margin-top: 5px;
@@ -288,6 +292,7 @@ span#jopInfo-searchCount {
 
 .jobInfo-table > tbody > tr > td > p:last-of-type {
     color: #32b76e;
+    font-weight: 600;
 }
 
 
@@ -298,15 +303,16 @@ span#jopInfo-searchCount {
 }
 
 .jobInfo-table-body > td > strong {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .jopInfo-content-sal {
     text-align: center;
-    font-size: 14px;
-	font-weight: bold;
+    font-size: 13px;
+	font-weight: 500;
 	margin-bottom: 4px;
     line-height: 20px;
+    color: rgba(80,80,80,0.8);
 }
 
 .jopInfo-content-pay {
@@ -336,6 +342,8 @@ div.subP-clinical > h2 {
     margin: 0 0 65px 15px;
     padding: 0;
     letter-spacing: 2px;
+    font-size: 24px;
+    color: rgba(80,80,80,0.8);
 }
 
 .clinical_content_box .info-article {
@@ -361,10 +369,13 @@ div.clinical_content_box {
 }
 
 div.clinical_content_head h2 {
-	color: #32b76e;
-	padding: 0;
-	letter-spacing: 2px;
+    color: #3caa69;
+    padding: 0;
+    letter-spacing: 2px;
     margin-bottom: 10px;
+    word-spacing: 0;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .clinical_content_box .info-article span{
@@ -386,11 +397,11 @@ div.clinical_content_head h2 {
 }
 
 div.clinical_content_box p {
-	font-weight: bold;
-    line-height: 33px;
-    font-size: 15.5px;
-    word-spacing: 1.5px;
-    color: black;
+    font-weight: normal;
+    line-height: 32px;
+    font-size: 16px;
+    word-spacing: 0;
+    color: rgba(80,80,80,0.8);
 }
 
 #sideContent-clinical>.contentElement {
