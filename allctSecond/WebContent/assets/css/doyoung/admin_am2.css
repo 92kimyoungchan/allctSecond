@@ -93,8 +93,12 @@ div#am-h-htn-form {
 	float: right;
 }
 
+.labelCheck input:checked ~ .checkmark {
+    background-color: #ffffff;
+}
+
 button.btn.btn-search {
-	background-color: #2ab848;
+	background-color: #3caa69;
 	height: 41px;
 	width: 40px;
 	color: white;
@@ -958,10 +962,13 @@ th.admin-agree-check:after {
 }
 
 .labelCheck .checkmark:after {
-    left: 6px;
+  	left: 6px;
     top: 3px;
-    width: 7px;  
+    width: 7px;
+    border: solid #3caa69;
+    border-width: 0 4px 4px 0;
     height: 10px;
+    transform: rotate(45deg);
 }
 
 .checkmark {
