@@ -148,14 +148,14 @@
 										<h2>BMI지수</h2>
 									</div>
 									<div class="range-info">
-										<div class="checkarea">
+										<div class="checkareaJ">
 											<p>
 												<span>최소: </span><input type="text" name="">
 											</p>
 											<label class="labelCheck"> <input type="checkbox"
 												id="" name="ageL" /><span class="checkmark"></span><span>상관없음</span></label>
 										</div>
-										<div class="checkarea">
+										<div class="checkareaJ">
 											<p>
 												<span>최대: </span><input type="text" name="ageF">
 											</p>
@@ -169,14 +169,14 @@
 										<h2>나이</h2>
 									</div>
 									<div class="range-info">
-										<div class="checkarea">
+										<div class="checkareaJ">
 											<p>
 												<span>최소: </span><input type="text" name="">
 											</p>
 											<label class="labelCheck"> <input type="checkbox"
 												id="" name="ageL" /><span class="checkmark"></span><span>상관없음</span></label>
 										</div>
-										<div class="checkarea">
+										<div class="checkareaJ">
 											<p>
 												<span>최대: </span><input type="text" name="ageF">
 											</p>
@@ -210,9 +210,8 @@
 
 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
-	<script defer src="../assets/js/fontawesome-all.js"></script>
-	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script type="text/javascript" src="../assets/js/datepicker.js"></script>
+	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script type="text/javascript" src="../assets/js/select.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../assets/js/recruit_input.js"></script>
