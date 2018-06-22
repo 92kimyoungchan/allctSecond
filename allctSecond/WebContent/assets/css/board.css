@@ -225,8 +225,10 @@ span#jopInfo-searchCount {
 }
 
 .jobInfo-table thead > tr {
-   height: 40px;
+    height: 45px;
     border-bottom: 1px solid #ddd;
+    border-top: 2px solid #3caa69;
+    background-color: rgba(60,170,105,0.10);
 }
 
 .jobInfo-table thead > tr > th {
@@ -270,11 +272,13 @@ span#jopInfo-searchCount {
 
 .jobInfo-table > tbody > tr > td > p {
     font-size: 13px;
-    font-weight: bold;
+    font-weight: 500;
     line-height: 20px;
     margin: 5px 0 10px 0;
     word-spacing: 1px;
+    color: rgba(80,80,80,0.8);
 }
+
 
 .jobInfo-table > tbody > tr > td > p:first-of-type {
     margin-top: 5px;
@@ -288,6 +292,7 @@ span#jopInfo-searchCount {
 
 .jobInfo-table > tbody > tr > td > p:last-of-type {
     color: #32b76e;
+    font-weight: 600;
 }
 
 
@@ -298,15 +303,16 @@ span#jopInfo-searchCount {
 }
 
 .jobInfo-table-body > td > strong {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .jopInfo-content-sal {
     text-align: center;
-    font-size: 14px;
-	font-weight: bold;
+    font-size: 13px;
+	font-weight: 500;
 	margin-bottom: 4px;
     line-height: 20px;
+    color: rgba(80,80,80,0.8);
 }
 
 .jopInfo-content-pay {
@@ -317,6 +323,10 @@ span#jopInfo-searchCount {
 
 .jopInfo-content-pay span:first-of-type {
     color: #32b76e;
+}
+
+span.jopInfo-mobile-date {
+	display: none;
 }
 
 
@@ -335,25 +345,18 @@ div.subP-clinical {
 div.subP-clinical > h2 {
     margin: 0 0 65px 15px;
     padding: 0;
-    letter-spacing: 2px;
+    font-size: 24px;
+    color: rgba(80,80,80,0.8);
 }
 
-.clinical_content_box .info-article {
-    width: 90px;
-    height: 90px;
-	background: #ef8b9c;
-	border-radius: 50%;
-	display: table;
-    margin: 0px 65px 60px 18px;
-    padding-left: 16px;
+div.subP-clinical > .clinical_content_box > .support_iconBox {
 	float: left;
-}
-.clinical_content_box:nth-child(5) > div.info-article {
-	margin-bottom: 150px;
+    margin: 0px 55px 60px 17px;
 }
 
-.clinical_content_box:nth-child(8) > div.info-article {
-	margin-bottom: 82px;
+div.subP-clinical > .clinical_content_box > .support_iconBox img {
+	width: 100%;
+    height: auto;
 }
 
 div.clinical_content_box {
@@ -361,20 +364,16 @@ div.clinical_content_box {
 }
 
 div.clinical_content_head h2 {
-	color: #32b76e;
-	padding: 0;
-	letter-spacing: 2px;
+    color: #3caa69;
+    padding: 0;
     margin-bottom: 10px;
-}
-
-.clinical_content_box .info-article span{
-	display: table-cell;
-    color: green;
+    word-spacing: 0;
+    font-size: 18px;
     font-weight: bold;
-    vertical-align: middle;
 }
 
 .clinical_content {
+	display: table;
 	
 }
 .clinical_content_head {
@@ -386,11 +385,12 @@ div.clinical_content_head h2 {
 }
 
 div.clinical_content_box p {
-	font-weight: bold;
-    line-height: 33px;
-    font-size: 15.5px;
-    word-spacing: 1.5px;
-    color: black;
+    font-weight: normal;
+    line-height: 32px;
+    font-size: 16px;
+    word-spacing: 0;
+    color: rgba(80,80,80,0.8);
+    display: table-cell;
 }
 
 #sideContent-clinical>.contentElement {
@@ -428,12 +428,11 @@ div.clinical_mobile_imgBox > img:first-of-type {
 div.clinical_info_content_box h2 {
     margin: 25px 0 12px 0;
     padding: 0;
-    letter-spacing: 2.5;
     word-spacing: -2.2px;
 }
 
 div.clinical_info_content_box p:first-of-type {
-	font-weight: bold;
+	font-weight: 500;
     line-height: 33px;
     font-size: 16px;
     word-spacing: 4px;
@@ -441,7 +440,7 @@ div.clinical_info_content_box p:first-of-type {
 }
 
 div.clinical_info_content_box p:last-of-type {
-	font-weight: bold;
+	font-weight: 500;
     line-height: 33px;
     font-size: 16px;
     word-spacing: 4px;
@@ -468,7 +467,6 @@ div.clinical_bio_justice {
 
 div.subP-clinical-allct h2 {
     margin: 35px 0;
-	letter-spacing: 2px;
 	padding: 0;
 }
 
@@ -480,15 +478,9 @@ div.clinical_content_allct p {
 
 div.subP-clinical-qualify h2 {
     margin-top: 40px;
-	letter-spacing: 2px;
 	padding: 0;
 }
 
-div.subP-clinical-qualify h2 {
-    margin: 35px 0;
-	letter-spacing: 2px;
-	padding: 0;
-}
 
 div.clinical_qualify_imgBox .clinical_imgBox > img {
     width: 100%;
@@ -498,6 +490,10 @@ div.clinical_qualify_imgBox .clinical_imgBox > img {
 div.clinical_content_qualify p {
     margin: 25px 0 33px 0;
     color: black;
+}
+
+div.clinical_qualify_imgBox2 {
+	display: none;
 }
 
 /* board_clinical_status.jsp 임상시험의 현황 페이지 */
