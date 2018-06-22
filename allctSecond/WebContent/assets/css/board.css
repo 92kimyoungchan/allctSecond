@@ -346,22 +346,18 @@ div.subP-clinical > h2 {
     color: rgba(80,80,80,0.8);
 }
 
-.clinical_content_box .info-article {
-    width: 90px;
-    height: 90px;
-	background: #ef8b9c;
-	border-radius: 50%;
-	display: table;
-    margin: 0px 65px 60px 18px;
-    padding-left: 16px;
+div.subP-clinical > .clinical_content_box > .support_iconBox {
 	float: left;
-}
-.clinical_content_box:nth-child(5) > div.info-article {
-	margin-bottom: 150px;
+    margin: 0px 55px 60px 17px;
 }
 
-.clinical_content_box:nth-child(8) > div.info-article {
-	margin-bottom: 82px;
+div.subP-clinical > .clinical_content_box > .support_iconBox img {
+	width: 100%;
+    height: auto;
+}
+
+div.subP-clinical > .clinical_content_box:nth-of-type(4) > div.support_iconBox {
+	margin-bottom: 170px;
 }
 
 div.clinical_content_box {
@@ -376,13 +372,6 @@ div.clinical_content_head h2 {
     word-spacing: 0;
     font-size: 18px;
     font-weight: bold;
-}
-
-.clinical_content_box .info-article span{
-	display: table-cell;
-    color: green;
-    font-weight: bold;
-    vertical-align: middle;
 }
 
 .clinical_content {
