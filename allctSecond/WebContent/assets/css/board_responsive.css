@@ -59,6 +59,35 @@
 		margin-left: 20px !important;
 		padding-top: 10px !important;
 	}
+	
+	div.clinical_allct_mobile_imgBox {
+		display: block !important;
+	}
+	
+	div.clinical_allct_imgBox {
+		display: none;
+	}
+	
+	div.clinical_allct_mobile_imgBox > img {
+		width: 90%;
+    	height: auto;
+    	margin-left: 4.5%;
+	}
+	
+	div.clinical_qualify_mobileImg {
+		display: block;
+	}
+	
+	div.clinical_qualify_imgBox {
+		display: none;
+	}
+	
+	div.clinical_qualify_mobileImg > img {
+		width: 90%;
+   		margin-left: 5.5%;
+	}
+	
+	
 }
 
 @media screen and (max-width:580px) {
@@ -256,6 +285,16 @@
 	}
 	.jopInfo-mobile-date {
 		display: block !important;
+	}
+	
+	/* 고객센터 페이지  */
+	.subPage-notice > h2{
+		text-align: center;
+		float: none;
+	}
+	
+	div.clinical_allct_imgBox .clinical_imgBox > img {
+		height: 24%;
 	}
 	
 }

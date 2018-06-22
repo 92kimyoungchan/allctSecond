@@ -38,9 +38,14 @@
 						<h2>임상시험으로 긍정적이고 희망찬 미래를 만들어가는 Allct</h2>
 					</div>
 					
+					<div class="clinical_allct_imgBox">
 					<div class="clinical_imgBox">
-						<img src="../assets/images/clinical_info1.png">
+						<img src="../assets/images/clinical_allct.png">
 					</div>
+					</div>
+					<div class="clinical_allct_mobile_imgBox">
+						<img src="../assets/images/clinical_allct_mobile.png">
+						</div>
 					<div class="clinical_info_content_box">
 						<div class="clinical_content_allct">
 							<p>
@@ -54,7 +59,7 @@
 								도움을 주시겠습니까?
 							</p>
 						</div>
-
+						
 						
 					</div>
 				</div>
