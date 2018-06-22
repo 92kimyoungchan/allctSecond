@@ -1763,7 +1763,7 @@ div .recruit-box-search ul:first-child, div .recruit-apply ul:first-child
 .recruit-create .article p:not(.multiple) {
 	float: left;
 	font-size: 18px;
-	width: calc(100% - 180px);
+	width: calc(100% - 140px);
 	margin-bottom: 0;
 }
 
@@ -1821,6 +1821,7 @@ div .recruit-box-search ul:first-child, div .recruit-apply ul:first-child
 	margin: 0 5px;
 	padding: 0;
 	text-align: center;
+	min-width: auto;
 }
 
 .recruit-create input[type=text].phone:first-of-type, .form input[type=text].phone:first-of-type
@@ -3152,12 +3153,12 @@ section.join .button-box {
 
 /* On mouse-over, add a grey background color */
 .labelCheck:hover input ~ .checkmark {
-	background-color: #47bfb4;
+	background-color: #3caa69;
 }
 
 /* When the checkbox is checked, add a blue background */
 .labelCheck  input:checked ~ .checkmark {
-	background-color: #3ae660;
+	background-color: white;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
@@ -3178,7 +3179,7 @@ section.join .button-box {
 	top: 5px;
 	width: 8px;
 	height: 12px;
-	border: solid white;
+	border: 1px solid #3caa69;
 	border-width: 0 4px 4px 0;
 	-webkit-transform: rotate(45deg);
 	-ms-transform: rotate(45deg);
@@ -3468,7 +3469,7 @@ a.scrollTop>i {
 .subP_admin {
 	float: left;
 	width: calc(100% - 190px);
-	min-height: 805px;
+	min-height: 893px;
 	background: #eaeaea;
 }
 
@@ -3828,6 +3829,7 @@ span#jopInfo-searchCount {
 	border: none;
 	border-bottom: 1px solid #e0e0e0;
 	font-size: 16px;
+	padding: 0px 6px;
 }
 
 .range-article .article-set .range-info input:first-of-type {
@@ -3850,7 +3852,7 @@ span#jopInfo-searchCount {
 	
 }
 
-.range-article .article-set .range-info .checkarea {
+.range-article .article-set .range-info .checkareaJ {
 	float: left;
 	width: 48%;
 }
@@ -4184,7 +4186,7 @@ div .recruit-apply .apply-form {
 	background-repeat: no-repeat;
 	background-size: contain;
 	padding-left: 12px;
-	width: 203px;
+	width: 192px;
 }
 
 .article .calendar-set span:nth-of-type(2) {
@@ -4193,13 +4195,14 @@ div .recruit-apply .apply-form {
 
 .article .calendar-set span {
 	margin: 0;
-	padding: 2px 12px;
+	padding: 6px 12px;
 	float: left;
 	height: 31px;
 }
 
 .recruit-create .article .dateContainer input:not(.separate) {
 	width: 70px;
+	min-width: auto;
 }
 
 .article .calendar-time {
@@ -4842,7 +4845,8 @@ button.red {
 	background: red !important;
 }
 button.allct {
-	background: #3caa69;
+	background: #e2f3ee;
+	color: #222;
 }
 
 .getInfoWrapper {
@@ -5167,6 +5171,7 @@ div.separateBtn button {
 
 .mobileButton button {
 	width:100%;
+	border: 1px solid #a7a7a7;
 }
 
 .w100 {

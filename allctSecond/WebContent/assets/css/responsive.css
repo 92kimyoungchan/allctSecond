@@ -616,9 +616,12 @@ section.advertisement {
 		padding: 5%;
 	}
 	
+	.tab-hashtag {
+		border-right:1px solid #a7a7a7;
+		border-left: 1px solid #a7a7a7;
+	}
 	.tab-hashtag ul {
 		width:calc(100% - 160px);
-		border-right:1px solid #a7a7a7;
 		border-bottom:0;
 	}
 	
