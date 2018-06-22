@@ -9,6 +9,7 @@
 }
 
 @media screen and (max-width:424px) {
+	
 
 }
 
@@ -31,6 +32,10 @@
 	div.clinical_info_content_box p:last-of-type {
 	    margin: 35px 0;
 	}
+	
+	div.clinical_status_details table {
+		width: 70%;
+	}
 }
 
 @media screen and (max-width:580px) {
@@ -38,6 +43,29 @@
 	    width: 90%;
     	margin-left: 5%;
 	}
+	
+	div.subP-academy {
+	    width: 90% !important;
+    	margin-right: 4.5%;
+	}
+	
+	div.clinical_status_details > table {
+		width: 85%;
+    	margin-left: 7.5%;
+	}
+	
+	div.clinical_status_details > table > tbody > tr:nth-child(3) {
+		display: none;
+	}
+	
+	div.clinical_status_details > table > tbody > tr > td:nth-child(1) {
+		font-weight: bold;
+	}
+	
+	div.status_details_btnBox button {
+		padding: 10px 49px;
+	}
+	
 }
 
 
@@ -80,6 +108,10 @@
 		display: none;
 	}
 	
+	div.clinical_status_details > table > tbody > tr:nth-of-type(5) > td:nth-child(1) {
+		vertical-align: top;
+	}
+	
 }
 
 
@@ -88,6 +120,10 @@
 @media screen and (max-width:991px) {
 	
 	/* 구직정보, 학술정보 페이지 */
+	
+	div.subP-academy {
+		width: 100%;
+	}
 	
 	.subP-academy h2 {
 		float: none;
