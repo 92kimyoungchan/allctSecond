@@ -22,7 +22,7 @@ super 페이지 span
 <!-- 김도영 공고관리 (Announcement Management)  -->
 
 </head>
-<body>
+<body class ="admin-body">
 	<%@ include file="../include/admin_header-widget.jsp"%>
 	<div class="container ab-container">
 		<div class="row-noneflex">

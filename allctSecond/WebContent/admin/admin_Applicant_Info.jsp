@@ -15,7 +15,7 @@
 
   
 </head>
-<body>
+<body class ="admin-body">
 	<%@ include file="../include/admin_header-widget.jsp"%>
 	<div class="container ab-container">
 		<div class="row-noneflex">
@@ -135,7 +135,7 @@
 
 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+ 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../assets/js/pagination.min.js"></script>
 	<script type="text/javascript" src="../assets/js/admin-check.js"></script>
 	<script defer src="../assets/js/fontawesome-all.js"></script>

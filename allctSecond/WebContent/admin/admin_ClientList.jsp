@@ -14,7 +14,7 @@
 <!-- 김도영 의뢰자 회원관리  -->  
 
 </head>
-<body>
+<body class ="admin-body">
 	<%@ include file="../include/admin_header-widget.jsp"%>
 	<div class="container ab-container">
 		<div class="row-noneflex">
