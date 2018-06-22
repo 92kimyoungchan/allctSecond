@@ -30,14 +30,12 @@
 								<div class="am-h-title">
 									<h1>블랙리스트</h1> 
 								</div>
-
-
 							</div>
 
 							<div class="blackList-title">
 
 								<div class="am-ab-title">
-									<label class ="blackList-count">총 <span id ="">20</span>명</label>
+									<label>총 <span id ="">20</span>명</label>
 								</div>
 
 								<div class="am-ab-title-right">
@@ -71,6 +69,8 @@
 										</button>
 									</div>
 								</div>
+								<div class ="admin-clear"></div>
+								
 								<div class="am-ab-table-wrap">
 									<table class="ab-table">
 										<thead>
@@ -327,8 +327,9 @@
 
 
 
-								<ul id="pagination-demo" class="pagination-sm">
-								</ul>  
+							<div class ="admin-pagination-wrap">
+<ul id="pagination-demo" class="pagination-sm"> </ul>
+</div>
 							</div>
 						</div>
 					</div>
@@ -340,12 +341,6 @@
 
 
 
-
-	<footer class="admin_footer">
-		<div class="container">
-			<div class="row-noneflex"></div>
-		</div>
-	</footer>
 
 	<%@ include file="../include/footer.jsp"%>
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
