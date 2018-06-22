@@ -1,7 +1,7 @@
 $( document ).ready( function() {
 
 	var theoryW = parseInt($('.ul-theory').css('width').replace("px", ""));
-	var calibrate = parseInt(21.5); 
+	var calibrate = parseInt(21.5);
 	var uberMenu = theoryW + calibrate+"px";
 	var widthroot =$(window).width();
 	var heightroot =$(window).height();
@@ -9,7 +9,7 @@ $( document ).ready( function() {
 	$(".uber-menu").css({
 		width : uberMenu
 	});
-
+	
 	var setNav = parseInt($('.container').css('width').replace("px",""));
 	var calibrate2 = parseInt(16);
 	var uberDrop = setNav + "px";

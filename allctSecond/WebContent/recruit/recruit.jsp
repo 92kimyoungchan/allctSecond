@@ -205,7 +205,7 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr id="bookmark1">
+								<tr id="bookmark1" class="dayOver">
 									<td class="text-center">
 										<div class="firstBox">
 											<i class="far fa-star"></i>
@@ -612,7 +612,7 @@
 					</div>
 					
 
-					<ul id="pagination-demo" class="pagination-sm"></ul>
+					<ul id="pagination" class="pagination-sm"></ul>
 
 
 				</div>

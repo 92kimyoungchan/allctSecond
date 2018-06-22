@@ -181,6 +181,7 @@ div.recruit-apply ul>li>a.active {
 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="../assets/js/select_apply.js"></script>
+	<script type="text/javascript" src="../assets/js/structure.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 
 

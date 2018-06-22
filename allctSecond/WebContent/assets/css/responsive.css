@@ -107,7 +107,7 @@
 		clear:both;
 		margin-top:12px;
 		margin-left:0 !important;
-		width:112px !important;
+		width:125px !important;
 	}
 	.mglIn15 .select-styled:after {
 		top:24px !important;
@@ -116,6 +116,12 @@
 	.mglIn15 .select-styled:active:after {
 		top:18px !important;
 	}
+	.form input.emailM {
+		width:125px !important;
+	}
+		.mglIn15 .select-options {
+			margin:0 !important;
+		}
 	
 	
 	
@@ -201,10 +207,7 @@
 		.form input.phoneForm {
 			width:68px;
 		}
-		.form .article .input-block>span.etcSpan { 
-			margin:10px 0 0 0;
 		
-		}
 		.form .article.phone {
 			padding:0;
 		}
@@ -559,10 +562,17 @@ div.subP {
 	display:none;
 	}
 	
+	.table tbody>tr>td .secondBox .clear .mobileHead {
+	display:block;
+	}
 	
 	footer div.content-left {
 		width: 100%;
 		float: left;
+	}
+	
+	#pagination {
+		clear:both;
 	}
 	footer div.content-right {
 		width: 100%;
@@ -597,9 +607,6 @@ div.subP {
 			display:block;
 	}
 
-	
-	
-	
 	.recruit-header button:first-child {
 		margin-right:10px;
 		padding:6px 12px;
@@ -670,11 +677,11 @@ div.subP {
 	}
 	
 	.form input.emailM {
-		width:130px;
+		width: 124px;
 	}
 	
 	.mglIn15 .select-styled {
-		width:100px;
+		width: 120px;
 		margin-left:8px;
 	}
 	
@@ -685,6 +692,19 @@ div.subP {
 	.small_navigation {
 		display:none;
 	}
+	
+	.mglIn15 .select-options {
+		margin-left: 8px;
+	}
+	
+	.form .article .input-block>span.etcSpan { 
+			margin:10px 0 0 0;
+			clear:both;
+			display:block;
+		
+		}
+		
+	
 	
 	
 }
@@ -749,7 +769,7 @@ div.subP {
 		padding:6px 12px;
 		border: 1px solid #ded8d8;
 		background: transparent;
-		margin-bottom: 20px;
+		margin: 15 0 30px;
 	}
 	
 	.recruit-box .mobileBtn i {
