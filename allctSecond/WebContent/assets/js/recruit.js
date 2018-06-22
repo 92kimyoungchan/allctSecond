@@ -57,7 +57,7 @@ $('.labelCheck').on('click',function() {
 		
 	});
 	
-	$('#pagination-demo').twbsPagination({
+	$('#pagination').twbsPagination({
         totalPages: 11,
         visiblePages: 11,
         first:false,

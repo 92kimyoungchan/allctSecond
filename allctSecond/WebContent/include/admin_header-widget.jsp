@@ -6,8 +6,8 @@
 		<div class="admin-top-area">
 
 			<div class="brand-logo">
-			<a href="/RealALL/index.jsp">
-				<img src="/RealALL/assets/images/allct-logo.png"> </a>
+			<a href="/allctSecond/index.jsp">
+				<img src="/allctSecond/assets/images/allct-logo.png"> </a>
 			</div>
 			<a id="mobilemenu"><i class="fas fa-align-justify"></i></a>
 			<div class="admin-welcome">

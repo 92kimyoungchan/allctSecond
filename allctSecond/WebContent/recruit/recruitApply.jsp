@@ -6,12 +6,11 @@
 <meta content="width=device-width, initial-scale=1" name="viewport">
 <title>ALLCT2</title>
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
-<link rel="stylesheet" href="../assets/css/owl.carousel.css">
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
-<link rel="stylesheet"
+<!-- <link rel="stylesheet"
 	href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-
+ -->
 <style>
 div.recruit-apply ul>li>a.active {
 	color:inherit !important;
@@ -50,7 +49,7 @@ div.recruit-apply ul>li>a.active {
 							<div class="article">
 								<label>이름</label>
 								<div class="input-block">
-									<input type="text" readonly name="" class="nameInput" value="브론즈스윗트">
+									<span class="spanButton">스윗트</span>
 										<p class="hidden"></p>
 								</div>
 							</div>
@@ -73,13 +72,13 @@ div.recruit-apply ul>li>a.active {
 
 								</div>
 							</div>
-							<div class="article">
+							<div class="article phone">
 								<label>휴대전화</label>
 								<div class="input-block">
 
 									<input class="phoneForm" type="text" value="010" name="" readonly><span>-</span><input
 										class="phoneForm" type="text" value="3941" name="" readonly><span>-</span><input
-										class="phoneForm" value="2351" type="text" name="" readonly> <span
+										class="phoneForm" value="2351" type="text" name="" readonly> <span class="etcSpan"
 										style="padding: 0.5 0; line-height: 1.2;">휴대전화 변경은 회원수정<br>메뉴에서
 										변경할 수 있습니다.
 
@@ -91,8 +90,8 @@ div.recruit-apply ul>li>a.active {
 							<div class="article">
 								<label>이메일</label>
 								<div class="input-block mglIn15">
-									<input type="text" name=""><span>@</span><input
-										type="text" name=""><select id="selectEmail">
+									<input type="text" name="" class="emailM"><span>@</span><input
+										type="text" name="" class="emailM"><select id="selectEmail">
 										<option value="">직접입력</option>
 										<option value="naver.com" selected>naver.com</option>
 										<option value="hanmail.net">hanmail.net</option>
@@ -152,7 +151,7 @@ div.recruit-apply ul>li>a.active {
 							<div class="article">
 								<label>체질량지수<br>(자동 계산)</label>
 								<div class="input-block">
-									<input type="text" name="" readonly class="caculator"><span></span>
+									<input type="text" name="" readonly class="caculator preBorder"><span></span>
 								</div>
 							</div>
 							<div class="button-box">
@@ -181,10 +180,8 @@ div.recruit-apply ul>li>a.active {
 
 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
-	<script defer src="../assets/js/fontawesome-all.js"></script>
-	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<script type="text/javascript" src="../assets/js/datepicker.js"></script>
 	<script type="text/javascript" src="../assets/js/select_apply.js"></script>
+	<script type="text/javascript" src="../assets/js/structure.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 
 

@@ -25,10 +25,10 @@
 				<div class="subP-clinical-status">
 					<div class="subPage b-bottom">
 						<h2>임상시험의 현황</h2>
-						<!-- <div class="academy-mobile-header">
+						<div class="academy-mobile-header">
 						<p>Allct는 임상시험을 통해 새로운 비전과<br>
 						건강한 미래를 제안합니다.</p>
-						</div> -->
+						</div>
 						<div class="small_navigation">
 							<a><i class="fas fa-home"></i>홈</a><span>><a href="">임상시험이란?</a></span><span>><a
 								href="">임상시험의 현황</a></span>
@@ -79,8 +79,6 @@
 								<tbody>
 									<tr class="jobInfo-table-body">
 										<td>592</td>
-										<!-- <td class="jopInfo-mobile-date">2018/4/15~2018/4/20
-										</td> -->
 										<td>
 											식약처
 										</td>

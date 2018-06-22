@@ -35,14 +35,14 @@
 						<h2>3형 [사포그릴테이트(공복)]</h2>
 						<div class="detail-header">
 							<p>
-								<label>작성자:</label><span>베스티안부천병원</span><label>작성일:</label><span>2018.05.21</span>
+								<label>작성자 :</label><span>베스티안부천병원</span><label>작성일:</label><span>2018.05.21</span>
 							</p>
 							<p>
 								<label>조회수</label><span>52</span><label>조회수</label><span>52</span><label>조회수</label><span>52</span>
 							</p>
 							<div class="divider"></div>
 							<p class="attachment-p">
-								<strong>첨부:</strong><span>사포그릴레이트란?.pdf</span><span>사포그릴레이트란?.pdf</span><span>사포그릴레이트란2?.pdf</span>
+								<strong>첨부 :</strong><span>사포그릴레이트란?.pdf</span><span>사포그릴레이트란?.pdf</span><span>사포그릴레이트란2?.pdf</span>
 							</p>
 						</div>
 						<div class="infoArea">
@@ -52,10 +52,10 @@
 								</div>
 								<div class="infoContent">
 									<p>
-										<label>총 모집인원:</label><span>30명</span>
+										<label>총 모집인원 :</label><span>30명</span>
 									</p>
 									<p>
-										<label>스크리닝 기간:</label>시작 <span>2018-01-31</span> ~ 종료 <span>2018-03-22</span>
+										<label>스크리닝 :</label>시작 <span class="dateSpan">2018-01-31</span> ~ 종료 <span class="dateSpan">2018-03-22</span>
 									</p>
 									<p>
 										<label class="last">사례금:</label><span>216 만원 (세금
@@ -69,22 +69,22 @@
 								</div>
 								<div class="infoContent">
 									<p>
-										<label>지역:</label><span>서울</span>
+										<label>지역 :</label><span>서울</span>
 									</p>
 									<p>
-										<label>성별:</label><span>남성</span>
+										<label>성별 :</label><span>남성</span>
 									</p>
 									<p>
-										<label>대상:</label><span>건강인</span>
+										<label>대상 :</label><span>건강인</span>
 									</p>
 									<p>
-										<label>시험종류:</label><span>216 만원 (세금 6.6%포함)</span>
+										<label>시험종류 :</label><span>216 만원 (세금 6.6%포함)</span>
 									</p>
 									<p>
-										<label>BMI 지수:</label><span>22.4</span>
+										<label>BMI 지수 :</label><span>22.4</span>
 									</p>
 									<p>
-										<label class="last">나이:</label><span>30세</span>
+										<label class="last">나이 :</label><span>30세</span>
 									</p>
 								</div>
 							</div>
@@ -136,16 +136,16 @@
 
 						</div>
 
-						<div class="button-box">
-							<button>
-								관심공고추가<i class="fas fa-star"></i>
-							</button>
-							<button>지원하기</button>
-						</div>
+						
 
+
+
+							
+							
+							
 						<div class="businessCard">
 							<div class="companyImg">
-								<img src="../assets/images/allOf.png">
+								
 							</div>
 							<div class="companyInfo">
 								<p>
@@ -157,18 +157,22 @@
 								<p>
 									<label>연락처</label><span>02-0303-0505</span>
 								</p>
+								
 								<p>
-									<label>주소</label><span>경기도 부천시 소사구 심곡로 10번길 68</span>
-								</p>
-								<p class="last">
 									<label>이메일</label><span>kimleepark@bestian.kr</span>
 								</p>
 								<p class="last">
-									<label>대표번호</label><span>1588-7575</span>
+									<label>주소</label><span>경기도 부천시 소사구 심곡로 10번길 68</span>
 								</p>
+								
 							</div>
 						</div>
-
+<div class="button-box">
+							<button>
+								관심공고추가<i class="fas fa-star"></i>
+							</button>
+							<button>지원하기</button>
+						</div>
 
 
 						<div class="author-info"></div>
@@ -189,10 +193,6 @@
 
 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="../assets/js/pagination.min.js"></script>
-	<script defer src="../assets/js/fontawesome-all.js"></script>
-	<script type="text/javascript" src="../assets/js/recruit.js"></script>
-	<script type="text/javascript" src="../assets/js/select.js"></script>
 	<script type="text/javascript" src="../assets/js/structure.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 

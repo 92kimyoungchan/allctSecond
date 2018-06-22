@@ -84,6 +84,49 @@
 		width:140px;
 	}
 	
+	.table tbody>tr>td .secondBox .clear h6 {
+		max-width:150px;
+	}
+	
+	.table tbody>tr>td .secondBox .clear .mobileHead span {
+		font-size:10px;
+		margin-bottom:3px;
+	}
+	
+	.clear ul>li:nth-of-type(1):after, .clear ul>li:nth-of-type(2):after {
+		content:"|";
+		margin-left:"4px";
+	}
+	.table tbody>tr>td .secondBox .clear h6 {
+		margin-bottom:3px;
+	}
+	.clear ul>li>span {
+		font-size:10px;
+	}
+	.mglIn15 .select-styled {
+		clear:both;
+		margin-top:12px;
+		margin-left:0 !important;
+		width:125px !important;
+	}
+	.mglIn15 .select-styled:after {
+		top:24px !important;
+	}
+	
+	.mglIn15 .select-styled:active:after {
+		top:18px !important;
+	}
+	.form input.emailM {
+		width:125px !important;
+	}
+		.mglIn15 .select-options {
+			margin:0 !important;
+		}
+	
+	
+	
+	
+	
 }
 @media screen and (min-width:425px) {
 	
@@ -129,6 +172,9 @@
 		font-size:12px;
 	}
 	
+	.table tbody>tr>td .secondBox .clear h6 {
+		max-width:200px;
+	}
 	
 	
 	
@@ -146,6 +192,31 @@
 	section.incarousel {
 		display: none;
 	}
+}
+
+@media screen and (max-width:504px) {
+		.form .article label:not(.labelCheck) {
+			min-width:80px;
+		}
+		.heightAuto .select-styled {
+			width:68px;
+		}
+		.form .article .input-block {
+			width:calc(100% - 80px);
+		}
+		.form input.phoneForm {
+			width:68px;
+		}
+		
+		.form .article.phone {
+			padding:0;
+		}
+		.recruit-apply .menu-header {
+			padding:20px 30px 20px 0;
+		}
+		.input-block.marginNo .labelRadio {
+			width:68px !important;
+		}
 }
 
 @media screen and (max-width:575px) {
@@ -266,6 +337,12 @@
 	
 	.advertisement .adsection.num2 {
 		padding: 0 3.75%;
+	}
+	.mglIn15 .select-styled {
+		width:120px;
+	}
+	.form input.emailM {
+		width:160px;
 	}
 }
 
@@ -485,10 +562,17 @@ div.subP {
 	display:none;
 	}
 	
+	.table tbody>tr>td .secondBox .clear .mobileHead {
+	display:block;
+	}
 	
 	footer div.content-left {
 		width: 100%;
 		float: left;
+	}
+	
+	#pagination {
+		clear:both;
 	}
 	footer div.content-right {
 		width: 100%;
@@ -516,17 +600,13 @@ div.subP {
 	.tab-hashtag ul {
 		width:calc(100% - 160px);
 		border-right:1px solid #a7a7a7;
+		border-bottom:0;
 	}
 	
 	.tab-hashtagTab {
 			display:block;
 	}
 
-	.table tbody>tr>td .secondBox .clear h6 {
-		max-width:170px;
-	}
-	
-	
 	.recruit-header button:first-child {
 		margin-right:10px;
 		padding:6px 12px;
@@ -570,9 +650,9 @@ div.subP {
 	}
 .recruit-box .table tbody>tr>td.mobileTd {
 		display:table-cell;
-		min-width:70px;
+		min-width:60px;
 		vertical-align:middle;
-		text-align:unset iImportant;
+		text-align:unset !Important;
 		
 	}
 	.recruit-box .table thead>tr>th.mobileTh {
@@ -585,7 +665,46 @@ div.subP {
 	.recruit-box .table thead>tr>th:first-of-type {
 	display:none;
 	}
+	
+	.table tbody>tr>td .secondBox .clear .mobileHead span {
+		display:block;
+	}
 
+	.form .article .input-block.mglIn15 {
+		clear:both;
+		margin-top:20px;
+		width:100%;
+	}
+	
+	.form input.emailM {
+		width: 124px;
+	}
+	
+	.mglIn15 .select-styled {
+		width: 120px;
+		margin-left:8px;
+	}
+	
+	.form .article .input-block>span {
+		margin: 0 4px;
+	}
+	
+	.small_navigation {
+		display:none;
+	}
+	
+	.mglIn15 .select-options {
+		margin-left: 8px;
+	}
+	
+	.form .article .input-block>span.etcSpan { 
+			margin:10px 0 0 0;
+			clear:both;
+			display:block;
+		
+		}
+		
+	
 	
 	
 }
@@ -613,10 +732,7 @@ div.subP {
 		margin-bottom: 25px;
 	}
 	
-	.recruit-box .select-group {
-		clear:both;
-		margin:30px 0 10px;
-	}
+
 	
 	.recruit-header button:first-child {
 		margin-right:5px;
@@ -628,17 +744,46 @@ div.subP {
 	.recruit-header .input-search {
 		padding:8px 0px 8px 4px;
 	}
-	.recruit-box .select-group {
-		clear:both;
-		margin:30px 0 10px;
-	}
 	
+	.recruit-box .select-group .select:last-of-type {
+		display:none;
+	}
 	.recruit-box {
 		padding:0 8px;
 	}
 	.labelCheck {
 		margin-bottom:6px;
 		margin-right:3px;
+	}
+	
+	.recruit-box h2 {
+		
+		font-size:16px;
+		padding: 0px;
+		margin: 0 0 20px 0;
+		line-height: 33px;
+	}
+	.recruit-box .mobileBtn {
+		display:block;
+		float:right;
+		padding:6px 12px;
+		border: 1px solid #ded8d8;
+		background: transparent;
+		margin: 15 0 30px;
+	}
+	
+	.recruit-box .mobileBtn i {
+		margin: -1px 8px 0 0px;
+		vertical-align: middle;
+		color: #ded8d8;
+	}
+	
+	.recruit-header button:first-child {
+		display:none;
+	}
+	
+	.recruit-header .input-search-box {
+		
 	}
 	
 	
@@ -896,6 +1041,17 @@ section.another {
 		width:345px;
 	}
 	
+	.form .article label:not(.labelCheck) {
+		min-width:100px;
+	}
+	
+	.form .article .input-block {
+		width:calc(100% - 100px);
+	}
+	
+	.mglIn15 .select-styled {
+		width:120px;
+	}
 	
 	
 	
@@ -911,4 +1067,11 @@ section.another {
 		display:block;
 	}
 	
+}
+
+@media screen and (max-width:1199px) {
+	.recruit-detail .detail-header p.attachment-p {
+		float:left;
+		width:100%;
+	}
 }
