@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="../assets/css/doyoung/admin_am2.css">
 <!-- 김도영 공고관리 (Announcement Management)  -->
 
-
+  
 </head>
 <body>
 	<%@ include file="../include/admin_header-widget.jsp"%>
