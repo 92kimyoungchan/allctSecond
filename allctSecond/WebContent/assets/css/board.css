@@ -474,6 +474,10 @@ div.clinical_content_allct p {
     margin: 40px 0 auto 0;
 }
 
+div.clinical_allct_mobile_imgBox {
+	display: none;
+}
+
 /* board_clinical_qualify.jsp 임상시험 참여자가 고려할 사항 페이지 */
 
 div.subP-clinical-qualify h2 {
@@ -485,6 +489,10 @@ div.subP-clinical-qualify h2 {
 div.clinical_qualify_imgBox .clinical_imgBox > img {
     width: 100%;
     height: 24%;
+}
+
+div.clinical_qualify_mobileImg {
+	display: none;
 }
 
 div.clinical_content_qualify p {

@@ -43,6 +43,9 @@
 						<img src="../assets/images/clinical_qualify_img.png">
 					</div>
 					</div>
+					<div class="clinical_qualify_mobileImg">
+						<img src="../assets/images/clinical_qualify_mobile01.png">
+					</div>
 					<div class="clinical_info_content_box">
 						<div class="clinical_content_qualify">
 							<p>
@@ -62,7 +65,7 @@
 					
 					<div class="clinical_qualify_imgBox2">
 					<div class="clinical_imgBox">
-						<img src="../assets/images/clinical_qualify_img.png">
+						<img src="../assets/images/clinical_qualify_mobile02.png">
 					</div>
 					</div>
 					<div class="clinical_info_content_box">
