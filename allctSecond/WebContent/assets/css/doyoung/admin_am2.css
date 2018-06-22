@@ -261,9 +261,9 @@ tr.ad-table-header {
 }
 
 .ad-table-header th {
-	   padding: 20px 9px 20px 11px;
+	   padding: 8px 9px 8px 11px;
 	text-align: center;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .ad-table-header th:first-of-type {

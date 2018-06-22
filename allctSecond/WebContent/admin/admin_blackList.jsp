@@ -28,7 +28,7 @@
 						<div class="content">
 							<div class="am-header">
 								<div class="am-h-title">
-									<h1>블랙리스트</h1> 
+									<h1 id= "admin3" class ="admin-navNo" >블랙리스트</h1> 
 								</div>
 							</div>
 

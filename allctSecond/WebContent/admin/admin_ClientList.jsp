@@ -27,7 +27,7 @@
 						<div class="content">
 							<div class="am-header">
 								<div class="am-h-title">
-									<h1>의뢰자 회원관리</h1>
+									<h1 id= "admin2" class ="admin-navNo" >의뢰자 회원관리</h1>
 								</div>
 							</div>
 

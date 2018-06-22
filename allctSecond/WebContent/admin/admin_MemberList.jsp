@@ -27,7 +27,7 @@
 						<div class="content">
 							<div class="am-header">
 								<div class="am-h-title">
-									<h1>전체회원목록</h1>
+									<h1 id= "admin1" class ="admin-navNo">전체회원목록</h1>
 								</div>
 							</div>
 

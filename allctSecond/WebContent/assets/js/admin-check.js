@@ -1,5 +1,10 @@
 $(document).ready(function() {	
 	
+	
+	var navNo = $(".admin-navNo").attr("id");
+	
+	$("#memberManage #"+navNo).addClass("active");
+	
 	var flag = $("input[type='checkbox'][id='all']").is(':checked');
 	
 $('#pagination-demo').twbsPagination({
@@ -31,6 +36,9 @@ $("input[type='checkbox'][id='all']").on('click',function(){
 		flag = true;
 	}
 });
+
+
+
 
 
 /*체크 박스 선택했을때 background-color 변경*/

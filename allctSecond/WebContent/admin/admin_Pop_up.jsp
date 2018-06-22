@@ -27,7 +27,7 @@
 						<div class="content admin-pop_up-content">
 							<div class="am-header">
 								<div class="am-h-title">
-									<h1>팝업관리</h1> 
+									<h1 id= "admin7" class ="admin-navNo" >팝업관리</h1> 
 								</div>  
 								<div class="am-h-title">
 									<button class ="ad-btn ad-m-btn-sms">+팝업추가</button>

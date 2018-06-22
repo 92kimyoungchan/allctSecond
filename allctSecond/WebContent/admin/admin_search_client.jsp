@@ -40,7 +40,7 @@ super 페이지 span
 											<strong>엑셀로저장</strong>
 										</button>
 									</div>
-									<h1>공고관리</h1>
+									<h1 id= "admin4" class ="admin-navNo" >공고관리</h1>
 								</div>
 						<div class="am-ab-title">
 									<label>공고검색</label>
