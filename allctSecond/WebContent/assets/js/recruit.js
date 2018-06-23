@@ -5,7 +5,6 @@ $('.labelCheck').on('click',function() {
 
 		var inputid = $(this).attr('for');
 		var flag = $("input[type='checkbox'][id='"+inputid+"']").is(':checked');		
-	
 		var name = $(this).html();
 
 		/*	라벨 클릭시 DOM 보다 jquery가 먼저 동작해서 반대로 나옴*/
@@ -13,6 +12,7 @@ $('.labelCheck').on('click',function() {
 			$(this).css({
 				background:"green",
 				color:"white"
+			
 			}) 			
 			var element = "<li id='filter_"+inputid+"'><span>"+name+"</span><button type='button' title='삭제' onclick='deleteFilter(\""+inputid+"\")'></button></li>"
 			document.getElementById('fuck').insertAdjacentHTML('beforeEnd',element);
@@ -21,6 +21,7 @@ $('.labelCheck').on('click',function() {
 			$(this).css({
 				background:"transparent",
 				color:"inherit"
+				
 			}) 
 			var filterId = 'filter_'+inputid;
 			document.getElementById(filterId).remove();
@@ -28,7 +29,6 @@ $('.labelCheck').on('click',function() {
 		}
 	});
 	
-
 	$('.text-center .firstBox').on('click',function() {
 		
 		var where = $(this).parent().parent().attr("id");
@@ -42,6 +42,7 @@ $('.labelCheck').on('click',function() {
 				
 				color:"#73ef16",
 					opacity:"1.0"
+						
 			}) 	
 			flag = false;
 		}else {
@@ -52,9 +53,7 @@ $('.labelCheck').on('click',function() {
 			}) 	
 			flag = true;
 		}
-		
-		
-		
+			
 	});
 	
 	$('#pagination').twbsPagination({

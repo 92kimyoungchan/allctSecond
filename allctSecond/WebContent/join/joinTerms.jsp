@@ -133,7 +133,7 @@
 
 						<div class="terms-area">
 
-							<div class="consent" style="background: #caecff;">
+							<div class="consent">
 
 								<label class="labelCheck" for="info_consent2"><input
 									type="checkbox" id="info_consent2" name="" value="" class="inputChecking" /> <span
@@ -178,7 +178,6 @@
 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="../assets/js/pagination.min.js"></script>
-	<script defer src="../assets/js/fontawesome-all.js"></script>
 	<script defer src="../assets/js/sub-banner.js"></script>
 	<script type="text/javascript" src="../assets/js/inputChecking.js"></script>
 	<script type="text/javascript" src="../assets/js/select.js"></script>
