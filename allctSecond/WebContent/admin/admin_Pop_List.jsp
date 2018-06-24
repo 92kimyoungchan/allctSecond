@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="../assets/css/responsive.css">
 <link rel="stylesheet" href="../assets/css/doyoung/admin_am2.css">
 
-<!-- 김도영 의뢰자 회원관리  -->  
+<!-- 김도영 공고관리 (Announcement Management)  -->  
 
 </head>
 <body class ="admin-body">
@@ -27,42 +27,15 @@
 						<div class="content">
 							<div class="am-header">
 								<div class="am-h-title">
-									<h1 id= "admin2" class ="admin-navNo" >의뢰자 회원관리</h1>
+									<h1 id= "admin1" class ="admin-navNo">전체회원목록</h1>
 								</div>
 							</div>
 
 							<div class="blackList-title">
 
-								<div class="am-ab-title">
-									<label>총 <span id ="">40</span>명 </label>
-								</div>
+								
 
-								<div class="am-ab-title-right">
-									<div class="am-ab-title-selectForm">
-										<select id ="">
-											<option>10개씩</option>
-											<option>20개씩</option>
-											<option>30개씩</option>
-											<option>50개씩</option>
-											<option>100개씩</option>
-										</select>
-									</div>
-									<div class="am-ab-title-selectForm">
-										<select id ="">
-											<option>아이디</option>
-											<option>등급</option>
-											<option>포인트</option>
-											<option>가입일</option>
-											<option>현재상태</option>
-										</select>
-									</div>
-									<div class="am-ab-title-searchForm">
-										<input type="text" placeholder="검색하기">
-										<button type="submit" value="" class="btn btn-search">
-												<i class="fa fa-search"></i>
-										</button>
-									</div>
-								</div>
+								
 								<div class ="clear"></div>
 								<div class="am-ab-table-wrap">
 									<table class="ab-table">
@@ -76,18 +49,15 @@
 														</label>
 													</div>
 												</th>
-												<th>아이디</th>
-												<th>이름</th>
-												<th>성별</th>
-												<th>나이</th> 
-												<th>현재상태</th>
-												<th class ="admin-agree-check"></th>
-												<th>참여횟수</th>
-												<th>기능</th>
+												<th>제목</th>
+												<th>시작일자</th>
+												<th>종료일자</th>
+												<th>등록일자</th> 
+												<th><i class="fa fa-search"></i></th>
 											</tr>
 										</thead>
 										<tbody>
-														<tr class="ab-table-body blackListTableBody">
+														<tr class="ab-table-body blackListTableBody popList">
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-1"> <input
@@ -100,13 +70,9 @@
 												<td>김민수</td>
 												<td>남성</td>
 												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-											<td>
+												<td>
 											 <div class = "admin-function-btn-Form">
-												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+												<button class ="ad-blackList-btn">삭제</button>
 											</div>	
 										</td>
 											</tr>			
@@ -123,13 +89,9 @@
 												<td>김민수</td>
 												<td>남성</td>
 												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-											<td>
+												<td>
 											 <div class = "admin-function-btn-Form">
-												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+												<button class ="ad-blackList-btn">삭제</button>
 											</div>	
 										</td>
 											</tr>			
@@ -146,13 +108,9 @@
 												<td>김민수</td>
 												<td>남성</td>
 												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-											<td>
+												<td>
 											 <div class = "admin-function-btn-Form">
-												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+												<button class ="ad-blackList-btn">삭제</button>
 											</div>	
 										</td>
 											</tr>			
@@ -169,13 +127,9 @@
 												<td>김민수</td>
 												<td>남성</td>
 												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
 											<td>
 											 <div class = "admin-function-btn-Form">
-												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+												<button class ="ad-blackList-btn">삭제</button>
 											</div>	
 										</td>
 											</tr>			
@@ -192,13 +146,9 @@
 												<td>김민수</td>
 												<td>남성</td>
 												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-											<td>
+												<td>
 											 <div class = "admin-function-btn-Form">
-												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+												<button class ="ad-blackList-btn">삭제</button>
 											</div>	
 										</td>
 											</tr>			
@@ -215,13 +165,9 @@
 												<td>김민수</td>
 												<td>남성</td>
 												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
 											<td>
 											 <div class = "admin-function-btn-Form">
-												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+												<button class ="ad-blackList-btn">삭제</button>
 											</div>	
 										</td>
 											</tr>			
@@ -238,13 +184,9 @@
 												<td>김민수</td>
 												<td>남성</td>
 												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-											<td>
+												<td>
 											 <div class = "admin-function-btn-Form">
-												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+												<button class ="ad-blackList-btn">삭제</button>
 											</div>	
 										</td>
 											</tr>			
@@ -261,13 +203,9 @@
 												<td>김민수</td>
 												<td>남성</td>
 												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-											<td>
+												<td>
 											 <div class = "admin-function-btn-Form">
-												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+												<button class ="ad-blackList-btn">삭제</button>
 											</div>	
 										</td>
 											</tr>			
@@ -284,13 +222,9 @@
 												<td>김민수</td>
 												<td>남성</td>
 												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-											<td>
+												<td>
 											 <div class = "admin-function-btn-Form">
-												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+												<button class ="ad-blackList-btn">삭제</button>
 											</div>	
 										</td>
 											</tr>			
@@ -307,13 +241,9 @@
 												<td>김민수</td>
 												<td>남성</td>
 												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-											<td>
+												<td>
 											 <div class = "admin-function-btn-Form">
-												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+												<button class ="ad-blackList-btn">삭제</button>
 											</div>	
 										</td>
 											</tr>			
@@ -330,13 +260,9 @@
 												<td>김민수</td>
 												<td>남성</td>
 												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-											<td>
+												<td>
 											 <div class = "admin-function-btn-Form">
-												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+												<button class ="ad-blackList-btn">삭제</button>
 											</div>	
 										</td>
 											</tr>			
@@ -353,13 +279,11 @@
 												<td>김민수</td>
 												<td>남성</td>
 												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
+												
+												
 											<td>
 											 <div class = "admin-function-btn-Form">
-												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
-												<button class ="ad-blackList-btn">블랙리스트 추가</button>
+												<button class ="ad-blackList-btn">삭제</button>
 											</div>	
 										</td>
 											</tr>			
@@ -378,9 +302,7 @@
 									</div>
 								</div>
 
-
-
-				<div class ="admin-pagination-wrap">
+<div class ="admin-pagination-wrap">
 <ul id="pagination-demo" class="pagination-sm"> </ul>
 </div>
 							</div>
@@ -390,11 +312,6 @@
 			</div>
 		</div>
 	</div>
-
-
-
-
-
 
 	<%@ include file="../include/footerShort.jsp"%> 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>

@@ -48,9 +48,9 @@ checkbox table
 									<form action="">
 										<div class="am-h-content">
 											<div class="am-h-label-wrap">
-											 <div class ="am-h-row-left">
+											<div class ="am-h-row-left">
 												<label class="am-h-label">진행상태</label>
-											 </div>
+											</div>
 											 <div class ="am-h-row-right">
 												<ul class="am-h-state">
 													<li>
@@ -75,8 +75,7 @@ checkbox table
 																type="checkbox" id="state-stop" value="" name="" class="header" />
 																<span class="checkmark"></span> <span>중지</span> </label>
 
-														</div>
-													</li>
+														</div>													</li>
 													<li>
 														<div class="consent">
 															<label class="labelCheck" for="state-active"><input
@@ -101,7 +100,7 @@ checkbox table
 										</div>
 										<div class="am-h-content">
 											<div class="am-h-state-wrap">
-												<div class="am-h-row-left">
+												<div class ="am-h-row-left">
 												<label class="am-h-label-calendar">게시날짜</label>
 												</div>
 												<div class="am-h-row-right">
@@ -167,24 +166,32 @@ checkbox table
 											<div class="am-h-state-wrap">
 											<div class ="am-h-row-left">
 												<label class="am-h-label">성별</label>
-												</div>
+											</div>
 												<div class ="am-h-row-right">
  
 												<ul class="am-h-state">
-													<li>
+													<li class="radio">
 														<div class="consent">
-															<label class="labelRadio gender" for="male"><input
-																type="radio" id="male" value="" name="gender" />
-																<span>남성</span> </label>
+															<label class="labelRadio" for="inputCheck5">남성<input
+												type="radio" id="inputCheck5" name="sex" value="남성" /> <span
+												class="checkmark"></span></label> 
 
 														</div>
 													</li>
-													<li>
+													<li class="radio">
 														<div class="consent">
-															<label class="labelRadio gender" for="female"><input
-																type="radio" id="female" value="" name="gender" />
-							   									 <span>여성</span> </label>
+															<label class="labelRadio"
+												for="inputCheck6">여성<input type="radio"
+												id="inputCheck6" name="sex" value="여성" /> <span
+												class="checkmark"></span></label>
 
+														</div>
+														</li>
+														<li class="radio">
+														<div class="consent">
+														<label class="labelRadio" for="inputCheck7">성별무관<input
+												type="radio" id="inputCheck7" name="sex" value="성별무관" /> <span
+												class="checkmark"></span></label>
 														</div>
 													</li>
 												</ul> 
@@ -197,23 +204,30 @@ checkbox table
 											<div class="am-h-state-wrap">
 											<div class ="am-h-row-left">
 												<label class="am-h-label">대상</label>
-											</div>
+										</div>
 											<div class ="am-h-row-right">
 												<ul class="am-h-state">
-													<li>
+													<li class="radio">
 														<div class="consent">
-															<label class="labelRadio" for="standard"><input
-																type="radio" id="standard" value="" name="target" /> <span>건강인</span> </label>
+															<label class="labelRadio"
+												for="inputCheck9">건강인<input type="radio"
+												id="inputCheck9" name="recipient" value="건강인"/> <span
+												class="checkmark"></span></label>
 
 														</div>
 													</li>
-													<li>
+													<li class="radio">
 														<div class="consent">
-															<label class="labelRadio" for="disease"><input
-																type="radio" id="disease" value="" name="target" />
-															 <span>질환인</span> </label>
+															<label class="labelRadio" for="inputCheck8">질환자<input
+												type="radio" id="inputCheck8" name="recipient" value="질환자"/> <span
+												class="checkmark"></span></label>
 
 														</div>
+													</li>
+													<li class="radio">
+													<label class="labelRadio" for="inputCheck10">질환무관<input
+												type="radio" id="inputCheck10" name="recipient" value="질환무관"/> <span
+												class="checkmark"></span></label> 
 													</li>
 												</ul>
 												</div>
@@ -226,19 +240,21 @@ checkbox table
 											</div>
 											<div class ="am-h-row-right">
 												<ul class="am-h-state test-kinds-ul">
-													<li>
-														<div class="consent">
-															<label class="labelRadio" for="clinical"><input
-																type="radio" id="clinical" value="" name="test" /> <span>임상시험</span> </label>
-
-														</div>
+													<li class="radio">
+														<label class="labelRadio" for="inputCheck11">임상시험<input
+												type="radio" id="inputCheck11" name="type" value="임상시험"/> <span
+												class="checkmark"></span></label>
 													</li>
-													<li>
-														<div class="consent">
-										  					<label class="labelRadio" for="Biological"><input
-																type="radio" id="Biological" value="" name="test" />
-						  								 <span>생동성시험</span> </label>
-														</div>
+													<li class="radio">
+														<label class="labelRadio"
+												for="inputCheck12">생동성<input type="radio"
+												id="inputCheck12" name="type" value="생동성"/> <span
+												class="checkmark"></span></label>
+													</li>
+													<li class="radio">
+													<label class="labelRadio" for="inputCheck13">모두포함<input
+												type="radio" id="inputCheck13" name="recipient" value="모두포함"/> <span
+												class="checkmark"></span></label>
 													</li>
 												</ul>
 												</div>
@@ -425,7 +441,6 @@ checkbox table
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../assets/js/pagination.min.js"></script>
-		<script defer src="../assets/js/fontawesome-all.js"></script>
 	<script type="text/javascript" src="../assets/js/admin-check.js"></script>
 
 
@@ -439,12 +454,3 @@ checkbox table
 
 
 
-
-<!-- 
-	<script>
-		$(document).ready(function() {
-			$('#sideContent').find('.is-checked').removeClass('is-checked');
-			$('#sideContent>.contentElement:eq(0)').addClass('is-checked');
-
-		});
-	</script> -->

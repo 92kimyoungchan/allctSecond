@@ -53,7 +53,7 @@ super 페이지 span
 												<label class="am-h-label">진행상태</label>
 												<ul class="am-h-state">
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="state-all"><input
 																type="checkbox" id="state-all" value="" name="" /><span
 																class="checkmark"></span> <span>전체</span> </label>
@@ -61,7 +61,7 @@ super 페이지 span
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="state-ing"><input
 																type="checkbox" id="state-ing" value="" name="" class="header" />
 																<span class="checkmark"></span> <span>진행중</span> </label>
@@ -69,7 +69,7 @@ super 페이지 span
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="state-stop"><input
 																type="checkbox" id="state-stop" value="" name="" class="header" />
 																<span class="checkmark"></span> <span>중지</span> </label>
@@ -77,7 +77,7 @@ super 페이지 span
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="state-active"><input
 																type="checkbox" id="state-active" value="" name="" class="header" />
 																<span class="checkmark"></span> <span>모집중</span> </label>
@@ -85,7 +85,7 @@ super 페이지 span
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="state-complete"><input
 																type="checkbox" id="state-complete" value=""
 																name="" class="header" /> <span class="checkmark"></span> <span>완료</span>

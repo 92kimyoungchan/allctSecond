@@ -88,7 +88,7 @@ $('.am-tabs li').click(function(){
 
 /*
 라디오버튼 번갈아서 나오기*/
-
+/*
 $('.labelRadio').on('click',function() {
 
 
@@ -114,7 +114,7 @@ $('.labelRadio').on('click',function() {
 	
 	}
 
-});
+});*/
 
 
 
@@ -132,27 +132,5 @@ $(document).ready(function() { /*이게 더 좋은 소스*/
 	$(window).resize(function() {
 		$('.admin_x-sidebar').css('height',$('.subP_admin').css('height'));	})
 });
-
-/*
-window.onload = function () {
-	
-	console.log($('.subP_admin').css('height'));
-	var BigHeight = parseInt($('.subP_admin').css('height').replace("px",""));
-
-	var SameHeight = BigHeight +"px";
-	console.log("Height",BigHeight);
-	$('.admin_x-sidebar').css({
-		height:SameHeight
-	});
-
-
-	$(window).resize(function(){
-		$('.admin_x-sidebar').css({
-			height:SameHeight
-			
-		});
-		console.log($('.subP_admin').css('height'));
-	});
-}*/
 
 

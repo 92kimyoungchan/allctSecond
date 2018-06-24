@@ -60,7 +60,7 @@ input[type="checkbox"] {
 
 .labelRadio .checkmark {
 	border-radius: 50%;
-	top: 6px;
+	top: 7px;
 	background: white;
 	left: 2px;
 	position: absolute;
@@ -287,6 +287,10 @@ input[type="checkbox"] {
 	font-weight: 400;
 }
 
+body.admin-body input {
+	padding-left:12px;
+}
+
 .overlay-item .input-area input {
 	float: left;
 	width: calc(100% - 80px);
@@ -394,7 +398,7 @@ header .container .content-icon::after {
 }
 
 .admin-top-area {
-	padding: 20px 65px;
+	padding: 20px 65px 20px 20px;
 	background:#ffffff;
 }
 
@@ -875,11 +879,7 @@ div.subP h3.pointGreen {
 	padding-bottom: 3.5px;
 }
 
-div.subP.wide {
-	width: 80% !important;
-	float: none;
-	margin: auto;
-}
+
 
 .subP .subtitle {
 	color: #808080;
@@ -2088,9 +2088,10 @@ section .notice li>a, div .recruit-box-search li>a {
 	border: 1px solid #ded8d8;
 	color: #a29c9c;
 	background-color: transparent;
-	padding: 8px 40px 8px 18px;
+	padding: 12px 0 12px 10px;
 	margin: 0 3px;
 	font-size: 14px;
+	width: 105px;
 }
 
 
@@ -4410,7 +4411,7 @@ div .recruit-apply .apply-form {
 }
 
 .table-research tbody>tr>td .labelRadio:last-of-type {
-	width: 85px !important;
+	width: -webkit-fill-available;
 }
 
 .table-research tbody>.appendTr>td .labelRadio {
@@ -4434,9 +4435,13 @@ div .recruit-apply .apply-form {
 .table-research .labelRadio {
 	border: none;
 	position: relative;
-	margin: 0 5px;
+	margin-right:4%;
+	width: 48% !important;
 	FLOAT: LEFT;
 	padding: 2px 0 !important;
+}
+.table-research .labelRadio:nth-of-type(2n) {
+	margin-right:0;
 }
 
 .table-research .labelRadio input[type="radio"] {
@@ -4461,7 +4466,7 @@ div .recruit-apply .apply-form {
 
 .table-research tbody>tr>td:nth-of-type(3) {
 	vertical-align: middle;
-	width: 165px;
+	width: 280px;
 }
 
 .table-research tbody>tr.appendTr>td:nth-of-type(3) {
@@ -4471,8 +4476,17 @@ div .recruit-apply .apply-form {
 .table-research tbody>tr.appendTr>td:nth-of-type(3)>input {
 	height: 35px;
 	padding-left: 12px;
+	background:transparent;
 }
 
+.table-research tbody>tr>td input {
+	
+    border-bottom: 1px solid #3ca699 !important;
+    padding-bottom: 10px;
+    padding-left: 4px;
+    border: none;
+
+}
 .table-research tbody>tr>td {vertical-align: middle;}
 
 .table-research th, .table-research td {
@@ -4754,7 +4768,7 @@ footer.full {
 }
 
 .wide .button-box.modify {
-	margin-top: 68px;
+	margin-top: 20px;
 }
 
 .button-box.modify {
@@ -4762,7 +4776,9 @@ footer.full {
 }
 
 .button-box.modify>button {
-	min-width: 105px;
+	min-width: 140px;
+	background: #222;
+	height: 46px;
 }
 
 .articleM:nth-of-type(3) {
@@ -4800,9 +4816,9 @@ footer.full {
 
 p.button-top {
 	text-align: center;
-	font-size: 27px;
-	color: #aba7a4;
-	margin: 44px 0 18px;
+	font-size: 19px;
+	color: #222;
+	margin: 30px 0 18px;
 }
 
 /* 종뚞 */
@@ -5024,7 +5040,7 @@ button.allct {
 div.separateBtn {
 	clear: both;
 	text-align: center;
-	margin-top: 70px;
+	margin: 70px 0 25px;
 }
 
 div.separateBtn button {
@@ -5272,23 +5288,29 @@ div.separateBtn button {
 .mb-20 {
 	margin-bottom:20px !important;
 }
-button:focus {
-	outline:none;
-}
-input:active , input:focus button:active , button:focus {
+
+
+a:focus , a:active , input:active , input:focus , button:active , button:focus {
     outline: none ;
 }
 .memberProcedure div.selected>span>a:hover {
 	color:#3caa69;
 }
 .whole {
-	width:80%;
-	margin:auto;
+	width:80% !important;
+	margin: 0 auto;
 	padding-top:45px;
+	float: none !important;
+	min-height: 480px !important;
 }
 html [type="button"] {
 	background:#3caa69;
 	color:white;
 	border:none !important;	
 }
+
+.f400 {
+	font-weight:400 !important;
+}
+
 
