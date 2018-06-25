@@ -10,7 +10,6 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 
 <link rel="stylesheet" href="../assets/css/board.css">
-<link rel="stylesheet" href="../assets/css/info.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
 <link rel="stylesheet" href="../assets/css/board_responsive.css">
 

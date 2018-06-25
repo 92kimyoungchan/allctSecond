@@ -297,13 +297,18 @@ span#jopInfo-searchCount {
 
 
 .jobInfo-table > tbody > tr > td:nth-of-type(4) {
-    line-height: 2;
+	  line-height: 2;
    font-weight: bold;
    text-align: center;
 }
 
+
 .jobInfo-table-body > td > strong {
     font-size: 16px;
+}
+.academy-trash-btn button > i {
+	margin-right:4px;
+	font-size:16px;
 }
 
 .jopInfo-content-sal {
@@ -355,17 +360,16 @@ div.subP-clinical > h2 {
 }
 
 div.subP-clinical > .clinical_content_box > .support_iconBox {
-   float: left;
-    margin: 0px 55px 60px 17px;
+	display:table-cell;
+	width:100px;
 }
 
 div.subP-clinical > .clinical_content_box > .support_iconBox img {
-   width: 100%;
-    height: auto;
+	height:auto;
 }
 
 div.clinical_content_box {
-   display: inline-block;
+	display:table;
 }
 
 div.clinical_content_head h2 {
@@ -378,15 +382,16 @@ div.clinical_content_head h2 {
 }
 
 .clinical_content {
-   display: table;
-   
+   display: table-cell;
+   vertical-align: top;
+   padding-left: 45px;
 }
 .clinical_content_head {
    
 }
 
 .clinical_content_body {
-    margin-bottom: 53px;
+    margin-bottom: 55px;
 }
 
 div.clinical_content_box p {
@@ -431,25 +436,24 @@ div.clinical_mobile_imgBox > img:first-of-type {
 }
 
 div.clinical_info_content_box h2 {
-    margin: 25px 0 12px 0;
+    margin: 20px 0 12px 0;
     padding: 0;
     word-spacing: -2.2px;
 }
-
 div.clinical_info_content_box p:first-of-type {
-   font-weight: 500;
-    line-height: 33px;
-    font-size: 16px;
-    word-spacing: 4px;
-    margin: 11px 0 -10px 0;
+   font-weight: normal;
+   line-height: 33px;
+   font-size: 16px;
+   word-spacing: 4px;
+   margin: 11px 0 -10px 0;
 }
 
 div.clinical_info_content_box p:last-of-type {
-   font-weight: 500;
-    line-height: 33px;
-    font-size: 16px;
-    word-spacing: 4px;
-    margin: 11px 0 0;
+   font-weight: normal;
+   line-height: 33px;
+   font-size: 16px;
+   word-spacing: 4px;
+   margin: 11px 0 35px;
 }
 
 div.clinical_justice h2 {
@@ -492,9 +496,10 @@ div.subP-clinical-qualify h2 {
 
 
 div.clinical_qualify_imgBox .clinical_imgBox > img {
-    width: 100%;
-    height: 24%;
+	width:100%;
+	height:24%;
 }
+
 
 div.clinical_qualify_mobileImg {
    display: none;
@@ -521,16 +526,17 @@ div.clinical-status > .jobInfo-table thead > tr > th {
 }
 
 div.clinical-status > .jobInfo-table tbody > tr > td:first-of-type {
-   width: 85px;
+	 width: 85px;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
     padding-left: 0;
+	
 }
 
 div.clinical-status > .jobInfo-table tbody > tr > td:nth-of-type(2) {
-   padding: 13px 30px 13px;
+	  padding: 13px 30px 13px;
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 div.clinical-status > .jobInfo-table tbody > tr > td {
@@ -543,10 +549,11 @@ div.status-content {
 
 div.status-content p {
    margin-bottom: 0;
-   font-weight: bold;
+   font-weight: normal;
    color: black;
    font-size: 15px;
 }
+
 
 div.status-content-date {
    width: 110px;
