@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.select-group .input-search {
+	border: 1.4px solid #ded8d8;
+	color: #a29c9c;
+	background-color: transparent;
+	padding: 8px 40px 8px 18px;
+	float: left;
+}
+
+
+.recruit-box .select-group .input-search {
+	border: 1.4px solid #ded8d8;
+	color: #a29c9c;
+	background-color: transparent;
+	padding: 8px 40px 8px 18px;
+}
+
+---
+
+
+.recruit-header .input-search {
+	border: 1.4px solid #ded8d8;
+	color: #a29c9c;
+	background-color: transparent;
+	padding: 8px 40px 8px 18px;
+	float: left;
+	height: 43px;
+}

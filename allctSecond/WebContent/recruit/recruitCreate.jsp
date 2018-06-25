@@ -50,7 +50,13 @@
 								</p>
 							</div>
 							<div class="article">
-								<label class="article-title">마감일자</label>
+								<label class="article-title">모집마감일자</label>
+								<p class="multiple">
+									<input class="datepicker separate" name="date1">
+								</p>
+							</div>
+							<div class="article">
+								<label class="article-title">시험종료일자</label>
 								<p class="multiple">
 									<input class="datepicker separate" name="date1">
 								</p>
