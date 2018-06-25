@@ -76,22 +76,22 @@
 
 
 					<div class="mobile-about-us">
-						<img src="assets/images/messi.png">
+						<img src="assets/images/main_vision_m.png">
 					</div>
 					<!--  -->
 					<div class="img-box about-us">
 						<div class="img-set3">
-							<img src="assets/images/main icon-01.png">
+							<img src="assets/images/main_icon-01.png">
 							<h2>TRUST</h2>
 							<p>믿을 수 있습니다.</p>
 						</div>
 						<div class="img-set3">
-							<img src="assets/images/main icon-02.png">
+							<img src="assets/images/main_icon-02.png">
 							<h2>SAFE</h2>
 							<p>안전합니다.</p>
 						</div>
 						<div class="img-set3">
-							<img src="assets/images/main icon-03.png">
+							<img src="assets/images/main_icon-03.png">
 							<h2>TRUST</h2>
 							<p>가능성을 발견합니다.</p>
 						</div>
@@ -100,7 +100,7 @@
 
 				</section>
 
-				<section class="advertisement">
+				<section class="advertisement firstBox">
 					<div class="adsection num1">
 						<h2>임상시험이란 무엇일까요?</h2>
 						<p>
@@ -134,19 +134,19 @@
 							</button>
 						</div>
 						<div class="img-box">
-							<div class="img-set4">
+							<div class="img-set4" OnClick="location.href=''">
 								<img src="assets/images/main_search_icon-01.png">
 								<p>건강인대상</p>
 							</div>
-							<div class="img-set4">
+							<div class="img-set4" OnClick="location.href=''">
 								<img src="assets/images/main_search_icon-02.png">
 								<p>질환자대상</p>
 							</div>
-							<div class="img-set4">
+							<div class="img-set4" OnClick="location.href=''">
 								<img src="assets/images/main_search_icon-03.png">
 								<p>수행기관별</p>
 							</div>
-							<div class="img-set4">
+							<div class="img-set4" OnClick="location.href=''">
 								<img src="assets/images/main_search_icon-04.png">
 								<p>기간별</p>
 							</div>
@@ -217,7 +217,7 @@
 										<p>베스티안부천병원</p>
 										<div class="hash_info">
 											<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
-												class="hash">#친구와함께</span> <span class="left-span">생동</span>
+												class="hash">#친구와함께</span> <span class="left-span first">생동</span>
 										</div>
 									</div>
 								</div>
@@ -235,7 +235,7 @@
 										<p>베스티안부천병원</p>
 										<div class="hash_info">
 											<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
-												class="hash">#친구와함께</span> <span class="left-span">생동</span>
+												class="hash">#친구와함께</span> <span class="left-span first">생동</span>
 										</div>
 									</div>
 								</div>
@@ -253,7 +253,7 @@
 										<p>베스티안부천병원</p>
 										<div class="hash_info">
 											<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
-												class="hash">#친구와함께</span> <span class="left-span">생동</span>
+												class="hash">#친구와함께</span> <span class="left-span first">생동</span>
 										</div>
 									</div>
 								</div>
@@ -271,7 +271,7 @@
 										<p>베스티안부천병원</p>
 										<div class="hash_info">
 											<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
-												class="hash">#친구와함께</span> <span class="left-span">생동</span>
+												class="hash">#친구와함께</span> <span class="left-span first">생동</span>
 										</div>
 									</div>
 								</div>

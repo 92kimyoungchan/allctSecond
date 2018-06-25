@@ -33,10 +33,18 @@ a {
 	color: #222222;
 }
 
+span.status {
+	font-size:14px;
+}
+span.status b {
+	color:#3caa69;
+}
+
 .link_another {
 	float: right;
 	font-weight: bold;
 	padding-bottom: 3.5px;
+	font-size: 18px;
 	border-bottom: 1.5px solid #222222;
 }
 
@@ -388,14 +396,26 @@ header .container {
 }
 
 header .container a {
-	padding: 6px 8px;
+	padding: 6px 0;
 }
 
-header .container .content-icon::after {
+header .container a:before{
+	content:"|";
+	padding: 0 6px;
+	font-size: 14px;
+}
+
+header .container a:first-of-type:before {
+	content:none;
+}
+
+
+
+/* header .container .content-icon::after {
 	content: "";
 	margin: 0 3.5px 0px 3.5px;
 	position: absolute;
-}
+} */
 
 .admin-top-area {
 	padding: 20px 65px 20px 20px;
@@ -693,10 +713,11 @@ div.carousel-overlay-wrap .carousel-overlay {
 .carousel-overlay h2 {
 	margin: 0;
 	padding: 0 0 9.5px 0;
-	font-size: 37.5px;
+	font-size: 40px;
 	letter-spacing: 2.2px;
 	font-weight: 300;
 	color: white;
+	font-family: 'NanumSqure';
 }
 
 .carousel-overlay h2:last-of-type {
@@ -710,11 +731,14 @@ div.carousel-overlay-wrap .carousel-overlay {
 .carousel-overlay span {
 	color: white;
 	font-size: 21px;
+	font-family: 'NanumSqure';
+	font-weight: 400;
+	font-size: 22px;
 }
 section.advertisement.info {
 	background: url(../images/infoCenter.png) no-repeat center !important;
 	background-size:cover;
-	margin-bottom: 35px;
+	
 }
 
 section.advertisement {
@@ -729,7 +753,7 @@ min-height: 250px;
 	
 padding: 55px 5%;
 	
-background: url(../images/whatTrial.png);
+background: url(../images/whatTrial.png) center;
 	
 background-size:cover;
 }
@@ -777,8 +801,21 @@ font-weight: initial;
 }
 
 
-.advertisement .adsection a {
+.advertisement .adsection.num2 a {
 	
+background: #3caa69;
+	
+border-radius: 25px;
+	
+text-align: center;
+	
+color: white;
+	
+padding: 6px 22px;
+	
+border: none;
+	
+margin-top: 15px;
 }
 
 .advertisement .adsection-mobile {
@@ -817,8 +854,9 @@ section:nth-of-type(3) {
 section>h2.section-header {
 	text-align: center;
 	margin: 0;
-	font-family: NanumSquare;
-	letter-spacing: 1px;
+	font-family: 'Roboto','Noto Sans KR',sans-serif;
+	font-weight: bold;
+	font-size: 30px;
 }
 
 section.join>h2.section-header {
@@ -838,10 +876,11 @@ section.join>h2.section-header {
 
 section>p.section-header {
 	text-align: center;
-	margin-bottom: 5px;
+	margin-bottom: 8px;
 	font-size: 16px;
 	line-height: 25px;
 	word-spacing: 0px;
+	font-family: 'Roboto','Noto Sans KR', sans-serif;
 	font-weight: 400;
 }
 
@@ -1415,12 +1454,14 @@ margin-bottom: 25px;
 	width: 22%;
 	float: left;
 	margin-right: 4%;
+	cursor: pointer;
 }
 
 .img-box .img-set3 {
 	width: 30.6666%;
 	float: left;
 	margin-right: 4%;
+	text-align: center;
 	position: relative;
 }
 
@@ -1431,17 +1472,26 @@ margin-bottom: 25px;
 
 .img-set3 p {
 	text-align: center;
+	font-family: 'Roboto','Noto Sans KR', sans-serif;
+	font-size: 15px;
 }
 
 .img-set3:last-of-type, .img-set4:last-of-type {
 	margin-right: 0;
 }
 
-.img-box .img-set3 img, .img-box .img-set4 img {
-	width: 100%;
+ .img-box .img-set4 img {
+	width: 100%; 
 	height: auto;
 	padding: 10px 30px;
 }
+
+.img-box .img-set3 img{
+	/* width: 100%; */
+	height: auto;
+	padding: 10px 30px;
+}
+
 
 .img-box .img-set3 p .img-box .img-set4 p {
 	text-align: center;
@@ -1467,9 +1517,10 @@ margin-bottom: 25px;
 	color: #3caa69;
 	background: transparent;
 	border: 1.4px solid #3caa69;
-	height: 43px;
+	height: 47px;
 	float: left;
 	outline: none;
+	font-size: 16px;
 	margin-right: 55px;
 }
 
@@ -1610,12 +1661,7 @@ margin-bottom: 25px;
 	float: right;
 }
 
-.recruit-box .select-group .input-search {
-	border: 1.4px solid #ded8d8;
-	color: #a29c9c;
-	background-color: transparent;
-	padding: 8px 40px 8px 18px;
-}
+
 
 .recruit-box .select-group .input-search input {
 	margin: 0;
@@ -1629,7 +1675,7 @@ margin-bottom: 25px;
 	border: #3caa69;
 	background: #3caa69;
 	width: 42px;
-	height: 43px;
+	height: 47px;
 }
 
 .recruit-box .search-icon i {
@@ -2002,6 +2048,7 @@ section .notice li>a, div .recruit-box-search li>a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	font-size: 16px;
 }
 
 .tab-hashtag {
@@ -2267,7 +2314,6 @@ section .notice li>a, div .recruit-box-search li>a {
 .x-sidebar .x-sidebar-header {
 	padding: 40px 20px;
 	background: #3caa69;
-	border-top-left-radius: 7px;
 }
 
 .x-sidebar .x-sidebar-header>span {
@@ -2350,6 +2396,7 @@ footer div>p {
 	margin: 0;
 	line-height: 23.1px;
 	color: #d0d0d0;
+	font-size:14px;
 }
 
 footer div>p.copyright {
@@ -2420,12 +2467,12 @@ footer div>p>strong {
 }
 
 .recruit-header .input-search {
-	border: 1.4px solid #ded8d8;
+	border: 1px solid #ded8d8;
 	color: #a29c9c;
 	background-color: transparent;
-	padding: 8px 40px 8px 18px;
+	padding: 12px 0 12px 10px;
 	float: left;
-	height: 43px;
+	width: 220px;
 }
 
 /* sd */
@@ -2433,13 +2480,7 @@ footer div>p>strong {
 	float: left;
 }
 
-.select-group .input-search {
-	border: 1.4px solid #ded8d8;
-	color: #a29c9c;
-	background-color: transparent;
-	padding: 8px 40px 8px 18px;
-	float: left;
-}
+
 
 .select-group .input-search input {
 	margin: 0;
@@ -2483,7 +2524,7 @@ div.tab-content .filter-area:last-child {
 }
 
 .filter-area .filter-article a {
-	font-size:17px;
+	font-size: 16px;
 }
 
 .filter-area .article-item {
@@ -2560,6 +2601,7 @@ div.tab-content .filter-area:last-child {
 
 .item-grid .item-set .item-set-in .item-content p {
 	margin: 0;
+	font-size: 14px;
 }
 
 .item-grid .item-set .item-set-in .item-content h2 {
@@ -2594,7 +2636,7 @@ div.tab-content .filter-area:last-child {
 	display: none;
 }
 
-.hash_info span.first {color: #39a163;}
+.hash_info span.first {color: #11ec4b;}
 .hash_info span.last {color: #3ac0f3;}
 
 .hash_info p {
@@ -2726,6 +2768,7 @@ div.tab-content .filter-area:last-child {
 	letter-spacing: -1px;
 	white-space: nowrap;
 	max-width: 410px;
+	cursor: pointer;
 }
 
 .mobileBtn {
@@ -2857,6 +2900,7 @@ div.tab-content .filter-area:last-child {
 	color: #bdb1b1;
 	font-size: 24px;
 	opacity: 0.5;
+	cursor: pointer;
 }
 
 .clear {
@@ -4909,11 +4953,15 @@ word-spacing: 0;
 font-size: 16px;
 
 line-height: 25px;
+
+font-family: 'Roboto','Noto Sans KR', sans-serif;
 }
 .containerBox .section-header {
 	text-align: center;
-	font-family: NanumSquare;
+	font-family: 'Roboto','Noto Sans KR', sans-serif;
 	letter-spacing: 1px;
+	font-size: 30px;
+	\: bold;
 }
 
 button.red {
@@ -5316,3 +5364,24 @@ html [type="button"] {
 	float:right !important;
 }
 
+/* 버튼모음  */
+
+
+/* 모집중 */
+button.recruitIng {
+	background:#F07407;	
+}
+
+/* 모집마감 */
+button.recruitEnd {
+	background:#F0C107;	
+}
+
+/* 시험진행중 */
+button.examIng {
+	background:#95D400;	
+}
+/* 완료 */
+button.examDone {
+	background:#07B0F0;	
+}

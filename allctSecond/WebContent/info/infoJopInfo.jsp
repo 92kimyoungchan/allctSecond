@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="../assets/css/owl.carousel.css">
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/board.css">
+<link rel="stylesheet" href="../assets/css/info.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
 <link rel="stylesheet" href="../assets/css/board_responsive.css">
 
@@ -23,45 +24,49 @@
 				<%@ include file="../include/info_x-sidebar.jsp"%>
 
 				<div class="subP-academy">
-					<div class="subPage b-bottom">
-						<h2>구직공고</h2>
-						<div class="academy-mobile-header">
-						<p>임상시험에 관한 구직정보입니다.<br>
-						최신 구직공고들을 열람하며 일자리를 알아볼 수 있습니다.</p>
-						</div>
-						<div class="small_navigation">
-							<a><i class="fas fa-home"></i>홈</a><span>><a href="">정보안내</a></span><span>><a
-								href="">구직공고</a></span>
+					<div class="board-subP">
+						<div class="subPage b-bottom">
+							<h2>구직공고</h2>
+							<div class="academy-mobile-header">
+								<p>
+									임상시험에 관한 구직정보입니다.<br> 최신 구직공고들을 열람하며 일자리를 알아볼 수 있습니다.
+								</p>
+							</div>
+							<div class="small_navigation">
+								<a><i class="fas fa-home"></i>홈</a><span>><a href="">정보안내</a></span><span>><a
+									href="">구직공고</a></span>
+							</div>
 						</div>
 					</div>
 					<div class="subP-jopInfo-header">
+						<div class="board-select">
+							<div class="recruit-box">
+								<div class="recruit-header">
 
-						<div class="recruit-box">
-							<div class="recruit-header">
 
 
-
-								<div class="select-group">
-									<select id="">
-										<option value="hide">20개씩</option>
-										<option value="">10개씩</option>
-										<option value="">20개씩</option>
-										<option value="">30개씩</option>
-										<option value="">40개씩</option>
-										<option value="">50개씩</option>
-									</select>
-									<div class="input-search-box">
-										<div class="input-search">
-											<input type="text" name="" value=""
-												placeholder="기업명, 공고제목 등 검색">
+									<div class="select-group">
+										<select id="">
+											<option value="hide">20개씩</option>
+											<option value="">10개씩</option>
+											<option value="">20개씩</option>
+											<option value="">30개씩</option>
+											<option value="">40개씩</option>
+											<option value="">50개씩</option>
+										</select>
+										<div class="input-search-box">
+											<div class="input-search">
+												<input type="text" name="" value=""
+													placeholder="기업명, 공고제목 등 검색">
+											</div>
+											<button type="submit" value="" class="search-icon">
+												<i class="fas fa-search"></i>
+											</button>
 										</div>
-										<button type="submit" value="" class="search-icon">
-											<i class="fas fa-search"></i>
-										</button>
 									</div>
+
+
 								</div>
-
-
 							</div>
 						</div>
 
@@ -78,7 +83,10 @@
 								</thead>
 								<tbody>
 									<tr class="jobInfo-table-body">
-										<td>이병소세무회계사무소</td>
+										<td><span>이병소세무회계사무소</span>
+											<div class="jopInfo-mobile">
+												<span>2018/4/15~2018/4/20</span>
+											</div></td>
 										<td><strong>18년 상반기 건축기사/기획/마케팅/개발 신입사원 모집</strong><br>
 											<p>
 												담당업무: 당사는 종합건설회사로 시행, 시공, 분양대행 업무를 하고 있습니다. <br> 2018년도
@@ -94,12 +102,14 @@
 											</div>
 										</td>
 
-										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span>
-											<span class="jopInfo-mobile-date">2018/4/15~2018/4/20</span></td>
+										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span></td>
 									</tr>
-
+									
 									<tr class="jobInfo-table-body">
-										<td>이병소세무회계사무소</td>
+										<td><span>이병소세무회계사무소</span>
+											<div class="jopInfo-mobile">
+												<span>2018/4/15~2018/4/20</span>
+											</div></td>
 										<td><strong>18년 상반기 건축기사/기획/마케팅/개발 신입사원 모집</strong><br>
 											<p>
 												담당업무: 당사는 종합건설회사로 시행, 시공, 분양대행 업무를 하고 있습니다. <br> 2018년도
@@ -115,12 +125,14 @@
 											</div>
 										</td>
 
-										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span>
-										<span class="jopInfo-mobile-date">2018/4/15~2018/4/20</span></td>
+										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span></td>
 									</tr>
-
+									
 									<tr class="jobInfo-table-body">
-										<td>이병소세무회계사무소</td>
+										<td><span>이병소세무회계사무소</span>
+											<div class="jopInfo-mobile">
+												<span>2018/4/15~2018/4/20</span>
+											</div></td>
 										<td><strong>18년 상반기 건축기사/기획/마케팅/개발 신입사원 모집</strong><br>
 											<p>
 												담당업무: 당사는 종합건설회사로 시행, 시공, 분양대행 업무를 하고 있습니다. <br> 2018년도
@@ -136,12 +148,14 @@
 											</div>
 										</td>
 
-										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span>
-										<span class="jopInfo-mobile-date">2018/4/15~2018/4/20</span></td>
+										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span></td>
 									</tr>
-
+									
 									<tr class="jobInfo-table-body">
-										<td>이병소세무회계사무소</td>
+										<td><span>이병소세무회계사무소</span>
+											<div class="jopInfo-mobile">
+												<span>2018/4/15~2018/4/20</span>
+											</div></td>
 										<td><strong>18년 상반기 건축기사/기획/마케팅/개발 신입사원 모집</strong><br>
 											<p>
 												담당업무: 당사는 종합건설회사로 시행, 시공, 분양대행 업무를 하고 있습니다. <br> 2018년도
@@ -157,12 +171,14 @@
 											</div>
 										</td>
 
-										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span>
-										<span class="jopInfo-mobile-date">2018/4/15~2018/4/20</span></td>
+										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span></td>
 									</tr>
-
+									
 									<tr class="jobInfo-table-body">
-										<td>이병소세무회계사무소</td>
+										<td><span>이병소세무회계사무소</span>
+											<div class="jopInfo-mobile">
+												<span>2018/4/15~2018/4/20</span>
+											</div></td>
 										<td><strong>18년 상반기 건축기사/기획/마케팅/개발 신입사원 모집</strong><br>
 											<p>
 												담당업무: 당사는 종합건설회사로 시행, 시공, 분양대행 업무를 하고 있습니다. <br> 2018년도
@@ -178,9 +194,10 @@
 											</div>
 										</td>
 
-										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span>
-										<span class="jopInfo-mobile-date">2018/4/15~2018/4/20</span></td>
+										<td><span>18/05/08 등록</span> <span>18/05/31 마감</span></td>
 									</tr>
+
+									
 
 
 								</tbody>
@@ -188,16 +205,16 @@
 						</div>
 					</div>
 					<div></div>
-						
-						<div class="academy-trash-btn">
+
+					<div class="academy-trash-btn">
 						<button>
-								<i class="far fa-trash-alt"></i>삭제
-							</button>
-							</div>
+							<i class="far fa-trash-alt"></i>삭제
+						</button>
+					</div>
 
 
 
-						<div class="academy-paging">
+					<div class="academy-paging">
 						<ul id="pagination-demo" class="pagination-sm"></ul>
 					</div>
 				</div>
@@ -220,12 +237,12 @@
 
 
 	<script>
-      $(document).ready(function() {
-         $('#sideContent-academy').find('.is-checked').removeClass('is-checked');
-         $('#sideContent-academy>.contentElement:eq(0)').addClass('is-checked');
+		$(document).ready(function() {
+			$('#sideContent').find('.is-checked').removeClass('is-checked');
+			$('#sideContent>.contentElement:eq(0)').addClass('is-checked');
 
-      });
-   </script>
+		});
+	</script>
 </body>
 
 

@@ -25,8 +25,7 @@
             <%@ include file="../include/service_x-sidebar.jsp"%>
 
             <div class="subP">
-				
-				<div class="board-subP">
+
                <div class="subPage">
                <div class="subPage b-bottom">
                   <h2>문의 및 상담</h2>
@@ -37,9 +36,8 @@
 
                </div>
                </div>
-               </div>
 
-				<div class="board-select">
+
                <div class="recruit-box">
                   <div class="recruit-header">
 
@@ -72,7 +70,6 @@
 
                   </div>
                </div>
-               </div>
 
 
                <div class="board_news">
@@ -93,18 +90,6 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        <span><span>인비스정지원자를 모집합니다.</span></span>
-                        <div class="news-mobile-content">
-                        <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
-                        </div>
-                        </td>
-                        <td>베스티안부천병원</td>
-                        <td><i class="fas fa-file-archive"></i></td>
-                        <td>2018.12.31</td>
-                     </tr>
-                     <tr id="">
-                        <td>12</td>
-                        <td>
                         <span>인비스정지원자를 모집합니다.</span>
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
@@ -117,7 +102,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        <span>인비스정지원자를 모집합니다.</span>
+                        인비스정지원자를 모집합니다.
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
@@ -129,7 +114,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        <span>인비스정지원자를 모집합니다.</span>
+                        인비스정지원자를 모집합니다.
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
@@ -141,7 +126,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        <span>인비스정지원자를 모집합니다.</span>
+                        인비스정지원자를 모집합니다.
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
@@ -153,7 +138,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        <span>인비스정지원자를 모집합니다.</span>
+                        인비스정지원자를 모집합니다.
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
@@ -165,7 +150,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        <span>인비스정지원자를 모집합니다.</span>
+                        인비스정지원자를 모집합니다.
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
@@ -177,7 +162,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        <span>인비스정지원자를 모집합니다.</span>
+                        인비스정지원자를 모집합니다.
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
@@ -189,7 +174,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        <span>인비스정지원자를 모집합니다.</span>
+                        인비스정지원자를 모집합니다.
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
@@ -201,7 +186,19 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        <span>인비스정지원자를 모집합니다.</span>
+                        인비스정지원자를 모집합니다.
+                        <div class="news-mobile-content">
+                        <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
+                        </div>
+                        </td>
+                        <td>베스티안부천병원</td>
+                        <td><i class="fas fa-file-archive"></i></td>
+                        <td>2018.12.31</td>
+                     </tr>
+                     <tr id="">
+                        <td>12</td>
+                        <td>
+                        인비스정지원자를 모집합니다.
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
