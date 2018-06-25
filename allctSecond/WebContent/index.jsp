@@ -76,7 +76,7 @@
 
 
 					<div class="mobile-about-us">
-						<img src="assets/images/messi.png">
+						<img src="assets/images/main_vision_m.png">
 					</div>
 					<!--  -->
 					<div class="img-box about-us">

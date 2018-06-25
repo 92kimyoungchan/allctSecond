@@ -58,14 +58,11 @@
        float: none !important;
    }
    div.board-select > .recruit-box > .recruit-header > .select-group > .select > .select-styled {
-   	   width: 82px !important;
-   	   padding: 10px 28px 8px 9px;
    }
    div.board-select > .recruit-box {
    	   padding: 0;
    }
   div.board-select > .recruit-box > .recruit-header > .select-group > .input-search-box {
-  	   font-size: 13px;
   }
   
   div.jobInfo > table > tbody > .jobInfo-table-body > td:nth-of-type(2) {
@@ -145,12 +142,9 @@
    }
    
    div.board-select > .recruit-box > .recruit-header > .select-group > .input-search-box > div {
-      padding: 10px 30px 8px 18px;
-      width: 193px;
    }
    
    div.board-select > .recruit-box > .recruit-header > .select-group > .select > .select-styled {
-   	  width: 100px;
    }
    
    div.clinical_allct_mobile_imgBox {
