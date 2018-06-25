@@ -606,11 +606,13 @@ font-weight: 400;
 }
 
 .faq-table-body> th.is-checked {
-   color: #32b76e !important
+   color: #ffffff !important;
+   background: #3caa69;
 }
 
 .faq-table-body> td.is-checked {
-   color: #32b76e !important
+   color: #ffffff !important;
+   background: #3caa69;
 }
 
 .faqView > span {
@@ -619,7 +621,7 @@ font-weight: 400;
 }
 
 .faq-hidden {
-    background-color: #f0f5f9;
+    background-color: #f5f5f5;
 }
 
 .faq-hidden th {
