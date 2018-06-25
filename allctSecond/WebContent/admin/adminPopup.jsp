@@ -40,7 +40,7 @@
 												</div>
 												<div class ="am-admin-image-btn-wrapper"> 
 													<button>이미지첨부</button>
-													<!-- <input type="file" id ="" name=""> -->
+													<input type="file" id ="" name="" class ="adimn-image-btn">
 												</div> 
 											</div>
 											<!-- 팝업 내용 오른쪽-->

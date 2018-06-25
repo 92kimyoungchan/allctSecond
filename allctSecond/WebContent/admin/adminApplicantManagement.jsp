@@ -426,55 +426,55 @@
 		<div class ="admin-review-score">
 		<div class="consent admin-modal-consent">
 			<label class="labelCheck" for="state-head"><input
-				type="checkbox" id="state-head" value="" name="" class="header" /> <span class="checkmark"></span> <span>두통</span>
+			readonly="readonly"	type="checkbox" id="state-head" value="" name="" class="header" /> <span class="checkmark"></span> <span>두통</span>
 			</label>
 		</div>
 		<div class="consent admin-modal-consent">
 			<label class="labelCheck" for="state-diarrhea"><input
-				type="checkbox" id="state-diarrhea" value="" name="" class="header" /> <span class="checkmark"></span> <span>설사</span>
+				readonly="readonly" type="checkbox" id="state-diarrhea" value="" name="" class="header" /> <span class="checkmark"></span> <span>설사</span>
 			</label>
 		</div>
 		<div class="consent admin-modal-consent">
 			<label class="labelCheck" for="state-sickness"><input
-				type="checkbox" id="state-sickness" value="" name="" class="header" /> <span class="checkmark"></span> <span>매스꺼움</span>
+				readonly="readonly" type="checkbox" id="state-sickness" value="" name="" class="header" /> <span class="checkmark"></span> <span>매스꺼움</span>
 			</label>
 		</div>
 		<div class="consent admin-modal-consent">
 			<label class="labelCheck" for="state-Fever"><input
-				type="checkbox" id="state-Fever" value="" name="" class="header" /> <span class="checkmark"></span> <span>발열</span>
+				readonly="readonly" type="checkbox" id="state-Fever" value="" name="" class="header" /> <span class="checkmark"></span> <span>발열</span>
 			</label>
 		</div>
 		<div class="consent admin-modal-consent">
 			<label class="labelCheck" for="state-throw-up"><input
-				type="checkbox" id="state-throw-up" value="" name="" class="header" /> <span class="checkmark"></span> <span>구토</span>
+				readonly="readonly" type="checkbox" id="state-throw-up" value="" name="" class="header" /> <span class="checkmark"></span> <span>구토</span>
 			</label>
 		</div>
 		<div class="consent admin-modal-consent">
 			<label class="labelCheck" for="state-chills"><input
-				type="checkbox" id="state-chills" value="" name="" class="header" /> <span class="checkmark"></span> <span>오한</span>
+				readonly="readonly" type="checkbox" id="state-chills" value="" name="" class="header" /> <span class="checkmark"></span> <span>오한</span>
 			</label>
 		</div>
 		<div class="consent admin-modal-consent">
 			<label class="labelCheck" for="state-whirl"><input
-				type="checkbox" id="state-whirl" value="" name="" class="header" /> <span class="checkmark"></span> <span>어지러움</span>
+				readonly="readonly" type="checkbox" id="state-whirl" value="" name="" class="header" /> <span class="checkmark"></span> <span>어지러움</span>
 			</label>
 		</div>
 		<div class="consent admin-modal-consent">
 			<label class="labelCheck" for="state-Muscle-pain"><input
-				type="checkbox" id="state-Muscle-pain" value="" name="" class="header" /> <span class="checkmark"></span> <span>근육통증</span>
+				readonly="readonly" type="checkbox" id="state-Muscle-pain" value="" name="" class="header" /> <span class="checkmark"></span> <span>근육통증</span>
 			</label>
 		</div>
 		<div class="consent">
-		<div class ="content-etc">
+		<div class ="content-etc">  
 			<label class="labelCheck" for="state-etc"><input
-				type="checkbox" id="state-etc" value="" name="" class="header" /> <span class="checkmark"></span> <span>기타</span>
+			    readonly="readonly" type="checkbox" id="state-etc" value="" name="" class="header" /> <span class="checkmark"></span> <span>기타</span>
 			</label>
 			<input type ="text" id ="" readonly="readonly">
 		</div>
 		</div>
 		</div>
 		</div>
-		
+		<div class="overlap"></div>
 		<div class ="admin-review-content">
 		<textarea class ="admin-review-content-textarea" readonly="readonly">나쁘지 않았습니다.</textarea>
 		</div>      

@@ -232,6 +232,18 @@ ul.am-h-state:after {
 	display: block;
 }
 
+.overlap {
+    position: absolute;
+    width: 442px;
+    height:  174px;
+    top: calc(50% - 87px);
+}
+
+.overlap:after {
+    content: "";
+    display:  block;
+    clear: both;
+}
 .am-h-label {
 	float: left;
 	font-size: 16px;
@@ -452,6 +464,13 @@ div.am-ab-title-searchForm>button {
 	border: none;
 	border-radius: 0px;
 	margin: 0px !important;
+}
+
+input.adimn-image-btn {
+    opacity: 0;
+    width: 84px;
+    padding: 3px;
+    margin-left: -87px;
 }
 
 div.am-ab-title-searchForm>input[type="text"] {
@@ -890,6 +909,7 @@ div#admin-review ~ div {
 
 .admin-modal-contents {
 	padding: 5px 15px 5px 25px;
+    position: relative;
 	width: 100%;
 	font-weight: bold;
 }
@@ -1217,5 +1237,4 @@ th.admin-agree-check:after {
 	color:red !important;
 	font-weight:400;
 }
-
 
