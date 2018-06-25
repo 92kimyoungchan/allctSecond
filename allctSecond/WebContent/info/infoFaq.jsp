@@ -23,7 +23,7 @@
 				<%@ include file="../include/service_x-sidebar.jsp"%>
 
 				<div class="subP">
-
+					<div class="board-subP">
 					<div class="subPage">
 						<div class="subPage b-bottom">
 							<h2>자주하는 질문</h2>
@@ -34,7 +34,9 @@
 
 						</div>
 					</div>
+					</div>
 
+					<div class="board-select">
 					<div class="recruit-box">
 						<div class="recruit-header">
 
@@ -62,6 +64,7 @@
 
 
 						</div>
+					</div>
 					</div>
 
 					<div class="board-faq">

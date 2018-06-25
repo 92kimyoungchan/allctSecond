@@ -104,7 +104,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        새로운 소식 안내드립니다.
+                       <span>새로운 소식 안내드립니다.</span>
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
@@ -116,7 +116,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        새로운 소식 안내드립니다.
+                       <span>새로운 소식 안내드립니다.</span>
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
@@ -128,7 +128,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        새로운 소식 안내드립니다.
+                       <span>새로운 소식 안내드립니다.</span>
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
@@ -140,7 +140,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        새로운 소식 안내드립니다.
+                       <span>새로운 소식 안내드립니다.</span>
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
@@ -152,7 +152,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        새로운 소식 안내드립니다.
+                       <span>새로운 소식 안내드립니다.</span>
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
@@ -164,7 +164,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        새로운 소식 안내드립니다.
+                       <span>새로운 소식 안내드립니다.</span>
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
@@ -176,7 +176,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        새로운 소식 안내드립니다.
+                       <span>새로운 소식 안내드립니다.</span>
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
@@ -188,7 +188,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        새로운 소식 안내드립니다.
+                       <span>새로운 소식 안내드립니다.</span>
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>
@@ -200,7 +200,7 @@
                      <tr id="">
                         <td>12</td>
                         <td>
-                        새로운 소식 안내드립니다.
+                       <span>새로운 소식 안내드립니다.</span>
                         <div class="news-mobile-content">
                         <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
                         </div>

@@ -329,6 +329,11 @@ span.jopInfo-mobile-date {
    display: none;
 }
 
+div.subP-jopInfo-header > div.recruit-box > .recruit-header > .select-group > .select > .select-styled {
+	padding: 12px 0 8px 10px;
+	
+}
+
 
 /* clinical jsp 임상시험 관련 페이지 */
 
@@ -693,4 +698,8 @@ div.news-mobile-content span {
 
 div.board_news > table > tbody > tr > td:nth-of-type(5) {
    padding: 20px 12px !important;
+}
+
+div.board-select > .recruit-box > .recruit-header > .select-group > .select > .select-styled {
+   padding: 12px 0 8px 10px;
 }
