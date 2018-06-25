@@ -1517,10 +1517,9 @@ margin-bottom: 25px;
 	color: #3caa69;
 	background: transparent;
 	border: 1.4px solid #3caa69;
-	height: 47px;
+	height: 43px;
 	float: left;
 	outline: none;
-	font-size: 16px;
 	margin-right: 55px;
 }
 
@@ -2048,7 +2047,6 @@ section .notice li>a, div .recruit-box-search li>a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 16px;
 }
 
 .tab-hashtag {
@@ -2314,6 +2312,7 @@ section .notice li>a, div .recruit-box-search li>a {
 .x-sidebar .x-sidebar-header {
 	padding: 40px 20px;
 	background: #3caa69;
+	border-top-left-radius: 7px;
 }
 
 .x-sidebar .x-sidebar-header>span {
@@ -2524,7 +2523,7 @@ div.tab-content .filter-area:last-child {
 }
 
 .filter-area .filter-article a {
-	font-size: 16px;
+	font-size:17px;
 }
 
 .filter-area .article-item {
@@ -5364,24 +5363,3 @@ html [type="button"] {
 	float:right !important;
 }
 
-/* 버튼모음  */
-
-
-/* 모집중 */
-button.recruitIng {
-	background:#F07407;	
-}
-
-/* 모집마감 */
-button.recruitEnd {
-	background:#F0C107;	
-}
-
-/* 시험진행중 */
-button.examIng {
-	background:#95D400;	
-}
-/* 완료 */
-button.examDone {
-	background:#07B0F0;	
-}

@@ -174,17 +174,20 @@
 								
 								<tr class="faq-table-body">
 									<th scope="row">Q</th>
-									<td><a href="#" class="faqView" id="faq-hidden6"
+									<td>
+								
+									<a href="#" class="faqView" id="faq-hidden6"
 										onclick="return false;" class="button">임상연구 참여 후
 										대상자는 중간에 동의철회 할 수 있습니까? <span> <i class="fas fa-chevron-down"></i>
 										</span>
-									</a></td>
+									</a>
+									</td>
 								</tr>
 								<tr class= "faq-hidden" id="faq-hidden6View" style="display: none;">
 									<th>A</th>
-									<td><p>
+									<td><div id="faq-hidden6View" class="faq-hidden6View"><p>
 											올바르게 설계되어 진행되는 임상연구는 참여자에게 최상의 접근방법으로 다음과 같은 이익이 있습니다.
-										</p></td>
+										</p></div></td>
 								</tr>
 
 
@@ -244,22 +247,9 @@
 				}
 
 			}); */
-			
-			$(".faqView").click(function() {
-				var viewId = $(this).attr('id');
-				var status = ("#" + viewId + "View");
-				
-				if(status == ":visible") {
-					status.slideUp();
-				} else {
-					status.slideDown();
-				}
-				
-				
-			});
-			
-
+			 
 		});
+		
 	</script>
 
 </body>
