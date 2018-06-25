@@ -254,7 +254,7 @@
    }
    
    div.clinical_status_details > table > tbody > tr:nth-of-type(5) > td:nth-child(1) {
-      vertical-align: top;
+      vertical-align: top; 
    }
    
    div.subP-clinical > .clinical_content_box > .support_iconBox {
