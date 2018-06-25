@@ -257,7 +257,7 @@
 							</div>
 							
 							<div class="academy-paging">
-						<ul id="pagination-demo" class="pagination-sm"></ul>
+						<ul id="pagination" class="pagination-sm"></ul>
 					</div>
 				</div>
 			</div>

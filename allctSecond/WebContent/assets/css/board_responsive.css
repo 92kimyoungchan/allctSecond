@@ -216,9 +216,16 @@
 }
 
 
+@media only screen and (max-width: 645px) {
+
+	div.subP-clinical-title {
+		padding:0 20px;
+	}
+}
+
 @media only screen and (max-width: 767px) {
    div.clinical_info_content_box p:last-of-type {
-       margin: 35px 0;
+      
    }
    
    .clinical-status > table > thead {
@@ -278,7 +285,7 @@
 	padding-left:0;
 	}
 	 div.clinical_info_content_box p:last-of-type {
- 	/* margin: 35px 0; */
+ 	
  	}
 	
    

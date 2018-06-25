@@ -56,7 +56,12 @@
 	<header>
 		<div class="container">
 			<a href="/allctSecond/join/joinType.jsp" class="content-icon">회원가입</a><a href="/allctSecond/join/LogIn.jsp"
-				class="content-icon">로그인</a><a href="/allctSecond/admin/adminMemberList.jsp">ADMIN</a><a href="/allctSecond/myMenu/myFavorite.jsp">내정보</a>
+				class="content-icon">로그인</a><a href="/allctSecond/admin/adminMemberList.jsp">ADMIN</a>
+		</div>
+		<div class="container">
+			<span class="status"><b>김종찬</b>님 allct에 오신 것을 환영합니다. </span>
+			<a href="/allctSecond/myMenu/myFavorite.jsp" class="content-icon">내 정보</a><a href="/allctSecond/join/LogIn.jsp"
+				class="content-icon">로그아웃</a>
 		</div>
 	</header>
 	<nav>

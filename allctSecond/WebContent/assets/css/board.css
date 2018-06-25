@@ -70,7 +70,9 @@ div.select-header-academy thead > tr > th:nth-of-type(1) {
 }
 
 .table-academy thead th {
-   padding: 13px 22px; 
+   padding: 13px 22px;
+   text-align: left !important;
+   font-weight: 400;
 }
 
 .table-academy tbody td {
@@ -85,13 +87,14 @@ div.select-header-academy thead > tr > th:nth-of-type(1) {
 
 .academy-table-body > td > p {
    font-size: 14px;
-    font-weight: bold;
-    line-height: 2.2;
+   font-weight: 400;
+   line-height: 2.2;
 }
 
 .academy-table-body > td > p:last-of-type {
    color: #32b76e;
    margin-bottom: 0;
+   font-weight: bold;
 } 
 
 .academy-trash-btn button {
@@ -298,7 +301,7 @@ span#jopInfo-searchCount {
 
 .jobInfo-table > tbody > tr > td:nth-of-type(4) {
 	  line-height: 2;
-   font-weight: bold;
+   font-weight: normal;
    text-align: center;
 }
 
@@ -595,6 +598,7 @@ div.board-faq > table > tbody > tr > th {
 
 div.board-faq > table > tbody > tr > td {
    
+font-weight: 400;
 }
 
 .faq-table-body> th.is-checked {
@@ -631,9 +635,9 @@ div.board-faq > table > tbody > tr > th:nth-child(1) {
    font-weight: bold;
 }
 .faq-hidden > td > p {
-   font-weight: bold;
-    font-size: 15px;
-    margin: 0;
+   font-weight: 400;
+   font-size: 15px;
+   margin: 0;
 }
 
 /* clinical_status_details.jsp 임상시험의 현황 상세 페이지 */

@@ -123,7 +123,19 @@
 			margin:0 !important;
 		}
 	
-	
+		.recruit-header .input-search {
+		
+padding: 12px 0 12px 6px;
+		
+max-width: 160px;
+	}
+	.recruit-box .search-icon {
+		width:36px;
+	}
+	.select-styled {
+	padding:12px 0 12px 6px;
+	width:90px;
+	}
 	
 	
 	
@@ -136,11 +148,15 @@
 }
 
 @media screen and (min-width:425px) and (max-width:645px) {
-	section:not(.another) {
-		padding: 45px 4%;
+
+	section.advertisement.firstBox {
+		min-height: 280px;
 	}
+	
 		section.hoverDiv {
-		padding: 45px 0;
+		padding: 30px 0;
+		margin-bottom: 0;
+		margin-top:20px;
 	}
 	
 	
@@ -253,20 +269,20 @@
 	}
 
 	
-	.tab-content .tab-pane p {
+	/* .tab-content .tab-pane p {
 		width: 75%;
-		/* display: none; */
+		display: none;
 		text-overflow: ellipsis;
 		white-space: nowrap;
 		overflow: hidden;
-	}
-	.tab-content .tab-pane span {
+	} */
+	/* .tab-content .tab-pane span {
 		width: 25%;
-		/* display: none; */
+		display: none;
 		text-overflow: ellipsis;
 		white-space: nowrap;
 		overflow: hidden;
-	}
+	} */
 	.slogan-box .slogan .slogan-content {
 		padding: 25px 5px;
 	}
@@ -409,12 +425,18 @@ div.subP {
 	}
 	.containerBox {
 		max-width:1140px;
+		padding: 22px 0 59px;
 	}
 }
 
 @media only screen and (max-width: 645px) {
 
 	
+	section.advertisement.info {
+	background: url(../images/infoCenterM.png) no-repeat center !important;
+	background-size:cover;
+	
+	}
 	.advertisement .adsection h2.second {
 		font-size:16px;
 	}
@@ -441,11 +463,13 @@ div.subP {
 	.advertisement .adsection.num1 {
 		left: 0;
 		padding: 0 5%;
+		width: 100%;
 	}
 	
 	.advertisement .adsection.num2 {
 		left: 0%;
 		padding: 0 5%;
+		width: 100%;
 	}
 	.advertisement .adsection h2 {
 		font-size: 23px;
@@ -455,7 +479,7 @@ div.subP {
 		
 	}
 	.advertisement .adsection a {
-		margin-top:25px;
+		margin-top: 10px;
 	}
 	div.subP {
 		padding:0 10px;
@@ -570,6 +594,14 @@ section.advertisement {
 }
 
 @media only screen and (max-width: 767px) {
+	
+	.advertisement .adsection p {
+		margin-bottom:5px;
+	}
+	.advertisement .adsection h2.second {
+		font-size:20px;
+	}
+	
 	.img-set3 .overlay-wrap .overlay-item span.mobile {
 		display:block;
 	}
@@ -593,6 +625,7 @@ section.advertisement {
 	footer div.content-left {
 		width: 100%;
 		float: left;
+		padding:0 35px;
 	}
 	
 	#pagination {
@@ -639,8 +672,8 @@ section.advertisement {
 		padding:6px 12px;
 	}
 	.recruit-header .input-search {
-		padding:8px 2px 8px 18px;
-		height:43px;
+		
+		
 	}
 	
 	.recruit-header .input-search-box {
@@ -648,8 +681,7 @@ section.advertisement {
 	}
 	
 	.select-styled {
-		padding:8px 28px 8px 18px;
-		height:43px;
+		
 	}
 	
 	.tab-hashtag .searchRecruit {
@@ -769,14 +801,14 @@ section.advertisement {
 		margin-right:5px;
 	}
 	.recruit-header .input-search {
-		padding:8px 0px 8px 4px;
+		
 	}
 	
 	.recruit-box .select-group .select:last-of-type {
 		display:none;
 	}
 	.recruit-box {
-		padding:0 8px;
+	
 	}
 	.labelCheck {
 		margin-bottom:6px;
@@ -820,6 +852,7 @@ section.advertisement {
 @media only screen and (min-width: 646px) {
 	section.advertisement {
 		min-height: 280px;
+		margin-bottom: 35px;
 	}
 	
 
@@ -918,6 +951,10 @@ section.advertisement {
 }
 
 @media screen and (max-width:991px) {
+	
+	.img-box .img-set3 img {
+		width:100%;
+	}
 	.brand-logo-s {
 		display: none;
 	}
@@ -1009,19 +1046,9 @@ section.advertisement {
 		
 	}
 	
-	
-	
 }
 
 
-
-
-section.another {
-	padding: 5.8% 15% 5.8%;
-}
-
-
-}
 
 @media screen and (min-width:768px) and (max-width:1199px) {
 	.tab-content .tab-pane p {

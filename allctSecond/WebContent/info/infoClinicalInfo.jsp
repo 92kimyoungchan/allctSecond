@@ -42,7 +42,7 @@
 						</div>
 					</div>
 					<div class="clinical_info_content_box">
-						<div class="clinical_content">
+						<div class="">
 							<h2>임상시험은 왜 중요할까요?</h2>
 							<p>
 								임상시험은 질환을 앓고 있는 환자, 더 나아가 인류 건강과 복지에 기여하는 신약개발을 위한 필수불가결한 과정입니다.
