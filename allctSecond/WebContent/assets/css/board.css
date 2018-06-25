@@ -455,6 +455,7 @@ div.clinical_info_content_box p:first-of-type {
    font-size: 16px;
    word-spacing: 4px;
    margin: 11px 0 -10px 0;
+   color: rgba(80,80,80,0.8);
 }
 
 div.clinical_info_content_box p:last-of-type {

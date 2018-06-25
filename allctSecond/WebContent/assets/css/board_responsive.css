@@ -32,6 +32,9 @@
 	.jobInfo > table > tbody > tr.jobInfo-table-body > td > strong {
 		font-size: 12px;
 	}
+	div.subP-clinical-status-header > .recruit-box > .recruit-header > .select-group {
+		margin: 0 0 10px 14px;
+	}
 	
 	
 	
@@ -256,6 +259,11 @@
     	overflow: hidden;
     	text-overflow: ellipsis;
     	white-space: nowrap;
+   }
+   
+   div.subP-clinical-status-header > .recruit-box > .recruit-header > div {
+   		float: left;
+		margin: 0 0 10px 25px;
    }
 
 }
