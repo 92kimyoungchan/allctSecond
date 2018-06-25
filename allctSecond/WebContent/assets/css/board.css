@@ -231,7 +231,9 @@ span#jopInfo-searchCount {
     height: 45px;
     border-bottom: 1px solid #ddd;
     border-top: 2px solid #3caa69;
-    background-color: rgba(60,170,105,0.10);
+    background-color: #e2f3ee;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .jobInfo-table thead > tr > th {
@@ -457,10 +459,12 @@ div.clinical_info_content_box p:first-of-type {
 
 div.clinical_info_content_box p:last-of-type {
    font-weight: normal;
-   line-height: 33px;
+   line-height: 32px;
    font-size: 16px;
-   word-spacing: 4px;
+   letter-spacing: 0;
+   word-spacing: 0;
    margin: 11px 0 35px;
+   color: rgba(80,80,80,0.8);
 }
 
 div.clinical_justice h2 {
@@ -498,13 +502,14 @@ div.clinical_allct_mobile_imgBox {
 
 div.subP-clinical-qualify h2 {
     margin-top: 40px;
-   padding: 0;
+    padding: 0;
+    margin-bottom: 65px;
 }
 
 
 div.clinical_qualify_imgBox .clinical_imgBox > img {
 	width:100%;
-	
+	margin-bottom: 20px;
 }
 
 
@@ -707,6 +712,8 @@ div.board_news > table > tbody > tr > td:nth-of-type(2) {
 
 div.board_news > .table-admin td {
    vertical-align: middle;
+   font-size:14px;
+   font-weight:400;
 }
 
 div.news-mobile-content span {
