@@ -120,7 +120,7 @@
    	  padding: 13px 15px 0;
    }
    
-   .jobInfo > table > tbody > tr > td:nth-of-type(2) {
+   .jobInfo-table > tbody > .jobInfo-table-body > td:nth-of-type(2) {
    	   padding: 13px 15px 0;
    }
    
@@ -339,11 +339,7 @@
        margin: 0;
    }
    
-   div.jobInfo > table > tbody > tr > td > span:nth-of-type(2) {
-      display: none;
-   }
-   
-   div.jobInfo > table > tbody > tr > td > span:nth-of-type(3) {
+   div.jobInfo > table > tbody > tr > td:nth-of-type(4) > span {
       display: none;
    }
    
@@ -420,7 +416,6 @@
    	  padding: 20px 8px 0 25px;
    }
    
-
 }
 
 
