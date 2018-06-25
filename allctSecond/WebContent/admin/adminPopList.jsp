@@ -71,7 +71,7 @@
 												<td>2018-06-01</td>
 												<td>2018-06-21</td>
 												<td>2018-06-21</td>
-												<td>
+												<td> 
 											 <div class = "admin-function-btn-Form">
 												<button class ="ad-blackList-btn">수정/삭제</button>
 											</div>	

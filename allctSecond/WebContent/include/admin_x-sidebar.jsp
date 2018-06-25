@@ -11,7 +11,7 @@
 
 					<ul id="memberManage" class ="memberMangies">
 						<li class="" id ="admin1" ><a href="/allctSecond/admin/adminMemberList.jsp">일반회원목록</a></li>
-						<li class="" id ="admin2"><a href="/allctSecond/admin/adminClientList.jsp">의뢰자회원목록</a></li>
+						<li class="" id ="admin2"><a href="/allctSecond/admin/adminClientlist.jsp">의뢰자회원목록</a></li>
 						<li class="" id ="admin3" ><a href="/allctSecond/admin/adminBlackList.jsp">블랙리스트</a></li>
 					</ul>
 					<div class="admin_x-sidebar-header">

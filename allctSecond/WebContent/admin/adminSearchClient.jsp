@@ -178,7 +178,7 @@ super 페이지 span
 											</td>
 											<td>admin72</td>
 											<td>생동성</td>
-											<td>1형생물학적동등성시험</td>
+											<td class ="ad-maxWidth160">1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
 											<td>18-05-10</td>
@@ -199,7 +199,7 @@ super 페이지 span
 											</td>
 											<td>admin72</td>
 											<td>생동성</td>
-											<td>1형생물학적동등성시험</td>
+											<td class ="ad-maxWidth160">1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
 											<td>18-05-10</td>
@@ -220,7 +220,7 @@ super 페이지 span
 											</td>
 											<td>admin72</td>
 											<td>생동성</td>
-											<td>1형생물학적동등성시험</td>
+											<td class ="ad-maxWidth160">1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
 											<td>18-05-10</td>
@@ -241,7 +241,7 @@ super 페이지 span
 											</td>
 											<td>admin72</td>
 											<td>생동성</td>
-											<td>1형생물학적동등성시험</td>
+											<td class ="ad-maxWidth160">1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
 											<td>18-05-10</td>
@@ -262,7 +262,7 @@ super 페이지 span
 											</td>
 											<td>admin72</td>
 											<td>생동성</td>
-											<td>1형생물학적동등성시험</td>
+											<td class ="ad-maxWidth160">1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
 											<td>18-05-10</td>
@@ -283,7 +283,7 @@ super 페이지 span
 											</td>
 											<td>admin72</td>
 											<td>생동성</td>
-											<td>1형생물학적동등성시험</td>
+											<td class ="ad-maxWidth160">1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
 											<td>18-05-10</td>
