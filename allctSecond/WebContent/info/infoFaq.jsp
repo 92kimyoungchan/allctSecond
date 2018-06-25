@@ -232,16 +232,32 @@
 
 
 			/* 테이블 내용 더보기  (접었다 펼치기)*/
-			$(".faqView").click(function() {
+			/* $(".faqView").click(function() {
 				var viewId = $(this).attr('id');
+				
 				status = $("#" + viewId + "View").css("display");
 				if (status == "none") {
 					$("#" + viewId + "View").css("display", "");
+					
 				} else {
 					$("#" + viewId + "View").css("display", "none");
 				}
 
+			}); */
+			
+			$(".faqView").click(function() {
+				var viewId = $(this).attr('id');
+				var status = ("#" + viewId + "View");
+				
+				if(status == ":visible") {
+					status.slideUp();
+				} else {
+					status.slideDown();
+				}
+				
+				
 			});
+			
 
 		});
 	</script>
