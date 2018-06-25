@@ -319,6 +319,7 @@ checkbox table
 											</tr>
 										</thead>
 										<tbody>
+<<<<<<< HEAD
 
 
 											<tr class="ad-table-body">
@@ -340,9 +341,109 @@ checkbox table
 												<td><span class="admin-test-ing">시험진행중</span></td>
 												<td><button class="am-btn-memberView super-btn">명단보기</button></td>
 											</tr>
+=======
+<<<<<<< HEAD
+										<tr class="ad-table-body">
+											<td>
+												<div class="consent ad-consent">
+													<label class="labelCheck" for="ad-tr-0"> <input
+														type="checkbox" id="ad-tr-0" name="" class="info" value="" />
+														<span class="checkmark"></span>
+													</label>
+												</div>
+											</td>
+											<td class ="Publisher">admin72</td>
+											<td>생동성</td>
+											<td class ="ad-maxWidth160">1형생물학적동등성시험</td>
+											<td>18-05-10~18-05-20</td>
+											<td><span id="">30</span>/<span id="">50</span></td>
+											<td>베스티안 추천병원</td>
+											<td>18-05-10</td>
+											<td><span class ="admin-test-ing">시험진행중</span></td>
+											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
+										</tr><tr class="ad-table-body">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-0"> <input
+															type="checkbox" id="ad-tr-0" name="" class="info"
+															value="" /> <span class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td class="Publisher">admin72</td>
+												<td>생동성</td>
+												<td>1형생물학적동등성시험</td>
+												<td>18-05-10~18-05-20</td>
+												<td><span id="">30</span>/<span id="">50</span></td>
+												<td>베스티안 추천병원</td>
+												<td>18-05-10</td>
+												<td><span class="admin-test-ing">시험진행중</span></td>
+												<td><button class="am-btn-memberView super-btn">명단보기</button></td>
+											</tr><tr class="ad-table-body">
+											<td>
+												<div class="consent ad-consent">
+													<label class="labelCheck" for="ad-tr-1"> <input
+														type="checkbox" id="ad-tr-1" name="" class="info" value="" />
+														<span class="checkmark"></span>
+													</label>
+												</div>
+											</td>
+											<td class ="Publisher">admin72</td>
+											<td>생동성</td>
+											<td class ="ad-maxWidth160">1형생물학적동등성시험</td>
+											<td>18-05-10~18-05-20</td>
+											<td><span id="">30</span>/<span id="">50</span></td>
+											<td>베스티안 추천병원</td>
+											<td>18-05-10</td>
+											<td><span class ="admin-test-recruited">모집마감</span></td>
+											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
+										</tr>
+										<tr class="ad-table-body">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-1"> <input
+															type="checkbox" id="ad-tr-1" name="" class="info"
+															value="" /> <span class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td class="Publisher">admin72</td>
+												<td>생동성</td>
+												<td>1형생물학적동등성시험</td>
+												<td>18-05-10~18-05-20</td>
+												<td><span id="">30</span>/<span id="">50</span></td>
+												<td>베스티안 추천병원</td>
+												<td>18-05-10</td>
+												<td><span class="admin-test-recruited">모집마감</span></td>
+												<td><button class="am-btn-memberView super-btn">명단보기</button></td>
+											</tr>
+=======
+										
+										
+										<tr class="ad-table-body">
+											<td>
+												<div class="consent ad-consent">
+													<label class="labelCheck" for="ad-tr-0"> <input
+														type="checkbox" id="ad-tr-0" name="" class="info" value="" />
+														<span class="checkmark"></span>
+													</label>
+												</div>
+											</td>
+											<td class ="Publisher">admin72</td>
+											<td>생동성</td>
+											<td>1형생물학적동등성시험</td>
+											<td>18-05-10~18-05-20</td>
+											<td><span id="">30</span>/<span id="">50</span></td>
+											<td>베스티안 추천병원</td>
+											<td>18-05-10</td>
+											<td><span class ="admin-test-ing">시험진행중</span></td>
+											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
+										</tr>
+>>>>>>> branch 'master' of https://github.com/92kimyoungchan/allctSecond.git
 
 
 
+<<<<<<< HEAD
 											<tr class="ad-table-body">
 												<td>
 													<div class="consent ad-consent">
@@ -362,9 +463,32 @@ checkbox table
 												<td><span class="admin-test-recruited">모집마감</span></td>
 												<td><button class="am-btn-memberView super-btn">명단보기</button></td>
 											</tr>
+=======
+										<tr class="ad-table-body">
+											<td>
+												<div class="consent ad-consent">
+													<label class="labelCheck" for="ad-tr-1"> <input
+														type="checkbox" id="ad-tr-1" name="" class="info" value="" />
+														<span class="checkmark"></span>
+													</label>
+												</div>
+											</td>
+											<td class ="Publisher">admin72</td>
+											<td>생동성</td>
+											<td>1형생물학적동등성시험</td>
+											<td>18-05-10~18-05-20</td>
+											<td><span id="">30</span>/<span id="">50</span></td>
+											<td>베스티안 추천병원</td>
+											<td>18-05-10</td>
+											<td><span class ="admin-test-recruited">모집마감</span></td>
+											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
+										</tr>
+>>>>>>> branch 'master' of https://github.com/92kimyoungchan/allctSecond.git
+>>>>>>> branch 'master' of https://github.com/92kimyoungchan/allctSecond.git
 
 
 
+<<<<<<< HEAD
 											<tr class="ad-table-body">
 												<td>
 													<div class="consent ad-consent">
@@ -384,9 +508,65 @@ checkbox table
 												<td><span class="admin-test-Recruiting">모집중</span></td>
 												<td><button class="am-btn-memberView super-btn">명단보기</button></td>
 											</tr>
-
-
-
+=======
+										<tr class="ad-table-body">
+											<td>
+												<div class="consent ad-consent">
+													<label class="labelCheck" for="ad-tr-2"> <input
+														type="checkbox" id="ad-tr-2" name="" class="info" value="" />
+														<span class="checkmark"></span>
+													</label>
+												</div>
+											</td>
+											<td class ="Publisher">admin72</td>
+											<td>생동성</td>
+<<<<<<< HEAD
+											<td class ="ad-maxWidth160">1형생물학적동등성시험</td>
+											<td>18-05-10~18-05-20</td>
+											<td><span id="">30</span>/<span id="">50</span></td>
+											<td>베스티안 추천병원</td>
+											<td>18-05-10</td>
+											<td><span class ="admin-test-Recruiting">모집중</span></td>
+											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
+										</tr>
+											<tr class="ad-table-body">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="" class="info"
+															value="" /> <span class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td class="Publisher">admin72</td>
+												<td>생동성</td>
+												<td>1형생물학적동등성시험</td>
+												<td>18-05-10~18-05-20</td>
+												<td><span id="">30</span>/<span id="">50</span></td>
+												<td>베스티안 추천병원</td>
+												<td>18-05-10</td>
+												<td><span class="admin-test-Recruiting">모집중</span></td>
+												<td><button class="am-btn-memberView super-btn">명단보기</button></td>
+											</tr>
+										<tr class="ad-table-body">
+											<td>
+												<div class="consent ad-consent">
+													<label class="labelCheck" for="ad-tr-3"> <input
+														type="checkbox" id="ad-tr-3" name="" class="info" value="" />
+														<span class="checkmark"></span>
+													</label>
+												</div>
+											</td>
+											<td class ="Publisher">admin72</td>
+											<td>생동성</td>
+											<td class ="ad-maxWidth160">1형생물학적동등성시험</td>
+											<td>18-05-10~18-05-20</td>
+											<td><span id="">30</span>/<span id="">50</span></td>
+											<td>베스티안 추천병원</td>
+											<td>18-05-10</td>
+											<td><span class ="admin-test-complete">완료</span></td>
+											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
+										</tr>
 											<tr class="ad-table-body">
 												<td>
 													<div class="consent ad-consent">
@@ -406,6 +586,61 @@ checkbox table
 												<td><span class="admin-test-complete">완료</span></td>
 												<td><button class="am-btn-memberView super-btn">명단보기</button></td>
 											</tr>
+=======
+											<td>1형생물학적동등성시험</td>
+											<td>18-05-10~18-05-20</td>
+											<td><span id="">30</span>/<span id="">50</span></td>
+											<td>베스티안 추천병원</td>
+											<td>18-05-10</td>
+											<td><span class ="admin-test-Recruiting">모집중</span></td>
+											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
+										</tr>
+>>>>>>> branch 'master' of https://github.com/92kimyoungchan/allctSecond.git
+
+
+
+<<<<<<< HEAD
+											<tr class="ad-table-body">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-3"> <input
+															type="checkbox" id="ad-tr-3" name="" class="info"
+															value="" /> <span class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td class="Publisher">admin72</td>
+												<td>생동성</td>
+												<td>1형생물학적동등성시험</td>
+												<td>18-05-10~18-05-20</td>
+												<td><span id="">30</span>/<span id="">50</span></td>
+												<td>베스티안 추천병원</td>
+												<td>18-05-10</td>
+												<td><span class="admin-test-complete">완료</span></td>
+												<td><button class="am-btn-memberView super-btn">명단보기</button></td>
+											</tr>
+=======
+										<tr class="ad-table-body">
+											<td>
+												<div class="consent ad-consent">
+													<label class="labelCheck" for="ad-tr-3"> <input
+														type="checkbox" id="ad-tr-3" name="" class="info" value="" />
+														<span class="checkmark"></span>
+													</label>
+												</div>
+											</td>
+											<td class ="Publisher">admin72</td>
+											<td>생동성</td>
+											<td>1형생물학적동등성시험</td>
+											<td>18-05-10~18-05-20</td>
+											<td><span id="">30</span>/<span id="">50</span></td>
+											<td>베스티안 추천병원</td>
+											<td>18-05-10</td>
+											<td><span class ="admin-test-complete">완료</span></td>
+											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
+										</tr>
+>>>>>>> branch 'master' of https://github.com/92kimyoungchan/allctSecond.git
+>>>>>>> branch 'master' of https://github.com/92kimyoungchan/allctSecond.git
 
 
 

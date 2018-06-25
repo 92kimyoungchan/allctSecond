@@ -30,16 +30,18 @@
 									<h1 id= "admin7" class ="admin-navNo" >팝업관리</h1> 
 								</div>  
 								
+								<form action="">
 						<!-- Applicant  Information -->	
 								<div class="am-h-content-wrapper">
 										<div class="admin-pop_up-container">
-										 <!-- 팝업 내용 왼쪾 -->
+				  						 <!-- 팝업 내용 왼쪾 -->
 											<div class ="am-admin-pop_up-left">
 												<div class ="am-admin-image-wrapper">
 												</div>
-												<div class ="am-admin-image-btn-wrapper">
+												<div class ="am-admin-image-btn-wrapper"> 
 													<button>이미지첨부</button>
-												</div>
+													<input type="file" id ="" name="" class ="adimn-image-btn">
+												</div> 
 											</div>
 											<!-- 팝업 내용 오른쪽-->
 											<div class ="am-admin-pop_up-right">
@@ -69,6 +71,7 @@
 										</div>											
 								</div>   
 								<!-- Applicant  Information -->  
+								
 										<!--공고 Manipulation  -->
 						<div class="am-ab-mani">
 							<!--  선택 수정 삭제 추가-->
@@ -77,6 +80,8 @@
 								<button class="ad-btn ad-m-btn-sms right">수정하기</button>
 							</div>
 						</div>
+						
+						</form>
 							</div>
 						</div>
 					</div>

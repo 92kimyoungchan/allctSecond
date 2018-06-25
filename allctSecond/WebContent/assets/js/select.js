@@ -22,7 +22,7 @@ $(document).ready(function() {
 	            rel: $this.children('option').eq(i).val()
 	        }).appendTo($list);
 	    }
-	  
+
 	    var $listItems = $list.children('li');
 	  
 	    $styledSelect.click(function(e) {

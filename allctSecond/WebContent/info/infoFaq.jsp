@@ -181,21 +181,19 @@
 										대상자는 중간에 동의철회 할 수 있습니까? <span> <i class="fas fa-chevron-down"></i>
 										</span>
 									</a>
+									
 									</td>
 								</tr>
 								<tr class= "faq-hidden" id="faq-hidden6View" style="display: none;">
+									
 									<th>A</th>
-									<td><div id="faq-hidden6View" class="faq-hidden6View"><p>
+									<td>
+									<p>
 											올바르게 설계되어 진행되는 임상연구는 참여자에게 최상의 접근방법으로 다음과 같은 이익이 있습니다.
-										</p></div></td>
+										</p>
+									
+										</td>
 								</tr>
-
-
-
-
-
-
-
 
 							</tbody>
 
@@ -248,6 +246,35 @@
 
 			}); */
 			 
+			$(".faqView").click(function() {
+				var viewId = $(this).attr('id');
+				
+				status = $("#" + viewId + "View").css("display");
+				if (status == "none") {
+					$("#" + viewId + "View").slideFadeTableRow(500, 'swing', function(){});
+					
+				} else {
+					$("#" + viewId + "View").slideUp().prepareTableRowForSliding();
+				}
+
+			});
+			
+			jQuery.fn.prepareTableRowForSliding = function() {
+			    $tr = this;
+			    $tr.children('td').wrapInner('<div style="display: none;" />');
+			    return $tr;
+			};
+
+			jQuery.fn.slideFadeTableRow = function(speed, easing, callback) {
+			    $tr = this;
+			    if ($tr.is(':hidden')) {
+			        $tr.show().find('td > div').animate({opacity: 'toggle', height: 'toggle'}, speed, easing, callback);
+			        
+			    } 
+			    
+			    return $tr;
+			};
+			
 		});
 		
 	</script>
