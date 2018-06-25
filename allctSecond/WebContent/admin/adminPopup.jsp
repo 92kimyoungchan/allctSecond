@@ -34,7 +34,7 @@
 						<!-- Applicant  Information -->	
 								<div class="am-h-content-wrapper">
 										<div class="admin-pop_up-container">
-										 <!-- 팝업 내용 왼쪾 -->
+				  						 <!-- 팝업 내용 왼쪾 -->
 											<div class ="am-admin-pop_up-left">
 												<div class ="am-admin-image-wrapper">
 												</div>
