@@ -95,11 +95,43 @@ div.recruit-apply ul>li>a.active {
 									
 										
 								</tr>
-						
-						
-								<!--  -->	
-							
-							
+								
+								<tr class="appendTr">
+									<td>
+										상세질문
+									</td>
+									<td>
+									어떤 약 입니까?
+									</td>
+									<td >
+									<label class="labelRadio"> <input type="radio" id=""
+										name="radio1" value="yes"><span class="checkmark"></span><span>예예예예예</span></label>
+									<label class="labelRadio"> <input type="radio" id=""
+										name="radio1" value="no"><span class="checkmark"></span><span>예예예예예</span></label>
+										<label class="labelRadio"> <input type="radio" id=""
+										name="radio1" value="yes"><span class="checkmark"></span><span>예예예예예</span></label>
+									<label class="labelRadio"> <input type="radio" id=""
+										name="radio1" value="no"><span class="checkmark"></span><span>예예예예예</span></label>
+
+									</td>
+									
+										
+								</tr>
+								
+								<tr class="appendTr">
+									<td>
+										상세질문
+									</td>
+									<td>
+									어떤 약 입니까?
+									</td>
+									<td >
+									<input type="text" value="마약" class="datepicker">
+									</td>
+									
+										
+								</tr>
+
 								<tr>
 									<td>
 										02
@@ -299,10 +331,8 @@ div.recruit-apply ul>li>a.active {
 
 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
-	<script defer src="../assets/js/fontawesome-all.js"></script>
-	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script type="text/javascript" src="../assets/js/datepicker.js"></script>
-	<script type="text/javascript" src="../assets/js/select_apply.js"></script>
+		<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 
 
@@ -312,6 +342,8 @@ div.recruit-apply ul>li>a.active {
 			$('#sideContent>.contentElement:eq(2)').addClass('is-checked');
 		});
 	</script>
+	
+	
 </body>
 
 

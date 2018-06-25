@@ -1,5 +1,10 @@
 $(document).ready(function() {	
 	
+	
+	var navNo = $(".admin-navNo").attr("id");
+	
+	$("#memberManage #"+navNo).addClass("active");
+	
 	var flag = $("input[type='checkbox'][id='all']").is(':checked');
 	
 $('#pagination-demo').twbsPagination({
@@ -33,6 +38,9 @@ $("input[type='checkbox'][id='all']").on('click',function(){
 });
 
 
+
+
+
 /*체크 박스 선택했을때 background-color 변경*/
 $("table.ab-table").on('change','.ab-table-body .info',function(){
 	admin_checkBoxTrColorChange($(this));
@@ -44,7 +52,7 @@ $("table.ab-table").on('change','.ab-table-body .info',function(){
 	checkBoxValue =  getCheckBox.is(":checked");
 	var row = getCheckBox.parent().parent().parent().parent();
 	if(checkBoxValue){
-		row.css("background-color","#fbf8f8");		
+		row.css("background-color","rgb(229, 230, 230, 1)");		
 	}else{
 		row.css("background-color","rgb(255, 255, 255)");	
 	}	
@@ -80,7 +88,7 @@ $('.am-tabs li').click(function(){
 
 /*
 라디오버튼 번갈아서 나오기*/
-
+/*
 $('.labelRadio').on('click',function() {
 
 
@@ -106,7 +114,7 @@ $('.labelRadio').on('click',function() {
 	
 	}
 
-});
+});*/
 
 
 
@@ -124,27 +132,5 @@ $(document).ready(function() { /*이게 더 좋은 소스*/
 	$(window).resize(function() {
 		$('.admin_x-sidebar').css('height',$('.subP_admin').css('height'));	})
 });
-
-/*
-window.onload = function () {
-	
-	console.log($('.subP_admin').css('height'));
-	var BigHeight = parseInt($('.subP_admin').css('height').replace("px",""));
-
-	var SameHeight = BigHeight +"px";
-	console.log("Height",BigHeight);
-	$('.admin_x-sidebar').css({
-		height:SameHeight
-	});
-
-
-	$(window).resize(function(){
-		$('.admin_x-sidebar').css({
-			height:SameHeight
-			
-		});
-		console.log($('.subP_admin').css('height'));
-	});
-}*/
 
 

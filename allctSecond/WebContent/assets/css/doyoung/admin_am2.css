@@ -1,29 +1,100 @@
 @CHARSET "UTF-8";
 
-/* ÃƒÂªÃ‚Â³Ã‚ÂµÃƒÂ­Ã¢â‚¬Â Ã‚ÂµÃƒÂ«Ã‚Â¶Ã¢â€šÂ¬ÃƒÂ«Ã‚Â¶Ã¢â‚¬Å¾ */
+/* ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂªÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂµÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂµÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â«ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â«ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ */
 .ad-consent {
 	width: 25px;
 	height: 25px;
 }
 
+.admin-pagination-wrap {
+	margin: 0 auto;
+	text-align: center;
+	width: fit-content;
+}
+
+.modal-header .close {
+	font-size: 35px;
+}
+
+.modal-content.admin-modal-content {
+	box-shadow: 60px 0px 100px -90px #000000;
+}
+
+.modal-content.admin-modal-content {
+	box-shadow: 60px 60px 100px -83px #000000;
+}
+
+.admin-nav-li>img {
+	width: 100%;
+	height: 100%;
+}
+
+.admin_x-sidebar {
+	background: #474f55;
+}
+
+ul.menu-header>li {
+	cursor: pointer;
+}
+
+div.subP_admin>ul>li>a:hover {
+	color: white !important;
+}
+
+.admin-nav-li {
+	width: 52.5px;
+	height: 52.5px;
+	margin: 0 auto;
+}
 /* .page-item.active .page-link {
 	background-color: #9a9494;
 	border-color: #9a9494;
 } */
-.labelCheck:hover input ~ .checkmark {
-	background-color: #3ae660;
+.subP_admin .menu-header {
+	padding: 0;
+	background-color: #22af2d;
+	margin-bottom: 0;
+	height: 101px;
 }
+
+.subP_admin .menu-header li {
+	padding-right: 10px;
+	display: inline-block;
+	/* padding-top: 10px; */
+	/* width: 100%; */
+	padding: 0;
+	width: calc(100% / 8);
+	height: 100%;
+}
+
+.labelCheck:hover input ~ .checkmark {
+	background-color: #3caa69;
+}
+
 .menu-header {
-	background-color: #3caa69!important;
+	background-color: #3caa69 !important;
 }
 
 .admin-header {
 	background-color: #3caa69;
 }
-/* am-h ÃƒÂ«Ã‚Â¶Ã¢â€šÂ¬ÃƒÂ«Ã‚Â¶Ã¢â‚¬Å¾*/
+/* am-h ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â«ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â«ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾*/
+
+.am-h-title span {
+	
+margin-right: 12px;
+}
 div.am-h-title>h1 {
 	float: left;
-	font-weight: 500;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.am-h-title .ad-btn.ad-m-btn-sms b {
+	
+font-size: 16px;
+	
+margin-right: 2px;
 }
 
 div#am-h-htn-form:after {
@@ -37,8 +108,12 @@ div#am-h-htn-form {
 	float: right;
 }
 
+.labelCheck input:checked ~ .checkmark {
+	background-color: #ffffff;
+}
+
 button.btn.btn-search {
-	background-color: #2ab848;
+	background-color: #3caa69;
 	height: 41px;
 	width: 40px;
 	color: white;
@@ -57,7 +132,7 @@ button.btn.btn-search {
 	float: left;
 }
 
-/* ÃƒÂªÃ‚Â³Ã‚ÂµÃƒÂ­Ã¢â‚¬Â Ã‚ÂµÃƒÂ«Ã‚Â¶Ã¢â€šÂ¬ÃƒÂ«Ã‚Â¶Ã¢â‚¬Å¾ end  */
+/* ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂªÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂµÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂµÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â«ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â«ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾ end  */
 .am-h-content>label {
 	margin: 0;
 	padding-top: 8px;
@@ -96,19 +171,26 @@ div.container.ab-container>div>div {
 	clear: both;
 }
 
+.am-h-title:before {
+	clear: both;
+	content: "";
+	display: block;
+}
+
 #am-h-htn-form>button {
 	float: right;
 }
 
 .am-h-content-wrapper {
-	border: 1px solid;
+	border: 1px solid #E1E1E1;
 	background: #ffffff;
 	padding: 30px;
-	margin-top: 25px;
+	margin-top: 30px;
 }
 
 .labelCheck span:nth-child(3n) {
-	margin-left: 33px;
+	margin-left: 35px;
+	font-size: 16px;
 }
 
 .am-h-state li input[type="checkbox"] {
@@ -116,8 +198,13 @@ div.container.ab-container>div>div {
 }
 
 .am-h-state li {
-	width: 95px;
-	float: left;
+
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.am-h-state li.radio {
+	min-width:120px;
 }
 
 ul.am-h-state:after {
@@ -134,18 +221,22 @@ ul.am-h-state:after {
 
 .am-h-label {
 	float: left;
+	font-size: 16px;
 	font-weight: bold;
+	margin-right: 20px;
+	width: 80px;
 }
 
 .am-h-content {
 	margin-bottom: 15px;
-	/* display:  block; */
 	width: 100%;
-	/* content: ""; */
+}
+
+.am-h-content:first-of-type {
+	
 }
 
 .am-label-wrap {
-	margin-right: 20px;
 	height: 30px;
 	float: left;
 }
@@ -165,6 +256,7 @@ div.am-ab-t-set>button {
 
 ul.am-h-state {
 	float: left;
+	margin-bottom: 0;
 }
 
 /* am-h end */
@@ -173,7 +265,7 @@ ul.am-h-state {
 }
 
 .am-ab-table-wrap {
-    margin-top: 15px;
+	margin-top: 15px;
 }
 
 div.am-ab-t-set>button {
@@ -191,17 +283,25 @@ div.am-ab-t-set>button {
 }
 
 tr.ad-table-header {
-	background-color: #e4e4e4;
-	color: #808080;
+	background-color: #666666;
+	color: white;
+	height: 50px;
+}
+
+body.admin-body {
+	background-color: #595858 !important;
 }
 
 .ad-table-header th {
-	padding: 20px 10px 20px 15px;
+	padding: 8px 13px;
 	text-align: center;
+	font-size: 16px;
 }
 
 .ad-table-header th:first-of-type {
 	text-align: unset !Important;
+	padding: 8px 13px;
+	width: 51px;
 }
 
 tr.ad-table-body {
@@ -211,9 +311,23 @@ tr.ad-table-body {
 }
 
 tr.ad-table-body td {
-	padding: 10px 0px 10px 0px;
+	padding: 8px 13px 8px 13px;
 	text-align: center;
 	font-weight: 500;
+}
+
+tr.ad-table-body td.title {
+	
+}
+
+tr.ad-table-body td:falst-of-type {
+	
+padding: 10px 0px;
+}
+
+tr.ad-table-body td:last-of-type {
+	
+padding: 10px 13px;
 }
 
 .blackListTableBody {
@@ -222,12 +336,35 @@ tr.ad-table-body td {
 }
 
 .blackListTableBody td {
-	padding: 8px 10px 8px 10px;
+	padding: 8px 13px 8px 13px;
 	text-align: center;
 	font-weight: 500;
-	font-size: 15px;
+	font-size: 14px;
+	color: #5b7076;
 }
+.blackListTableBody.popList td {min-width: 105px;}
 
+.blackListTableBody.popList td:first-of-type {
+	
+width: 51px !important;
+	
+
+	
+min-width: auto;
+}
+.blackListTableBody.popList td:nth-of-type(2) {
+	
+width: 800px;
+	
+
+}
+.blackListTableBody.popList td:last-of-type {
+	min-width: 120px;
+}
+.blackListTableBody.popList td:last-of-type button{
+	
+	margin:0;
+}
 tr.ab-table-body.blackListTableBody>td:first-of-type {
 	text-align: unset !important;
 }
@@ -240,7 +377,7 @@ button.ad-m-btn {
 }
 
 div.am-ab-title>label {
-	font-size: 24px;
+	font-size: 20px;
 	margin: 0;
 	color: #808080;
 }
@@ -256,7 +393,7 @@ div.am-ab-mani>div>button:nth-child(3) {
 .am-ab-title {
 	width: auto;
 	float: left;
-	margin-bottom: 20px;
+	margin-bottom: 8px;
 }
 
 .am-ab-t-set {
@@ -272,6 +409,7 @@ div.am-ab-mani>div>button:nth-child(3) {
 
 .select-styled:active:after, .select-styled.active:after {
 	border-color: transparent transparent #9a9494 transparent;
+	top: 9px;
 }
 
 .select:after {
@@ -292,21 +430,25 @@ div.am-ab-mani>div>button:nth-child(3) {
 
 div.am-ab-title-searchForm>button {
 	float: right;
-	height: 41px !important;
+	height: 42px !important;
 	border: none;
 	border-radius: 0px;
 	margin: 0px !important;
 }
 
 div.am-ab-title-searchForm>input[type="text"] {
-	padding: 8px 40px 6px 18px;
+	padding: 6px 40px 6px 18px;
 	width: 200px;
-	height: 41px;
+	height: 42px;
 }
 
 div.am-ab-title-selectForm>div>div {
 	background: white;
 	border: 1px solid #a9a9a9;
+}
+
+div.am-ab-title-selectForm .select-styled {
+	padding: 9.5px 0 9.5px 10px;
 }
 /*  asd */
 .am-h-row-left:after {
@@ -330,6 +472,27 @@ div.am-ab-title-selectForm>div>div {
 	display: inline-block;
 	width: 100%;
 }
+
+.admin_x-sidebar ul>li>a:hover {
+	color: white;
+}
+
+.admin_x-sidebar ul>.active>a {
+	color: white;
+}
+
+.admin_x-sidebar ul>li>a {
+	font-size: 16px;
+	color: #e1d4d4b8;
+}
+
+.admin_x-sidebar .admin_x-sidebar-header {
+	background: #293038;
+}
+
+.admin_x-sidebar .admin_x-sidebar-header span {
+	font-size: 16px;
+}
 /*memberList*/
 .memberList-table-header {
 	background-color: #5bca64 !important;
@@ -339,42 +502,61 @@ div.am-ab-title-selectForm>div>div {
 .ab-table .select-options>li {
 	padding-right: 10px;
 }
-/*ÃƒÂ¬Ã‚Â¶Ã¢â‚¬ÂÃƒÂªÃ‚Â°Ã¢â€šÂ¬ ÃƒÂ«Ã‚Â¶Ã¢â€šÂ¬ÃƒÂ«Ã‚Â¶Ã¢â‚¬Å¾*/
+/*ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂªÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â°ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â«ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â«ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¶ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¾*/
 label.am-h-label-calendar {
 	line-height: 38px;
 	float: left;
-	padding-right: 14px;
 	font-weight: bold;
+	font-size: 16px;
+	margin-right: 20px;
+	width: 80px;
 }
 
 span.admin-calender-form-span {
 	padding: 0px 5px 0px 5px;
+	font-size: 16px;
+	vertical-align: middle;
 }
+
+span.admin-calender-form-span:first-of-type {
+	padding: 0px 5px 0px 0px !important;
+	
+}
+
 
 .dy-calendar-check {
 	font-size: x-large;
-	position: absolute;
-	bottom: 5px;
+	vertical-align: middle;
 }
 
 .admin-calender-form input[type="text"] {
 	width: 136px;
 	height: 35px;
-	border: 1.5px solid #cccccc;
+	border: 1px solid #cacbcc;
 }
+
 .input-search {
-    width: auto;
-    float: left;
+	width: auto;
+	float: left;
 }
 
 .am-h-content:last-child {
-    display:  inline-block;
+	display: inline-block;
 }
+
+h1 {
+	font-size: 1.8rem;
+	line-height: 3rem;
+	letter-spacing: 0;
+	padding-bottom: 0px;
+}
+
 .doyoung-search-icon {
-    border: 2.5px solid #3caa69;
-    background: #3caa69;
-    padding: 6px;
-    color: white;
+	border: 2.5px solid #3caa69;
+	background: #3caa69;
+	padding: 6px;
+	color: white;
+	height:30px;
 }
 
 .doyoung-input-search-input {
@@ -413,24 +595,22 @@ button.ad-btn.ad-m-btn-create {
 }
 
 .am-h-content .consent .labelCheck {
-	min-width: 70px;
+	font-size: 14px;
+	float: left;
 }
 
 .admin-calender-form {
-	position: relative;
+	
 }
 
 span.admin-calender-form-span:nth-child(4) {
-	margin-left: 25px;
+	/* margin-left: 25px; */
+	
 }
 
-.consent {
-	margin: 0 auto;
-}
+.consent {}
 
-.ad-table-body td:first-child {
-	padding-right: 17px;
-}
+.ad-table-body td:first-child {padding: 0;}
 
 .test-kinds-ul {
 	padding: 0;
@@ -559,12 +739,18 @@ button.ad-table-delete-btn {
 	margin-right: 4px;
 }
 
+a.page-link {
+	padding: 10px;
+}
+
+a.page-link {
+	padding: 6px 14px !important;
+	margin-right: 5px;
+	font-size: 18px !important;
+}
+
 button.ad-blackList-btn {
-	background-color: #7b7676;
-	padding: 9px 7px;
-	border-radius: 8%;
-	border: none;
-	color: white;
+	background-color: #6b7076;
 }
 
 .ad-grid-container:first-child div {
@@ -583,13 +769,31 @@ button.ad-blackList-btn {
 	margin-top: 50px;
 }
 
-button.ad-review-btn.btn {
-	background-color: #3caa69;
-	color: white;
-	border-radius: 7%;
-	padding: 7px 11px;
+.admin_x-sidebar ul {
+	background: #474f55;
 }
 
+button.ad-review-btn.btn {
+	background-color: #3caa69;
+}
+
+.admin-nav-contents a {
+	color: white !important;
+	font-size: 16px;
+	font-weight: bole;
+}
+
+.admin-nav-contents {
+	text-align: center;
+	height: 100%;
+	padding-top: 10px;
+	position: relative;
+}
+
+.admin-nav-li-wrap {
+	width: 100%;
+	height: 100%;
+}
 /*MODAL*/
 div#admin-review ~ div {
 	opacity: 0;
@@ -725,15 +929,20 @@ span.admin-test-recruited {
 }
 
 .admin-function-btn-Form {
-    display:  inline-block;
+	
 }
 
-.admin-function-btn-Form > button {
-    float: left;
-    margin-right: 4px;
-    /* padding-right: 1px; */
+.admin-function-btn-Form>button {
+	font-size: 14px;
+	margin-right: 4px;
+	padding: 6px 11px;
+	color: white;
+	border-radius: 6px;
+	height: 32px;
+	border: none;
+	line-height: 0;
 }
-/* íŒì—… ê´€ë¦¬ */
+/* ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¦ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂªÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â«ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ */
 .admin-pop_up-container {
 	display: inline-block;
 }
@@ -786,30 +995,32 @@ button {
 }
 
 .am-admin-image-btn-wrapper>button {
-	color: E4E4E4;
-	border: 2px solid E4E4E4;
+	color: #222;
+	border: 1px solid #a2a2a2;
+	padding: 4.5px 11px;
 }
 
 .am-admin-pop_up_content-wrap {
 	width: 100%;
-	font-weight: bold;
+	font-weight: 400;
 	padding: 17px 0;
+	font-size:16px;
 }
 
 .admin-pop_up-container {
 	width: 100%;
 }
 
-.admin-clear{
+.admin-clear {
 	clear: both;
-    display: block;
+	display: block;
 }
 
 th.admin-agree-check:after {
-    content: "요청승인여부";
+	content: "수신동의여부";
 }
 
-/* ë¯¸ë””ì–´ íƒœê·¸ ì‹œìž‘  */
+/* ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â«ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¯ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â«ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚ÂÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚ÂÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â­ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™Ãƒâ€šÃ‚ÂªÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â·ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¾ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¹Ã…â€œ  */
 @media screen and (max-width:991px) {
 	.subP_admin {
 		width: 100%;
@@ -821,16 +1032,32 @@ th.admin-agree-check:after {
 		padding: 6px 6px;
 	}
 	.ad-table-header th {
-		padding: 20px 3px 20px 5px;
+		/* padding: 20px 3px 20px 5px; */
 	}
 	.ad-btn {
-    	width: 87px;
-    	height: 32px;
+		width: 87px;
+		height: 32px;
 	}
-	.subP_admin .menu-header li>a {  
+	.subP_admin .menu-header li>a {
 		padding: 0 17px !important;
 		font-size: 15px !important;
 	}
+}
+
+.labelCheck .checkmark:after {
+	left: 8px;
+	top: 5px;
+	width: 8px;
+	border: 1px solid #3caa69;
+	border-width: 0 4px 4px 0;
+	height: 12px;
+	transform: rotate(45deg);
+}
+
+.checkmark {
+	left: 0px;
+	height: 25px;
+	width: 25px;
 }
 
 @media screen and (min-width:992px) and (max-width:1199px) {
@@ -838,8 +1065,8 @@ th.admin-agree-check:after {
 
 @media screen and (max-width:1199px) {
 	.ad-table-header th {
- 	   font-size: 15px;
-}
+		font-size: 13px;
+	}
 	.blackListTableBody td {
 		font-size: 13px;
 	}
@@ -851,48 +1078,101 @@ th.admin-agree-check:after {
 		padding: 11px 6px;
 	}
 	.content {
-    padding: 50px 25px;
+		padding: 50px 25px;
 	}
 	button.ad-review-btn.btn {
-    	padding: 5px 11px;
+		padding: 5px 11px;
 	}
-
 	th.admin-agree-check:after {
-    	content: "요청승인";
+		content: "수신여부";
+	}
+	.admin_x-sidebar {
+		background: #474f55 !important;
 	}
 	.am-admin-image-wrapper {
-    	height: 150px;
-    	width: 150px;
+		height: 150px;
+		width: 150px;
 	}
-
 	.am-admin-pop_up-left {
-	    width: 150px;
+		width: 150px;
 	}
-	
+	.admin-header span {
+		font-size: 24px !important;
+	}
 	.am-admin-pop_up_content-wrap {
-    	width: 100%;
-    	font-weight: bold;
-    	padding: 11px 0;
-    	font-size: 14px;
+		width: 100%;
+		font-weight: bold;
+		padding: 11px 0;
+		font-size: 14px;
 	}
-	
-	.admin-pop_up-content{
+	.admin-pop_up-content {
 		padding: 11px;
 	}
+	.labelCheck span {
+		font-size: 14px;
+	}
+	.admin_x-sidebar ul>li>a:hover {
+		color: white;
+	}
+	.admin_x-sidebar ul>li>a:active {
+		color: #474f55;
+	}
+	.admin_x-sidebar ul .active a {
+		color: #ffffff;
+	}
 	.am-ab {
-    	padding: 10 15px;
+		padding: 10 15px;
 	}
 	div.am-ab-title>label {
-    	font-size: 19px;
+		font-size: 19px;
 	}
-	
 	.am-ab-title {
-    margin-bottom: 19px;
-    margin-top: 9px;
+		margin-bottom: 19px;
+		margin-top: 9px;
+	}
+	.admin-function-btn-Form>button {
+		font-size: 10px;
+		padding: 6px 6px;
+	}
+	a.page-link {
+		padding: 3px 10px !important;
+	}
+
+	.Publisher {
+		display: none;
+	}
 }
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1264px;
+  }
+}
+
+
+
+@media (max-width: 992px) {
+
+  .container {
+    max-width: none;
+  }
+  .admin-function-btn-Form>button {
+		
+	clear: both;
+	display: block;
+	margin-bottom: 10px;
+	width: 85px;
+  }
+   .blackListTableBody td:last-of-type {
+	width:120px;
+  }
 	
-	.admin-function-btn-Form > button {
-    font-size: 10px;
-    padding: 6px 6px;
-    }
+  
 }
+
+.adminImpact {
+	color:red !important;
+	font-weight:400;
+}
+
+

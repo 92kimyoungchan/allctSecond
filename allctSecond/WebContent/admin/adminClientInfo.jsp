@@ -13,9 +13,9 @@
 <link rel="stylesheet" href="../assets/css/doyoung/admin_am2.css">
 <!-- 김도영 공고관리 (Announcement Management)  -->
 
-  
+
 </head>
-<body>
+<body class ="admin-body">
 	<%@ include file="../include/admin_header-widget.jsp"%>
 	<div class="container ab-container">
 		<div class="row-noneflex">
@@ -28,13 +28,10 @@
 						<div class="content">
 							<div class="am-header">
 								<div class="am-h-title">
-									<h1>신청자 정보</h1> 
+									<h1>의뢰자회원 정보</h1> 
 								</div>  
 								<div class="am-h-title">
-									<span class="am-h-title-span">생동성시험: 1험 인비스정</span>
-								</div>   
-								<div class="am-h-title">
-									<span>모집마감일: <span id="">2018-05-21 </span> 시험 시작일: <span
+									<span>가입일자: <span id="">2018-05-21 </span>최근로그인: <span
 										id="">2018-05-30</span>시험종료일: <span>2018-06-11</span></span>
 								</div>
 						<!-- Applicant  Information -->	
@@ -42,67 +39,38 @@
 										<div class="container">
 												<ul class="nav nav-tabs am-tabs">
 													<li class="active"><a data-toggle="tab" href="#basic">기본정보</a></li>
-													<li><a data-toggle="tab" href="#record">이력정보</a></li>
-													<li><a data-toggle="tab" href="#survey">설문정보</a></li>
 												</ul>
  
 												<div class="tab-content ad-tab-content">
 													<div id="basic" class="tab-pane fade in active show">
 															<div class ="ad-grid-container">
 																<div class ="ad-Classification"><span>아이디</span></div>
-																<div class ="ad-member-information"><span id ="">admin293</span></div>
+																<div class ="ad-member-information"><span id ="">hosplital012</span></div>
 															</div>
 															<div class ="ad-grid-container">
-																<div class ="ad-Classification"><span>이름</span></div>
-																<div class ="ad-member-information"><span id ="">김이박</span></div>
+																<div class ="ad-Classification"><span>법인명</span></div>
+																<div class ="ad-member-information"><span id ="">OO의료법인OOOO병원</span></div>
 															</div>
 															<div class ="ad-grid-container">
-																<div class ="ad-Classification"><span>성별</span></div>
-																<div class ="ad-member-information"><span id ="">남</span></div>
+																<div class ="ad-Classification"><span>담당자</span></div>
+																<div class ="ad-member-information"><span id ="">김담당</span></div>
 															</div>
 															<div class ="ad-grid-container">
-																<div class ="ad-Classification"><span>만 나이</span></div>
-																<div class ="ad-member-information"><span id ="">1991-01-01</span></div>
-															</div>
-															<div class ="ad-grid-container">
-																<div class ="ad-Classification"><span>휴대전화</span></div>
+																<div class ="ad-Classification"><span>담당자 휴대전화</span></div>
 																<div class ="ad-member-information"><span id ="">010 - 3535 -8686</span></div>
 															</div>
 															<div class ="ad-grid-container">
-																<div class ="ad-Classification"><span>이메일</span></div>
+																<div class ="ad-Classification"><span>담당자 이메일</span></div>
 																<div class ="ad-member-information"><span id ="">admin293@naver.com</span></div>
 															</div>
 															<div class ="ad-grid-container">
-																<div class ="ad-Classification"><span>지역</span></div>
-																<div class ="ad-member-information"><span id ="">서울</span></div>
+																<div class ="ad-Classification"><span>공고작성횟수</span></div>
+																<div class ="ad-member-information"><span id ="">15</span>회</div>
 															</div>
 															<div class ="ad-grid-container">
-																<div class ="ad-Classification"><span>키</span></div>
-																<div class ="ad-member-information"><span id ="">173cm</span></div>
+																<div class ="ad-Classification"><span>주소</span></div>
+																<div class ="ad-member-information"><span id ="">OO시OO구OO동OOO로 OOO-OOO OOOO병원</span></div>
 															</div>
-															<div class ="ad-grid-container">
-																<div class ="ad-Classification"><span>몸무게</span></div>
-																<div class ="ad-member-information"><span id ="">50kg</span></div>
-															</div>
-															<div class ="ad-grid-container">
-																<div class ="ad-Classification"><span>체질량지수</span></div>
-																<div class ="ad-member-information"><span id ="">17.1</span></div>
-															</div>
-															
-															
-													</div>
-													<div id="record" class="tab-pane fade">
-															<div class ="ad-grid-container">
-																<div class ="ad-Classification"><span>참여횟수</span></div>
-																<div class ="ad-member-information"><span>임상: <span id= "">3</span>회  생동 <span id ="">1</span>회</span></div>
-															</div>
-															<div class ="ad-grid-container">
-																<div class ="ad-Classification"><span>블랙리스트</span></div>
-																<div class ="ad-member-information"><span id ="">전적있음<span>/</span><span class ="ad-color-red">전적없음</span></span></div>
-															</div>
-													</div>
-													<div id="survey" class="tab-pane fade">
-														<h3>설문정보</h3>
 													</div>
 												</div>
 											</div>											
@@ -111,10 +79,8 @@
 										<!--공고 Manipulation  -->
 						<div class="am-ab-mani">
 							<!--  선택 수정 삭제 추가-->
-							<div class="am-ab-btn-form">
-								<button class="ad-btn ad-m-btn-notice">알림톡전송</button>
-								<button class="ad-btn ad-m-btn-sms">SMS전송</button>
-								<button class="ad-btn ad-m-btn-blacklist">블랙리스트 추가</button>
+							<div class="am-ab-btn-form"> 
+								<button class="ad-btn ad-m-btn-delete right">삭제</button>
 								<button class="ad-btn ad-m-btn-list">목록으로</button>
 							</div>
 						</div>
@@ -127,14 +93,7 @@
 	</div>
 
 
-
-	<footer class="admin_footer">
-		<div class="container">
-			<div class="row-noneflex"></div>
-		</div>
-	</footer>
-
-	<%@ include file="../include/footer.jsp"%>
+	<%@ include file="../include/footerShort.jsp"%> 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 

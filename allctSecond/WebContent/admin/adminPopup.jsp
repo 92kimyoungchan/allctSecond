@@ -14,7 +14,7 @@
 <!-- 김도영 공고관리 (Announcement Management)  -->
 
 </head>
-<body>
+<body class ="admin-body">
 	<%@ include file="../include/admin_header-widget.jsp"%>
 	<div class="container ab-container">
 		<div class="row-noneflex">
@@ -27,11 +27,9 @@
 						<div class="content admin-pop_up-content">
 							<div class="am-header">
 								<div class="am-h-title">
-									<h1>팝업관리</h1> 
+									<h1 id= "admin7" class ="admin-navNo" >팝업관리</h1> 
 								</div>  
-								<div class="am-h-title">
-									<button class ="ad-btn ad-m-btn-sms">+팝업추가</button>
-								</div>   
+								
 						<!-- Applicant  Information -->	
 								<div class="am-h-content-wrapper">
 										<div class="admin-pop_up-container">
@@ -52,7 +50,7 @@
 												 	<span class ="am-admin-pop_up_content">팝업의 상단 여백을 <input class ="admin-inupt-underline">좌측 여백을<input class ="admin-inupt-underline">로 합니다.</span>
 												</div>
 												<div class ="am-admin-pop_up_content-wrap">
-												<label class="am-h-label-calendar">팝업게시시간 </label>
+												<label class="am-h-label-calendar f400">팝업게시시간 </label>
 														<div class="admin-calender-form">
 													<span class="admin-calender-form-span">시작</span> <input
 														type="text" name="" id=""> <span class="admin-calender-form-span"> <i
@@ -75,8 +73,8 @@
 						<div class="am-ab-mani">
 							<!--  선택 수정 삭제 추가-->
 							<div class="am-ab-btn-form">
-								<button class="ad-btn ad-m-btn-preview right">미리보기</button>
-								<button class="ad-btn ad-m-btn-sms right">저장</button>
+								<button class="ad-btn ad-m-btn-preview right">삭제하기</button>
+								<button class="ad-btn ad-m-btn-sms right">수정하기</button>
 							</div>
 						</div>
 							</div>
@@ -89,13 +87,7 @@
 
 
 
-	<footer class="admin_footer">
-		<div class="container">
-			<div class="row-noneflex"></div>
-		</div>
-	</footer>
-
-	<%@ include file="../include/footer.jsp"%>
+	<%@ include file="../include/footerShort.jsp"%> 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 

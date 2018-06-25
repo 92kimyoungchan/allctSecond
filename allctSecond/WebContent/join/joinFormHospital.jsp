@@ -168,12 +168,8 @@
 
 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="../assets/js/pagination.min.js"></script>
-	<script defer src="../assets/js/fontawesome-all.js"></script>
 	<script defer src="../assets/js/sub-banner.js"></script>
 	<script type="text/javascript" src="../assets/js/selectEmail.js"></script>
-	<!-- 	<script type="text/javascript" src="assets/js/emailSelect.js"></script>
- -->
 	<script type="text/javascript" src="../assets/js/structure.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 

@@ -11,7 +11,6 @@
 <link rel="stylesheet" href="../assets/css/responsive.css">
 
 
-
 </head>
 <body>
 
@@ -29,7 +28,7 @@
 					<div class="recruit-box-search">
 						<ul class="nav nav-tabs">
 							<li class="green full"><a class="active" data-toggle="tab"
-								href="#Filter">필터검색</a></li>
+								href="#Filter"></a></li>
 
 						</ul>
 						<div class="tab-content apply-recruit">

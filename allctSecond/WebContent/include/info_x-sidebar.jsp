@@ -8,8 +8,8 @@
 	</div>
 	
 	<ul id="sideContent-academy">
-		<li class="contentElement"><a href="/allctSecond/board/board_jopInfo.jsp">구직공고</a></li>
-		<li class="contentElement"><a href="/allctSecond/board/board_academy.jsp">학술정보</a></li>
+		<li class="contentElement"><a href="/allctSecond/info/infoJopInfo.jsp">구직공고</a></li>
+		<li class="contentElement"><a href="/allctSecond/info/infoAcademy.jsp">학술정보</a></li>
 	</ul>
 	<div class="divider"></div>
 	<div class="x-sidebar-footer"></div>

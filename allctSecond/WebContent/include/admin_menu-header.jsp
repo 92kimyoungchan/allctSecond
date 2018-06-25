@@ -1,11 +1,90 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <ul class="menu-header">
-						<li><a href="/allctSecond/admin/admin_MemberList.jsp">회원목록</a></li>
-						<li><a href="/allctSecond/admin/admin_search_client.jsp">공고관리</a></li>
-						<li><a href="/allctSecond/admin/admin_Applicant_Management.jsp">신청자관리</a></li>
-						<li><a href="">사이트통계</a></li>
-						<li><a href="">알림톡</a></li>
-						<li><a href="/allctSecond/board/board_notice.jsp">공지사항</a></li>
-						<li><a href="">FAQ</a></li>
-					</ul>
+	<li
+		onclick="javascript: location.href='/allctSecond/admin/adminMemberList.jsp'">
+
+		<div class="admin-nav-li-wrap">
+			<div class="admin-nav-contents">
+				<div class="admin-nav-li">
+					<img alt=""
+						src="/allctSecond/assets/images/admin-image/icon_memberList.png"
+						class="asd">
+				</div>
+				<a>회원목록</a>
+			</div>
+		</div>
+	</li>
+
+	<li
+		onclick="javascript: location.href='/allctSecond/admin/adminSearchClient.jsp'">
+		<div class="admin-nav-contents">
+			<div class="admin-nav-li-wrap">
+				<div class="admin-nav-li">
+					<img alt=""
+						src="/allctSecond/assets/images/admin-image/icon_am.png"
+						class="asd">
+				</div>
+				<a>공고관리</a>
+			</div>
+		</div>
+	</li>
+	<li
+		onclick="javascript: location.href='/allctSecond/admin/adminApplicantManagement.jsp'">
+		<div class="admin-nav-contents">
+			<div class="admin-nav-li-wrap">
+				<div class="admin-nav-li">
+					<img alt=""
+						src="/allctSecond/assets/images/admin-image/icon_apm.png"
+						class="asd">
+				</div>
+				<a>신청자관리</a>
+			</div>
+		</div>
+	</li>
+	<li onclick="javascript: location.href='#'">
+		<div class ="admin-nav-contents">
+		<div class="admin-nav-li-wrap">
+			<div class="admin-nav-li">
+				<img alt="" src="/allctSecond/assets/images/admin-image/icon_siteData.png"
+					class="asd">
+			</div>
+			<a>사이트통계</a>
+		</div>
+		</div> 
+	</li>
+	<li onclick="javascript: location.href='#'">
+		<div class ="admin-nav-contents">
+		<div class="admin-nav-li-wrap">
+			<div class="admin-nav-li">
+				<img alt="" src="/allctSecond/assets/images/admin-image/icon_alert.png"
+					class="asd">
+			</div>
+			<a>알림톡</a>
+		</div>
+		</div>
+	</li>
+	<li
+		onclick="javascript: location.href='/allctSecond/info/infoNotice.jsp'">
+		<div class ="admin-nav-contents">
+		<div class="admin-nav-li-wrap">
+			<div class="admin-nav-li">
+				<img alt="" src="/allctSecond/assets/images/admin-image/icon_board.png"
+					class="asd">
+			</div>
+			<a>공지사항</a>
+		</div>
+		</div>
+	</li>
+	<li onclick="javascript: location.href='/allctSecond/info/infoMemberList.jsp'">
+		<div class ="admin-nav-contents">
+		<div class="admin-nav-li-wrap">
+			<div class="admin-nav-li">
+				<img alt="" src="/allctSecond/assets/images/admin-image/icon_FAQ.png"
+					class="asd">
+			</div>
+			<a>FAQ</a>
+		</div>
+		</div>
+	</li>
+</ul>

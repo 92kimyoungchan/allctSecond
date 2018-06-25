@@ -23,7 +23,7 @@
 			<div class="main">
 				<%@ include file="../include/myMenu_x-sidebar.jsp"%>
 
-				<div class="subP minHeight">
+				<div class="subP whole">
 
 					<div class="subPage">
 						<h2>내정보 수정하기</h2>
@@ -161,7 +161,6 @@
 
 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
-	<script defer src="../assets/js/fontawesome-all.js"></script>
 	<script type="text/javascript" src="../assets/js/selectEmail.js"></script>
 	<script type="text/javascript" src="../assets/js/structure.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>

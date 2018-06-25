@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+	
 <!-- <div id="floatMenu">
 	<ul>
 		<li><a href=""><img
@@ -55,7 +56,7 @@
 	<header>
 		<div class="container">
 			<a href="/allctSecond/join/joinType.jsp" class="content-icon">회원가입</a><a href="/allctSecond/join/LogIn.jsp"
-				class="content-icon">로그인</a><a href="/allctSecond/admin/admin_MemberList.jsp">ADMIN</a><a href="/allctSecond/myMenu/myFavorite.jsp">내정보</a>
+				class="content-icon">로그인</a><a href="/allctSecond/admin/adminMemberList.jsp">ADMIN</a><a href="/allctSecond/myMenu/myFavorite.jsp">내정보</a>
 		</div>
 	</header>
 	<nav>
@@ -77,13 +78,13 @@
 				<ul class="ul-theory">
 					<li><a href="" class="">allct</a>
 						<ul class="drop-menu">
-							<li><a href="/allctSecond/board/board_clinical_info.jsp">임상시험이란?</a></li>
-							<li><a href="/allctSecond/board/board_clinical_status.jsp">임상시험의 현황</a></li>
-							<li><a href="/allctSecond/board/board_clinical_support.jsp">임상시험
+							<li><a href="/allctSecond/info/infoClinicalInfo.jsp">임상시험이란?</a></li>
+							<li><a href="/allctSecond/info/infoClinicalStatus.jsp">임상시험의 현황</a></li>
+							<li><a href="/allctSecond/info/infoClinicalSupport.jsp">임상시험
 									참여방법</a></li>
-							<li><a href="/allctSecond/board/board_clinical_qualify.jsp">참여자
+							<li><a href="/allctSecond/info/infoClinicalQualify.jsp">참여자
 									고려사항</a></li>
-							<li><a href="/allctSecond/board/board_clinical_allct.jsp">임상시험과
+							<li><a href="/allctSecond/info/infoClinicalAllct.jsp">임상시험과
 									allct</a></li>
 						</ul></li>
 					<li><a href="/allctSecond/recruit/recruit.jsp">모집공고</a>
@@ -93,14 +94,14 @@
 						</ul></li>
 					<li><a href="" class="">정보안내</a>
 						<ul class="drop-menu">
-							<li><a href="/allctSecond/board/board_jopInfo.jsp">구직공고</a></li>
-							<li><a href="/allctSecond/board/board_academy.jsp">학술정보</a></li>
+							<li><a href="/allctSecond/info/infoJopInfo.jsp">구직공고</a></li>
+							<li><a href="/allctSecond/info/infoAcademy.jsp">학술정보</a></li>
 						</ul></li>
 					<li><a href="" class="">고객센터</a>
 						<ul class="drop-menu">
-							<li><a href="/allctSecond/board/board_notice.jsp">공지사항</a></li>
-							<li><a href="/allctSecond/board/board_news.jsp">문의 및 상담</a></li>
-							<li><a href="/allctSecond/board/board_faq.jsp">자주하는 질문</a></li>
+							<li><a href="/allctSecond/info/infoNotice.jsp">공지사항</a></li>
+							<li><a href="/allctSecond/info/infoNews.jsp">문의 및 상담</a></li>
+							<li><a href="/allctSecond/info/infoFaq.jsp">자주하는 질문</a></li>
 						</ul></li>
 					<li class="uber"><a class="uberbtn"><i
 							class="fas fa-align-justify"></i></a>
@@ -112,14 +113,14 @@
 								<li class="uber-column">
 									<ul>
 										<li><div>
-												<p><a href="/allctSecond/board/board_clinical_info.jsp">임상시험이란?</a></p>
+												<p><a href="/allctSecond/info/infoClinicalInfo.jsp">임상시험이란?</a></p>
 											</div></li>
-										<li><a href="/allctSecond/board/board_clinical_info.jsp">임상시험이란?</a></li>
-										<li><a href="/allctSecond/board/board_clinical_support.jsp">임상시험
+										<li><a href="/allctSecond/info/infoClinicalInfo.jsp">임상시험이란?</a></li>
+										<li><a href="/allctSecond/info/infoClinicalSupport.jsp">임상시험
 												참여방법</a></li>
-										<li><a href="/allctSecond/board/board_clinical_qualify.jsp">참여자
+										<li><a href="/allctSecond/info/infoClinicalQualify.jsp">참여자
 												고려사항</a></li>
-										<li><a href="/allctSecond/board/board_clinical_allct.jsp">임상시험과
+										<li><a href="/allctSecond/info/infoClinicalAllct.jsp">임상시험과
 												allct</a></li>
 									</ul>
 								</li>
@@ -136,10 +137,10 @@
 								<li class="uber-column">
 									<ul>
 										<li><div>
-												<p><a href="/allctSecond/board/board_jopInfo.jsp">유용한정보</a></p>
+												<p><a href="/allctSecond/info/infoJopInfo.jsp">유용한정보</a></p>
 											</div></li>
-										<li><a href="/allctSecond/board/board_jopInfo.jsp">구직공고</a></li>
-							<li><a href="/allctSecond/board/board_academy.jsp">학술정보</a></li>
+										<li><a href="/allctSecond/info/infoJopInfo.jsp">구직공고</a></li>
+							<li><a href="/allctSecond/info/infoAcademy.jsp">학술정보</a></li>
 
 									</ul>
 								</li>

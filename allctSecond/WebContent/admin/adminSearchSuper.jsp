@@ -14,12 +14,14 @@ checkbox table
 <link rel="stylesheet" href="../assets/css/owl.carousel.css">
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet"
+	href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
 <link rel="stylesheet" href="../assets/css/doyoung/admin_am2.css">
 
 <!-- 김도영 공고관리 (Announcement Management)  -->
 
 </head>
-<body>
+<body class ="admin-body">
 	<%@ include file="../include/admin_header-widget.jsp"%>
 	<div class="container ab-container">
 		<div class="row-noneflex">
@@ -37,19 +39,20 @@ checkbox table
 											<strong>엑셀로저장</strong>
 										</button>
 									</div>
-									<h1> 공고관리</h1>
+									<h1 id= "admin5" class ="admin-navNo" > 공고관리</h1>
 								</div>
-								<div class="am-h-title">
-									<span class ="am-h-title-span">공고검색</span>
+								<div class="am-ab-title">
+									<label>공고검색</label>
 								</div>
-
+							 <div class ="admin-clear"></div>
+							 
 								<div class="am-h-content-wrapper">
 									<form action="">
 										<div class="am-h-content">
 											<div class="am-h-label-wrap">
-											 <div class ="am-h-row-left">
+											<div class ="am-h-row-left">
 												<label class="am-h-label">진행상태</label>
-											 </div>
+											</div>
 											 <div class ="am-h-row-right">
 												<ul class="am-h-state">
 													<li>
@@ -63,7 +66,7 @@ checkbox table
 													<li>
 														<div class="consent">
 															<label class="labelCheck" for="state-ing"><input
-																type="checkbox" id="state-ing" value="" name="" class="header" />
+																type="checkbox" id="state-ing" value="" name="" class="inputHeader" />
 																<span class="checkmark"></span> <span>진행중</span> </label>
 
 														</div>
@@ -71,15 +74,14 @@ checkbox table
 													<li>
 														<div class="consent">
 															<label class="labelCheck" for="state-stop"><input
-																type="checkbox" id="state-stop" value="" name="" class="header" />
+																type="checkbox" id="state-stop" value="" name="" class="inputHeader" />
 																<span class="checkmark"></span> <span>중지</span> </label>
 
-														</div>
-													</li>
+														</div>													</li>
 													<li>
 														<div class="consent">
 															<label class="labelCheck" for="state-active"><input
-																type="checkbox" id="state-active" value="" name="" class="header" />
+																type="checkbox" id="state-active" value="" name="" class="inputHeader" />
 																<span class="checkmark"></span> <span>모집중</span> </label>
 
 														</div>
@@ -88,7 +90,7 @@ checkbox table
 														<div class="consent">
 															<label class="labelCheck" for="state-complete"><input
 																type="checkbox" id="state-complete" value=""
-																name="" class="header" /> <span class="checkmark"></span> <span>완료</span>
+																name="" class="inputHeader" /> <span class="checkmark"></span> <span>완료</span>
 															</label>
 
 														</div>
@@ -100,17 +102,17 @@ checkbox table
 										</div>
 										<div class="am-h-content">
 											<div class="am-h-state-wrap">
-												<div class="am-h-row-left">
+												<div class ="am-h-row-left">
 												<label class="am-h-label-calendar">게시날짜</label>
 												</div>
 												<div class="am-h-row-right">
 												<div class="admin-calender-form">
 													<span class="admin-calender-form-span">시작</span> <input
-														type="text" name="" id=""> <span class="admin-calender-form-span"> <i
+														type="text" name="" id="" class="datepicker"> <span class="admin-calender-form-span"> <i
 														class="far fa-calendar-check dy-calendar-check"></i>
 													</span> <span class="admin-calender-form-span">~</span> <span
 														class="admin-calender-form-span">종료</span> <input
-														type="text" name="" id="">
+														type="text" name="" id="" class="datepicker">
 														<span class="admin-calender-form-span">
 														 <i class="far fa-calendar-check dy-calendar-check"></i>
 														 </span>
@@ -166,24 +168,32 @@ checkbox table
 											<div class="am-h-state-wrap">
 											<div class ="am-h-row-left">
 												<label class="am-h-label">성별</label>
-												</div>
+											</div>
 												<div class ="am-h-row-right">
  
 												<ul class="am-h-state">
-													<li>
+													<li class="radio">
 														<div class="consent">
-															<label class="labelRadio gender" for="male"><input
-																type="radio" id="male" value="" name="gender" />
-																<span>남성</span> </label>
+															<label class="labelRadio" for="inputCheck5">남성<input
+												type="radio" id="inputCheck5" name="sex" value="남성" /> <span
+												class="checkmark"></span></label> 
 
 														</div>
 													</li>
-													<li>
+													<li class="radio">
 														<div class="consent">
-															<label class="labelRadio gender" for="female"><input
-																type="radio" id="female" value="" name="gender" />
-							   									 <span>여성</span> </label>
+															<label class="labelRadio"
+												for="inputCheck6">여성<input type="radio"
+												id="inputCheck6" name="sex" value="여성" /> <span
+												class="checkmark"></span></label>
 
+														</div>
+														</li>
+														<li class="radio">
+														<div class="consent">
+														<label class="labelRadio" for="inputCheck7">성별무관<input
+												type="radio" id="inputCheck7" name="sex" value="성별무관" /> <span
+												class="checkmark"></span></label>
 														</div>
 													</li>
 												</ul> 
@@ -196,23 +206,30 @@ checkbox table
 											<div class="am-h-state-wrap">
 											<div class ="am-h-row-left">
 												<label class="am-h-label">대상</label>
-											</div>
+										</div>
 											<div class ="am-h-row-right">
 												<ul class="am-h-state">
-													<li>
+													<li class="radio">
 														<div class="consent">
-															<label class="labelRadio" for="standard"><input
-																type="radio" id="standard" value="" name="target" /> <span>건강인</span> </label>
+															<label class="labelRadio"
+												for="inputCheck9">건강인<input type="radio"
+												id="inputCheck9" name="recipient" value="건강인"/> <span
+												class="checkmark"></span></label>
 
 														</div>
 													</li>
-													<li>
+													<li class="radio">
 														<div class="consent">
-															<label class="labelRadio" for="disease"><input
-																type="radio" id="disease" value="" name="target" />
-															 <span>질환인</span> </label>
+															<label class="labelRadio" for="inputCheck8">질환자<input
+												type="radio" id="inputCheck8" name="recipient" value="질환자"/> <span
+												class="checkmark"></span></label>
 
 														</div>
+													</li>
+													<li class="radio">
+													<label class="labelRadio" for="inputCheck10">질환무관<input
+												type="radio" id="inputCheck10" name="recipient" value="질환무관"/> <span
+												class="checkmark"></span></label> 
 													</li>
 												</ul>
 												</div>
@@ -225,19 +242,21 @@ checkbox table
 											</div>
 											<div class ="am-h-row-right">
 												<ul class="am-h-state test-kinds-ul">
-													<li>
-														<div class="consent">
-															<label class="labelRadio" for="clinical"><input
-																type="radio" id="clinical" value="" name="test" /> <span>임상시험</span> </label>
-
-														</div>
+													<li class="radio">
+														<label class="labelRadio" for="inputCheck11">임상시험<input
+												type="radio" id="inputCheck11" name="type" value="임상시험"/> <span
+												class="checkmark"></span></label>
 													</li>
-													<li>
-														<div class="consent">
-										  					<label class="labelRadio" for="Biological"><input
-																type="radio" id="Biological" value="" name="test" />
-						  								 <span>생동성시험</span> </label>
-														</div>
+													<li class="radio">
+														<label class="labelRadio"
+												for="inputCheck12">생동성<input type="radio"
+												id="inputCheck12" name="type" value="생동성"/> <span
+												class="checkmark"></span></label>
+													</li>
+													<li class="radio">
+													<label class="labelRadio" for="inputCheck13">모두포함<input
+												type="radio" id="inputCheck13" name="recipient" value="모두포함"/> <span
+												class="checkmark"></span></label>
 													</li>
 												</ul>
 												</div>
@@ -286,7 +305,7 @@ checkbox table
 														</label>
 													</div>
 												</th>
-												<th>게시자</th>
+												<th class ="Publisher">게시자</th>
 												<th>시험종류</th>
 												<th>제목</th>
 												<th>기간</th>
@@ -309,7 +328,7 @@ checkbox table
 													</label>
 												</div>
 											</td>
-											<td>admin72</td>
+											<td class ="Publisher">admin72</td>
 											<td>생동성</td>
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
@@ -331,7 +350,7 @@ checkbox table
 													</label>
 												</div>
 											</td>
-											<td>admin72</td>
+											<td class ="Publisher">admin72</td>
 											<td>생동성</td>
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
@@ -353,7 +372,7 @@ checkbox table
 													</label>
 												</div>
 											</td>
-											<td>admin72</td>
+											<td class ="Publisher">admin72</td>
 											<td>생동성</td>
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
@@ -375,7 +394,7 @@ checkbox table
 													</label>
 												</div>
 											</td>
-											<td>admin72</td>
+											<td class ="Publisher">admin72</td>
 											<td>생동성</td>
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
@@ -402,9 +421,9 @@ checkbox table
 									<button class="ad-btn ad-m-btn-create">광고추가</button>
 								</div>
 
-
-								<ul id="pagination-demo" class="pagination-sm">
-								</ul>
+<div class ="admin-pagination-wrap">
+<ul id="pagination-demo" class="pagination-sm"> </ul>
+</div>
 							</div>
 						</div>
 					</div>
@@ -415,22 +434,15 @@ checkbox table
 
 
 
-	<footer class="admin_footer">
-		<div class="container">
-			<div class="row-noneflex"></div>
-		</div>
-	</footer>
-
-	<%@ include file="../include/footer.jsp"%>
-	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+	<%@ include file="../include/footerShort.jsp"%> 
 
 
 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../assets/js/datepicker.js"></script>
+		<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script type="text/javascript" src="../assets/js/pagination.min.js"></script>
-		<script defer src="../assets/js/fontawesome-all.js"></script>
 	<script type="text/javascript" src="../assets/js/admin-check.js"></script>
 
 
@@ -444,12 +456,3 @@ checkbox table
 
 
 
-
-<!-- 
-	<script>
-		$(document).ready(function() {
-			$('#sideContent').find('.is-checked').removeClass('is-checked');
-			$('#sideContent>.contentElement:eq(0)').addClass('is-checked');
-
-		});
-	</script> -->

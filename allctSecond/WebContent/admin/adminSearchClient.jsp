@@ -17,12 +17,14 @@ super 페이지 span
 <link rel="stylesheet" href="../assets/css/owl.carousel.css">
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet"
+	href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
 <link rel="stylesheet" href="../assets/css/doyoung/admin_am2.css">
 
 <!-- 김도영 공고관리 (Announcement Management)  -->
 
 </head>
-<body>
+<body class ="admin-body">
 	<%@ include file="../include/admin_header-widget.jsp"%>
 	<div class="container ab-container">
 		<div class="row-noneflex">
@@ -40,20 +42,20 @@ super 페이지 span
 											<strong>엑셀로저장</strong>
 										</button>
 									</div>
-									<h1>공고관리</h1>
+									<h1 id= "admin4" class ="admin-navNo" >공고관리</h1>
 								</div>
-								<div class="am-h-title">
-									<span class="am-h-title-span">공고검색</span>
+						<div class="am-ab-title">
+									<label>공고검색</label>
 								</div>
-
-								<div class="am-h-content-wrapper">
+<div class ="admin-clear"></div> 
+	 							<div class="am-h-content-wrapper">
 									<form action="">
 										<div class="am-h-content">
 											<div class="am-h-state-wrap">
 												<label class="am-h-label">진행상태</label>
 												<ul class="am-h-state">
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="state-all"><input
 																type="checkbox" id="state-all" value="" name="" /><span
 																class="checkmark"></span> <span>전체</span> </label>
@@ -61,34 +63,34 @@ super 페이지 span
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="state-ing"><input
-																type="checkbox" id="state-ing" value="" name="" class="header" />
+																type="checkbox" id="state-ing" value="" name="" class="inputHeader" />
 																<span class="checkmark"></span> <span>진행중</span> </label>
 
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="state-stop"><input
-																type="checkbox" id="state-stop" value="" name="" class="header" />
+																type="checkbox" id="state-stop" value="" name="" class="inputHeader" />
 																<span class="checkmark"></span> <span>중지</span> </label>
 
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="state-active"><input
-																type="checkbox" id="state-active" value="" name="" class="header" />
+																type="checkbox" id="state-active" value="" name="" class="inputHeader" />
 																<span class="checkmark"></span> <span>모집중</span> </label>
 
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="state-complete"><input
 																type="checkbox" id="state-complete" value=""
-																name="" class="header" /> <span class="checkmark"></span> <span>완료</span>
+																name="" class="inputHeader" /> <span class="checkmark"></span> <span>완료</span>
 															</label>
 														</div>
 													</li>
@@ -101,11 +103,11 @@ super 페이지 span
 												<label class="am-h-label-calendar">게시날짜</label>
 												<div class="admin-calender-form">
 													<span class="admin-calender-form-span">시작</span> <input
-														type="text" name="" id=""> <span class="admin-calender-form-span"> <i
+														type="text" name="" id="" class="datepicker"> <span class="admin-calender-form-span"> <i
 														class="far fa-calendar-check dy-calendar-check"></i>
 													</span> <span class="admin-calender-form-span">~</span> <span
 														class="admin-calender-form-span">종료</span> <input
-														type="text" name="" id="">
+														type="text" name="" id="" class="datepicker">
 														<span class="admin-calender-form-span">
 														 <i class="far fa-calendar-check dy-calendar-check"></i>
 														 </span>
@@ -158,7 +160,6 @@ super 페이지 span
 											<th>제목</th>
 											<th>기간</th>
 											<th>인원수</th>
-											<th>시험기관</th>
 											<th>등록일</th>
 											<th>현재상태</th>
 											<th>신청</th>
@@ -180,7 +181,6 @@ super 페이지 span
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
-											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td><span class ="admin-test-ing">시험진행중</span></td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
@@ -202,7 +202,6 @@ super 페이지 span
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
-											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td><span class ="admin-test-complete">완료</span></td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
@@ -224,7 +223,6 @@ super 페이지 span
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
-											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td><span class ="admin-test-Recruiting">모집중</span></td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
@@ -246,7 +244,6 @@ super 페이지 span
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
-											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td><span class ="admin-test-recruited">모집마감</span></td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
@@ -268,7 +265,6 @@ super 페이지 span
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
-											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td>시험진행중</td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
@@ -290,7 +286,6 @@ super 페이지 span
 											<td>1형생물학적동등성시험</td>
 											<td>18-05-10~18-05-20</td>
 											<td><span id="">30</span>/<span id="">50</span></td>
-											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td>시험진행중</td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
@@ -313,9 +308,9 @@ super 페이지 span
 								<button class="ad-btn ad-m-btn-create">광고추가</button>
 							</div>
 
-
-							<ul id="pagination-demo" class="pagination-sm">
-							</ul>
+<div class ="admin-pagination-wrap">
+<ul id="pagination-demo" class="pagination-sm"> </ul>
+</div>
 						</div>
 					</div>
 				</div>
@@ -325,24 +320,17 @@ super 페이지 span
 	</div>
 
 
+	<%@ include file="../include/footerShort.jsp"%> 
 
-	<footer class="admin_footer">
-		<div class="container">
-			<div class="row-noneflex"></div>
-		</div>
-	</footer>
-
-	<%@ include file="../include/footer.jsp"%>
-	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 
 
 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../assets/js/datepicker.js"></script>
+		<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../assets/js/pagination.min.js"></script>
 	<script type="text/javascript" src="../assets/js/admin-check.js"></script>
-	<script defer src="../assets/js/fontawesome-all.js"></script>
 
 	<script type="text/javascript" src="../assets/js/select.js"></script>
 

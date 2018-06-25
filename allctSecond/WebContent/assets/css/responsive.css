@@ -229,7 +229,8 @@
 	.owl-carousel .owl-item img {
 		min-height:190px;
 	}
-	ay: contents;
+	.carousel-overlay span>br {
+		display: contents;
 	}
 	.carousel-overlay h2:last-of-type {
 		display: none;
@@ -274,7 +275,11 @@
 @media screen and (min-width:576px) {
 	.containerBox {
     max-width: 540px;
-  }
+  	}
+  	
+  	
+  
+  
 }
 
 @media screen and (min-width:576px) and (max-width:645px) {
@@ -616,9 +621,12 @@ section.advertisement {
 		padding: 5%;
 	}
 	
+	.tab-hashtag {
+		border-right:1px solid #a7a7a7;
+		border-left: 1px solid #a7a7a7;
+	}
 	.tab-hashtag ul {
 		width:calc(100% - 160px);
-		border-right:1px solid #a7a7a7;
 		border-bottom:0;
 	}
 	
