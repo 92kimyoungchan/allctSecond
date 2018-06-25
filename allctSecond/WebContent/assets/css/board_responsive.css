@@ -21,6 +21,9 @@
 	div.board-select > .recruit-box > .recruit-header > .select-group > .input-search-box > .input-search {
 		width: 150px;
 	}
+	.jobInfo > table > tbody > tr.jobInfo-table-body > td > strong {
+		font-size: 12px;
+	}
 	
 }
 
@@ -29,8 +32,8 @@
 }
 
 @media screen and (max-width:424px) {
-   .jobInfo > table > tbody > tr > td > strong {
-      font-size: 14px !important;
+   .jobInfo > table > tbody > .jobInfo-table-body > td > strong {
+      font-size: 14px;
    }
    
    div.news-mobile-content > span:last-of-type {
