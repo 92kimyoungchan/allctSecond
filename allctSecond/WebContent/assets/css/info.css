@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+
+
+div.clinical_info_content_box h2 {
+    margin: 20px 0 12px 0;
+    padding: 0;
+    word-spacing: -2.2px;
+}
+
+div.clinical_info_content_box p:first-of-type {
+   font-weight: normal;
+   line-height: 33px;
+   font-size: 16px;
+   word-spacing: 4px;
+   margin: 11px 0 -10px 0;
+}
+
+div.clinical_info_content_box p:last-of-type {
+   font-weight: normal;
+   line-height: 33px;
+   font-size: 16px;
+   word-spacing: 4px;
+   margin: 11px 0 35px;
+}
+
+div.status-content p {
+   margin-bottom: 0;
+   font-weight: normal;
+   color: black;
+   font-size: 15px;
+}
+
+div.clinical-status > .jobInfo-table tbody > tr > td:nth-of-type(2) {
+	  padding: 13px 30px 13px;
+    text-align: center;
+    font-weight: normal;
+}
+
+div.clinical-status > .jobInfo-table tbody > tr > td:first-of-type {
+	 width: 85px;
+    text-align: center;
+    font-weight: normal;
+    padding-left: 0;
+	
+}
+
+.jobInfo-table > tbody > tr > td:nth-of-type(4) {
+	  line-height: 2;
+   font-weight: bold;
+   text-align: center;
+}
+
+
+.academy-trash-btn button > i {
+	margin-right:4px;
+	font-size:16px;
+}
+
+div.clinical_content_box {
+	display:table;
+}
+
+div.subP-clinical > .clinical_content_box > .support_iconBox {
+	display:table-cell;
+	width:100px;
+}
+.clinical_content {
+   display: table-cell;
+   vertical-align: top;
+   padding-left: 45px;
+}
+
+.clinical_content_body {
+	margin-bottom:55px;
+}
+
+div.subP-clinical > .clinical_content_box > .support_iconBox img {
+	height:auto;
+}
+
+div.clinical_qualify_imgBox .clinical_imgBox > img {
+	width:100%;
+	height:24%;
+}
+
+
+@media screen and (max-width:580px) {
+	 .clinical_content_qualify p {
+       /* width: 90%; */
+       /* margin-left: 5% !important; */
+   }
+   
+     div.clinical_qualify_imgBox .clinical_imgBox > img {
+       /* width: 90%; */
+       /* height: 20%; */
+       /* margin-left: 5.5%; */
+   }
+   
+   .clinical_info_content_box {
+       /* width: 90%; */
+       /* margin-left: 5.5%; */
+   }
+   
+   div.clinical_imgBox > img {
+      /* width: 90%; */
+      /* height: 20%; */
+      /* margin-left: 5.5%; */
+   }
+   
+}
+
+
+@media screen and (max-width:480px) {
+	   div.clinical_qualify_mobileImg > img {
+      /* width: 100%; */
+      /* margin-left: 5.5%; */
+   }
+}
+
+@media only screen and (max-width: 767px) { 
+div.subP-clinical > .clinical_content_box > .support_iconBox {
+	width:100%;
+	text-align:center;
+	margin-bottom:25px;
+}
+div.clinical_content_box {
+	display:block;
+	padding:20px 35px;
+}
+div.clinical_content_head h2 {
+	margin-bottom:25px;
+}
+.clinical_content {
+	padding-left:0;
+}
+
+ div.clinical_info_content_box p:last-of-type {
+ 	/* margin: 35px 0; */
+ }
+	
+}
+

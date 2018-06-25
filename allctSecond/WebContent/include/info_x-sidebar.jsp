@@ -7,7 +7,7 @@
 		<span>정보안내</span>
 	</div>
 	
-	<ul id="sideContent-academy">
+	<ul id="sideContent">
 		<li class="contentElement"><a href="/allctSecond/info/infoJopInfo.jsp">구직공고</a></li>
 		<li class="contentElement"><a href="/allctSecond/info/infoAcademy.jsp">학술정보</a></li>
 	</ul>

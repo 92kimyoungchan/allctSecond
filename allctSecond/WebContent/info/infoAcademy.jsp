@@ -199,8 +199,8 @@
 
 	<script>
 	 $(document).ready(function() {
-         $('#sideContent-academy').find('.is-checked').removeClass('is-checked');
-         $('#sideContent-academy>.contentElement:eq(1)').addClass('is-checked');
+         $('#sideContent').find('.is-checked').removeClass('is-checked');
+         $('#sideContent>.contentElement:eq(1)').addClass('is-checked');
 
       });
 					 

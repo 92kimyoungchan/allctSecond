@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="../assets/css/owl.carousel.css">
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/board.css">
+<link rel="stylesheet" href="../assets/css/info.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
 <link rel="stylesheet" href="../assets/css/board_responsive.css">
 
@@ -221,8 +222,8 @@
 
 	<script>
       $(document).ready(function() {
-         $('#sideContent-academy').find('.is-checked').removeClass('is-checked');
-         $('#sideContent-academy>.contentElement:eq(0)').addClass('is-checked');
+         $('#sideContent').find('.is-checked').removeClass('is-checked');
+         $('#sideContent>.contentElement:eq(0)').addClass('is-checked');
 
       });
    </script>
