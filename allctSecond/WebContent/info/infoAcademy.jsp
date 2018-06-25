@@ -22,6 +22,7 @@
 				<%@ include file="../include/info_x-sidebar.jsp"%>
 
 				<div class="subP-academy">
+				<div class="board-subP">
 					<div class="subPage b-bottom">
 						<h2>학술정보</h2>
 						<div class="academy-mobile-header">
@@ -33,8 +34,9 @@
 								href="">학술정보</a></span>
 						</div>
 					</div>
+					</div>
 					<div class="subP-jopInfo-header">
-
+						<div class="board-select">
 						<div class="recruit-box">
 							<div class="recruit-header">
 
@@ -62,6 +64,7 @@
 
 
 							</div>
+						</div>
 						</div>
 
 						<table class="table table-academy">

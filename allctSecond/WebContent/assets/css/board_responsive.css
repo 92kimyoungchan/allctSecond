@@ -61,6 +61,14 @@
   div.board-select > .recruit-box > .recruit-header > .select-group > .input-search-box {
   	   font-size: 13px;
   }
+  
+  div.jobInfo > table > tbody > .jobInfo-table-body > td:nth-of-type(2) {
+   	  padding: 0;
+   }
+   
+   div.jobInfo > table > tbody > .jobInfo-table-body > td > span:first-of-type {
+   	  padding: 0;
+   }
 
 }
 
@@ -94,18 +102,26 @@
    .jobInfo > table > tbody > tr > td:first-of-type {
          padding: 15px 0 0 !important;
    }
-   
-   .jobInfo > table > tbody > tr > td:nth-of-type(2) {
-       padding: 0 !important;
-   }
-   
-   .jopInfo-content-sal {
-       padding: 0 !important;
-   }
 
    div.jobInfo .jobInfo-table > tbody > tr > td:nth-of-type(4) {
       margin-left: 20px !important;
       padding-top: 10px !important;
+   }
+   
+   div.jobInfo-table > tbody > tr > td {
+   	  padding: 13px 15px 0;
+   }
+   
+   div.jobInfo > table > tbody > tr > td > span:first-of-type {
+   	  padding: 13px 15px 0;
+   }
+   
+   .jopInfo-table-content p {
+   	  padding: 13px 15px 0;
+   }
+   
+   .jobInfo > table > tbody > tr > td:nth-of-type(2) {
+   	   padding: 13px 15px 0;
    }
    
    div.clinical_allct_mobile_imgBox {
@@ -399,9 +415,11 @@
    div.jobInfo > table > tbody > tr > td:nth-of-type(1) {
    	  display: table;
    }
-   div.jobInfo > table > tbody > tr > td > span:first-of-type {
+   div.jobInfo > table > tbody > tr > td > span {
    	  display: table-cell;
+   	  padding: 20px 8px 0 25px;
    }
+   
 
 }
 
