@@ -339,6 +339,10 @@ div.subP-jopInfo-header > div.recruit-box > .recruit-header > .select-group > .s
 	
 }
 
+ div.jobInfo > table > tbody > tr > td > .jopInfo-mobile > span {
+   	  display: none;
+}
+
 
 /* clinical jsp 임상시험 관련 페이지 */
 
