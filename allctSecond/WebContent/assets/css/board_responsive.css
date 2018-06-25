@@ -38,7 +38,7 @@
 }
 
 @media screen and (min-width:375px) and (max-width:424px) {
-   div.board-select > .recruit-box > .recruit-header > .select-group > .input-search-box > div {
+   div.board-select > .recruit-box > .recruit-header > .select-group > .input-search-box > .input-search {
    	  max-width: 190px;
    }
 }
@@ -157,7 +157,7 @@
    }
    
    div.board-select > .recruit-box > .recruit-header > .select-group > .input-search-box > div {
-	   width: 215px;
+	   max-width: 215px;
    }
    
    div.board-select > .recruit-box > .recruit-header > .select-group > .select > .select-styled {
@@ -266,6 +266,7 @@
 	div.subP-clinical-title {
 		padding:0 20px;
 	}
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -478,6 +479,12 @@
       font-size: 13px;
       color: #a29c9c;
    }
+   
+   div.board-select > .recruit-box > .recruit-header > .select-group {
+		float: left;
+		margin-bottom: 10px;
+	}
+	
    
 }
 
