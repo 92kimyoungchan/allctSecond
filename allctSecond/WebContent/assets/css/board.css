@@ -3,61 +3,61 @@
 /* board_academy.jsp 학술정보 리스트 */
 
 div.subP-academy {
-	width: 72%;
+   width: 72%;
     float: right;
     margin-bottom: 75px;
 }
 
 div.supP-academy .small_navigation {
-	border: none !important;
+   border: none !important;
     text-align: right;
     margin-bottom: 170px;
 }
 
 #sideContent-academy>.contentElement {
-	padding: 5px;
-	border: 0px solid #5f4d4d3d;
-	border-width: 0 1px 1px 1px;
+   padding: 5px;
+   border: 0px solid #5f4d4d3d;
+   border-width: 0 1px 1px 1px;
 
 }
 
 #sideContent-academy>.contentElement {
-	padding: 18px 20px;
+   padding: 18px 20px;
 }
 
 #sideContent-academy>.contentElement.is-checked>a {
-	color: #32b76e !important
+   color: #32b76e !important
 }
 
 #sideContent-academy>.contentElement>a {
-	color: black;
+   color: black;
 }
 
 .select-header-academy {
-	padding-bottom: 22px;
-	padding-top: 182px;
+   padding-bottom: 22px;
+   padding-top: 182px;
 }
 
 .table-academy {
-	border: 1px solid #dee2e6;
-	width: 100%;
+   border: 1px solid #dee2e6;
+   width: 100%;
     max-width: 100%;
     background-color: transparent;
     margin-bottom: 33px;
 }
 
 .table-academy:last-of-type {
-	margin-bottom: 70px;
+   margin-bottom: 70px;
 }
 
 .academy-table-header {
-	height: 40px;
-	text-align: left;
+   height: 40px;
+   text-align: left;
     background-color: #cef3e06b;
 }
 
 .academy-mobile-header {
-	 display: none;
+    display: none;
 }
 
 
@@ -65,53 +65,53 @@ div.supP-academy .small_navigation {
 /* board_academy 테이블 */
 
 div.select-header-academy thead > tr > th:nth-of-type(1) {
-	float: left;
+   float: left;
     padding-left: 192px;
 }
 
 .table-academy thead th {
-	padding: 13px 22px; 
+   padding: 13px 22px; 
 }
 
 .table-academy tbody td {
-	padding: 25px 22px 12px; 
-	border: none;
-	vertical-align: middle;
+   padding: 25px 22px 12px; 
+   border: none;
+   vertical-align: middle;
 }
 
 .table-academy tbody>tr {
-	border-bottom: 1px solid #ddd;
+   border-bottom: 1px solid #ddd;
 }
 
 .academy-table-body > td > p {
-	font-size: 14px;
+   font-size: 14px;
     font-weight: bold;
     line-height: 2.2;
 }
 
 .academy-table-body > td > p:last-of-type {
-	color: #32b76e;
-	margin-bottom: 0;
+   color: #32b76e;
+   margin-bottom: 0;
 } 
 
 .academy-trash-btn button {
-	padding: 6px 14px;
-	color: black;
-	background: transparent;
-	border: 1.4px solid #ded8d8;
-	height: 43px;
-	float: left;
-	outline:none;
+   padding: 6px 14px;
+   color: black;
+   background: transparent;
+   border: 1.4px solid #ded8d8;
+   height: 43px;
+   float: left;
+   outline:none;
 }
 
 .academy-trash-btn button>svg {
-	margin: -1px 8px 0 0px;
-	vertical-align: middle;
-	color: #ded8d8;
+   margin: -1px 8px 0 0px;
+   vertical-align: middle;
+   color: #ded8d8;
 }
 
 .academy-paging {
-	margin-top: 113px;
+   margin-top: 113px;
 }
 
 
@@ -176,7 +176,7 @@ span#jopInfo-searchCount {
 
 
 .jobInfo {
-	border: 1px solid #ddd;
+   border: 1px solid #ddd;
 }
 
 
@@ -298,8 +298,8 @@ span#jopInfo-searchCount {
 
 .jobInfo-table > tbody > tr > td:nth-of-type(4) {
     line-height: 2;
-	font-weight: bold;
-	text-align: center;
+   font-weight: bold;
+   text-align: center;
 }
 
 .jobInfo-table-body > td > strong {
@@ -309,8 +309,8 @@ span#jopInfo-searchCount {
 .jopInfo-content-sal {
     text-align: center;
     font-size: 13px;
-	font-weight: 500;
-	margin-bottom: 4px;
+   font-weight: 500;
+   margin-bottom: 4px;
     line-height: 20px;
     color: rgba(80,80,80,0.8);
 }
@@ -326,7 +326,7 @@ span#jopInfo-searchCount {
 }
 
 span.jopInfo-mobile-date {
-	display: none;
+   display: none;
 }
 
 
@@ -335,11 +335,11 @@ span.jopInfo-mobile-date {
 div.subP-clinical-title {
     width: 72%;
     float: right;
-	margin-bottom: 155px;
+   margin-bottom: 155px;
 }
 
 div.subP-clinical {
-	margin-top: 30px;
+   margin-top: 30px;
 }
 
 div.subP-clinical > h2 {
@@ -350,17 +350,17 @@ div.subP-clinical > h2 {
 }
 
 div.subP-clinical > .clinical_content_box > .support_iconBox {
-	float: left;
+   float: left;
     margin: 0px 55px 60px 17px;
 }
 
 div.subP-clinical > .clinical_content_box > .support_iconBox img {
-	width: 100%;
+   width: 100%;
     height: auto;
 }
 
 div.clinical_content_box {
-	display: inline-block;
+   display: inline-block;
 }
 
 div.clinical_content_head h2 {
@@ -373,11 +373,11 @@ div.clinical_content_head h2 {
 }
 
 .clinical_content {
-	display: table;
-	
+   display: table;
+   
 }
 .clinical_content_head {
-	
+   
 }
 
 .clinical_content_body {
@@ -394,17 +394,17 @@ div.clinical_content_box p {
 }
 
 #sideContent-clinical>.contentElement {
-	padding: 5px;
-	border: 0px solid #5f4d4d;
-	border-width: 0 1px 1px 1px;
+   padding: 5px;
+   border: 0px solid #5f4d4d;
+   border-width: 0 1px 1px 1px;
 }
 
 
 /* board_clinical_info.jsp 임상시험과 생동성시험 페이지 */
 
 div.clinical_info_imgBox .clinical_imgBox {
-	margin-top: 60px;
-	display: block;
+   margin-top: 60px;
+   display: block;
 }
 
 div.clinical_imgBox > img {
@@ -413,7 +413,7 @@ div.clinical_imgBox > img {
 }
 
 div.clinical_mobile_imgBox {
-	display: none;
+   display: none;
 }
 
 div.clinical_mobile_imgBox > img {
@@ -432,7 +432,7 @@ div.clinical_info_content_box h2 {
 }
 
 div.clinical_info_content_box p:first-of-type {
-	font-weight: 500;
+   font-weight: 500;
     line-height: 33px;
     font-size: 16px;
     word-spacing: 4px;
@@ -440,7 +440,7 @@ div.clinical_info_content_box p:first-of-type {
 }
 
 div.clinical_info_content_box p:last-of-type {
-	font-weight: 500;
+   font-weight: 500;
     line-height: 33px;
     font-size: 16px;
     word-spacing: 4px;
@@ -456,18 +456,18 @@ div.clinical_justice p {
 }
 
 div.clinical_content_justice {
-	
+   
 }
 
 div.clinical_bio_justice {
-	
+   
 }
 
 /* board_clinical_allct.jsp 임상시험과 Allct 페이지 */
 
 div.subP-clinical-allct h2 {
     margin: 35px 0;
-	padding: 0;
+   padding: 0;
 }
 
 div.clinical_content_allct p {
@@ -475,14 +475,14 @@ div.clinical_content_allct p {
 }
 
 div.clinical_allct_mobile_imgBox {
-	display: none;
+   display: none;
 }
 
 /* board_clinical_qualify.jsp 임상시험 참여자가 고려할 사항 페이지 */
 
 div.subP-clinical-qualify h2 {
     margin-top: 40px;
-	padding: 0;
+   padding: 0;
 }
 
 
@@ -492,7 +492,7 @@ div.clinical_qualify_imgBox .clinical_imgBox > img {
 }
 
 div.clinical_qualify_mobileImg {
-	display: none;
+   display: none;
 }
 
 div.clinical_content_qualify p {
@@ -501,7 +501,7 @@ div.clinical_content_qualify p {
 }
 
 div.clinical_qualify_imgBox2 {
-	display: none;
+   display: none;
 }
 
 /* board_clinical_status.jsp 임상시험의 현황 페이지 */
@@ -512,44 +512,44 @@ div.clinical-status > .jobInfo-table thead > tr {
 }
 
 div.clinical-status > .jobInfo-table thead > tr > th {
-	font-size: 17px;
+   font-size: 17px;
 }
 
 div.clinical-status > .jobInfo-table tbody > tr > td:first-of-type {
-	width: 85px;
+   width: 85px;
     text-align: center;
     font-weight: bold;
     padding-left: 0;
 }
 
 div.clinical-status > .jobInfo-table tbody > tr > td:nth-of-type(2) {
-	padding: 13px 30px 13px;
+   padding: 13px 30px 13px;
     text-align: center;
     font-weight: bold;
 }
 
 div.clinical-status > .jobInfo-table tbody > tr > td {
-	font-size: 15px;
+   font-size: 15px;
 }
 
 div.status-content {
-	padding: 5px 50px 5px;
+   padding: 5px 50px 5px;
 }
 
 div.status-content p {
-	margin-bottom: 0;
-	font-weight: bold;
-	color: black;
-	font-size: 15px;
+   margin-bottom: 0;
+   font-weight: bold;
+   color: black;
+   font-size: 15px;
 }
 
 div.status-content-date {
-	width: 110px;
+   width: 110px;
 }
 
 div.clinical-status table {
     margin-bottom: 25px;
-    border: 1px solid #ddd;	
+    border: 1px solid #ddd;   
 }
 
 div.subP-clinical-status {
@@ -565,7 +565,7 @@ div.board-faq > .board-faq-bottom {
 }
 
 div.board-faq > table {
-	border-top: 2px solid;
+   border-top: 2px solid;
     border-bottom: 1px solid #ddd;
     width: 100%;
     height: 30%;
@@ -582,20 +582,20 @@ div.board-faq > table > tbody > tr > th {
 }
 
 div.board-faq > table > tbody > tr > td {
-	
+   
 }
 
 .faq-table-body> th.is-checked {
-	color: #32b76e !important
+   color: #32b76e !important
 }
 
 .faq-table-body> td.is-checked {
-	color: #32b76e !important
+   color: #32b76e !important
 }
 
 .faqView > span {
-	float: right;
-	margin-right: 10px;
+   float: right;
+   margin-right: 10px;
 }
 
 .faq-hidden {
@@ -603,23 +603,23 @@ div.board-faq > table > tbody > tr > td {
 }
 
 .faq-hidden th {
-	color:  #32b76e;
-	vertical-align: top;
+   color:  #32b76e;
+   vertical-align: top;
     padding-top: 18px;
 }
 
 .faq-hidden td {
-	padding: 20px 0;
+   padding: 20px 0;
 }
 div.board-faq > table > tbody > tr > th:nth-child(1) {
-	height: 50px;
+   height: 50px;
 }
 
 .faq-hidden {
-	font-weight: bold;
+   font-weight: bold;
 }
 .faq-hidden > td > p {
-	font-weight: bold;
+   font-weight: bold;
     font-size: 15px;
     margin: 0;
 }
@@ -627,7 +627,7 @@ div.board-faq > table > tbody > tr > th:nth-child(1) {
 /* clinical_status_details.jsp 임상시험의 현황 상세 페이지 */
 
 div.clinical_status_details > table {
-	border-top: 1px solid #777;
+   border-top: 1px solid #777;
     border-bottom: 1px solid #777;
 }
 
@@ -635,20 +635,20 @@ div.clinical_status_details > table > tbody > tr {
 }
 
 div.clinical_status_details > table > tbody > tr:nth-of-type(4) {
-	border-bottom: 1px solid #777;
+   border-bottom: 1px solid #777;
 }
 
 div.clinical_status_details > table > tbody > tr > td:first-of-type {
-	background-color: #f5f5f5;
-	width: 160px;
+   background-color: #f5f5f5;
+   width: 160px;
 }
 
 div.clinical_status_details > table > tbody > tr > td {
-	padding: 25px 25px 5px;
+   padding: 25px 25px 5px;
 }
 
 div.clinical_status_details > table > tbody > tr:nth-of-type(4) > td {
-	padding-bottom: 30px;
+   padding-bottom: 30px;
 }
 
 div.clinical_status_details > table > tbody > tr:nth-of-type(5) > td:nth-child(1) {
@@ -656,7 +656,7 @@ div.clinical_status_details > table > tbody > tr:nth-of-type(5) > td:nth-child(1
 }
 
 div.clinical_status_details > table > tbody > tr:last-of-type > td {
-	padding-bottom: 30px;
+   padding-bottom: 30px;
 }
 
 div.status_details_btnBox {
@@ -665,10 +665,32 @@ div.status_details_btnBox {
 }
 
 div.status_details_btnBox button {
-	color: black;
+   color: black;
     background: #e0e0e0;
     border: 1px solid #e0e0e0;
     padding: 13px 43px;
     font-size: 15px;
     font-weight: bold;
+}
+
+/* 고객센터 페이지 */
+
+div.board_news > table > thead > tr > th.news-mobile-header {
+   display: none;
+}
+
+div.board_news > table > tbody > tr > td:nth-of-type(2) {
+   text-align: center;
+}
+
+div.board_news > .table-admin td {
+   vertical-align: middle;
+}
+
+div.news-mobile-content span {
+   display: none;
+}
+
+div.board_news > table > tbody > tr > td:nth-of-type(5) {
+   padding: 20px 12px !important;
 }
