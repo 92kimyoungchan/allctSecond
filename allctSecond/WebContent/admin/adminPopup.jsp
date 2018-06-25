@@ -73,8 +73,8 @@
 						<div class="am-ab-mani">
 							<!--  선택 수정 삭제 추가-->
 							<div class="am-ab-btn-form">
-								<button class="ad-btn ad-m-btn-preview right">미리보기</button>
-								<button class="ad-btn ad-m-btn-sms right">저장</button>
+								<button class="ad-btn ad-m-btn-preview right">삭제하기</button>
+								<button class="ad-btn ad-m-btn-sms right">수정하기</button>
 							</div>
 						</div>
 							</div>

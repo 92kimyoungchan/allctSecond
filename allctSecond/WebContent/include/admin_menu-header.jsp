@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <ul class="menu-header">
 	<li
-		onclick="javascript: location.href='/allctSecond/admin/admin_MemberList.jsp'">
+		onclick="javascript: location.href='/allctSecond/admin/adminMemberList.jsp'">
 
 		<div class="admin-nav-li-wrap">
 			<div class="admin-nav-contents">
@@ -17,7 +17,7 @@
 	</li>
 
 	<li
-		onclick="javascript: location.href='/allctSecond/admin/admin_search_client.jsp'">
+		onclick="javascript: location.href='/allctSecond/admin/adminSearchClient.jsp'">
 		<div class="admin-nav-contents">
 			<div class="admin-nav-li-wrap">
 				<div class="admin-nav-li">
@@ -30,7 +30,7 @@
 		</div>
 	</li>
 	<li
-		onclick="javascript: location.href='/allctSecond/admin/admin_Applicant_Management.jsp'">
+		onclick="javascript: location.href='/allctSecond/admin/adminApplicantManagement.jsp'">
 		<div class="admin-nav-contents">
 			<div class="admin-nav-li-wrap">
 				<div class="admin-nav-li">
@@ -65,7 +65,7 @@
 		</div>
 	</li>
 	<li
-		onclick="javascript: location.href='/allctSecond/board/board_notice.jsp'">
+		onclick="javascript: location.href='/allctSecond/info/infoNotice.jsp'">
 		<div class ="admin-nav-contents">
 		<div class="admin-nav-li-wrap">
 			<div class="admin-nav-li">
@@ -76,7 +76,7 @@
 		</div>
 		</div>
 	</li>
-	<li onclick="javascript: location.href='/allctSecond/admin/admin_MemberList.jsp'">
+	<li onclick="javascript: location.href='/allctSecond/info/infoMemberList.jsp'">
 		<div class ="admin-nav-contents">
 		<div class="admin-nav-li-wrap">
 			<div class="admin-nav-li">

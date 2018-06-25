@@ -5312,5 +5312,7 @@ html [type="button"] {
 .f400 {
 	font-weight:400 !important;
 }
-
+.floatRight {
+	float:right !important;
+}
 

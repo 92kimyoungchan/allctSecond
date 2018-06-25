@@ -17,6 +17,8 @@ super 페이지 span
 <link rel="stylesheet" href="../assets/css/owl.carousel.css">
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet"
+	href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
 <link rel="stylesheet" href="../assets/css/doyoung/admin_am2.css">
 
 <!-- 김도영 공고관리 (Announcement Management)  -->
@@ -63,7 +65,7 @@ super 페이지 span
 													<li>
 														<div class="consent">
 															<label class="labelCheck" for="state-ing"><input
-																type="checkbox" id="state-ing" value="" name="" class="header" />
+																type="checkbox" id="state-ing" value="" name="" class="inputHeader" />
 																<span class="checkmark"></span> <span>진행중</span> </label>
 
 														</div>
@@ -71,7 +73,7 @@ super 페이지 span
 													<li>
 														<div class="consent">
 															<label class="labelCheck" for="state-stop"><input
-																type="checkbox" id="state-stop" value="" name="" class="header" />
+																type="checkbox" id="state-stop" value="" name="" class="inputHeader" />
 																<span class="checkmark"></span> <span>중지</span> </label>
 
 														</div>
@@ -79,7 +81,7 @@ super 페이지 span
 													<li>
 														<div class="consent">
 															<label class="labelCheck" for="state-active"><input
-																type="checkbox" id="state-active" value="" name="" class="header" />
+																type="checkbox" id="state-active" value="" name="" class="inputHeader" />
 																<span class="checkmark"></span> <span>모집중</span> </label>
 
 														</div>
@@ -88,7 +90,7 @@ super 페이지 span
 														<div class="consent">
 															<label class="labelCheck" for="state-complete"><input
 																type="checkbox" id="state-complete" value=""
-																name="" class="header" /> <span class="checkmark"></span> <span>완료</span>
+																name="" class="inputHeader" /> <span class="checkmark"></span> <span>완료</span>
 															</label>
 														</div>
 													</li>
@@ -101,11 +103,11 @@ super 페이지 span
 												<label class="am-h-label-calendar">게시날짜</label>
 												<div class="admin-calender-form">
 													<span class="admin-calender-form-span">시작</span> <input
-														type="text" name="" id=""> <span class="admin-calender-form-span"> <i
+														type="text" name="" id="" class="datepicker"> <span class="admin-calender-form-span"> <i
 														class="far fa-calendar-check dy-calendar-check"></i>
 													</span> <span class="admin-calender-form-span">~</span> <span
 														class="admin-calender-form-span">종료</span> <input
-														type="text" name="" id="">
+														type="text" name="" id="" class="datepicker">
 														<span class="admin-calender-form-span">
 														 <i class="far fa-calendar-check dy-calendar-check"></i>
 														 </span>
@@ -319,16 +321,16 @@ super 페이지 span
 
 
 	<%@ include file="../include/footerShort.jsp"%> 
+
+
+
+
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
-
-
-
-	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../assets/js/datepicker.js"></script>
+		<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../assets/js/pagination.min.js"></script>
 	<script type="text/javascript" src="../assets/js/admin-check.js"></script>
-	<script defer src="../assets/js/fontawesome-all.js"></script>
 
 	<script type="text/javascript" src="../assets/js/select.js"></script>
 
