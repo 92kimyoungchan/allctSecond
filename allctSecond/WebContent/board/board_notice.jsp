@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="../assets/css/owl.carousel.css">
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/board_responsive.css">
+<link rel="stylesheet" href="../assets/css/board.css">
 
 
 
@@ -34,6 +36,7 @@
 
 					</div>
 					</div>
+					
 
 
 					<div class="recruit-box">
@@ -71,93 +74,145 @@
 
 
 
-					<table class="table table-admin">
-						<thead>
-							<tr class="table-header">
-								<th>글번호</th>
-								<th>제목</th>
-								<th>작성자</th>
-								<th>첨부파일</th>
-								<th>날짜</th>
+					<div class="board_news">
+               <table class="table table-admin">
+                  <thead>
+                     <tr class="table-header">
+                        <th class="news-mobile-header"></th>
+                        <th>글번호</th>
+                        <th>제목</th>
+                        <th>작성자</th>
+                        <th>첨부파일</th>
+                        <th>날짜</th>
 
 
-							</tr>
-						</thead>
-						<tbody>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr id="">
+                        <td>12</td>
+                        <td>
+                        <span>새로운 소식 안내드립니다.</span>
+                        <div class="news-mobile-content">
+                        <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
+                        </div>
+                        </td>
+                        <td>베스티안부천병원</td>
+                        <td><i class="fas fa-file-archive"></i></td>
+                        <td>2018.12.31</td>
+                     </tr>
+                     <tr id="">
+                        <td>12</td>
+                        <td>
+                        새로운 소식 안내드립니다.
+                        <div class="news-mobile-content">
+                        <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
+                        </div>
+                        </td>
+                        <td>베스티안부천병원</td>
+                        <td><i class="fas fa-file-archive"></i></td>
+                        <td>2018.12.31</td>
+                     </tr>
+                     <tr id="">
+                        <td>12</td>
+                        <td>
+                        새로운 소식 안내드립니다.
+                        <div class="news-mobile-content">
+                        <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
+                        </div>
+                        </td>
+                        <td>베스티안부천병원</td>
+                        <td><i class="fas fa-file-archive"></i></td>
+                        <td>2018.12.31</td>
+                     </tr>
+                     <tr id="">
+                        <td>12</td>
+                        <td>
+                        새로운 소식 안내드립니다.
+                        <div class="news-mobile-content">
+                        <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
+                        </div>
+                        </td>
+                        <td>베스티안부천병원</td>
+                        <td><i class="fas fa-file-archive"></i></td>
+                        <td>2018.12.31</td>
+                     </tr>
+                     <tr id="">
+                        <td>12</td>
+                        <td>
+                        새로운 소식 안내드립니다.
+                        <div class="news-mobile-content">
+                        <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
+                        </div>
+                        </td>
+                        <td>베스티안부천병원</td>
+                        <td><i class="fas fa-file-archive"></i></td>
+                        <td>2018.12.31</td>
+                     </tr>
+                     <tr id="">
+                        <td>12</td>
+                        <td>
+                        새로운 소식 안내드립니다.
+                        <div class="news-mobile-content">
+                        <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
+                        </div>
+                        </td>
+                        <td>베스티안부천병원</td>
+                        <td><i class="fas fa-file-archive"></i></td>
+                        <td>2018.12.31</td>
+                     </tr>
+                     <tr id="">
+                        <td>12</td>
+                        <td>
+                        새로운 소식 안내드립니다.
+                        <div class="news-mobile-content">
+                        <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
+                        </div>
+                        </td>
+                        <td>베스티안부천병원</td>
+                        <td><i class="fas fa-file-archive"></i></td>
+                        <td>2018.12.31</td>
+                     </tr>
+                     <tr id="">
+                        <td>12</td>
+                        <td>
+                        새로운 소식 안내드립니다.
+                        <div class="news-mobile-content">
+                        <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
+                        </div>
+                        </td>
+                        <td>베스티안부천병원</td>
+                        <td><i class="fas fa-file-archive"></i></td>
+                        <td>2018.12.31</td>
+                     </tr>
+                     <tr id="">
+                        <td>12</td>
+                        <td>
+                        새로운 소식 안내드립니다.
+                        <div class="news-mobile-content">
+                        <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
+                        </div>
+                        </td>
+                        <td>베스티안부천병원</td>
+                        <td><i class="fas fa-file-archive"></i></td>
+                        <td>2018.12.31</td>
+                     </tr>
+                     <tr id="">
+                        <td>12</td>
+                        <td>
+                        새로운 소식 안내드립니다.
+                        <div class="news-mobile-content">
+                        <span>작성자: 베스티안부천병원 날짜: 18-04-23</span>
+                        </div>
+                        </td>
+                        <td>베스티안부천병원</td>
+                        <td><i class="fas fa-file-archive"></i></td>
+                        <td>2018.12.31</td>
+                     </tr>
 
-							<tr id="">
-								<td>12</td>
-								<td>새로운 소식 안내드립니다.</td>
-								<td>베스티안부천병원</td>
-								<td><i class="fas fa-file-archive"></i></td>
-								<td>2018.12.31</td>
-							</tr>
-							<tr id="">
-								<td>12</td>
-								<td>새로운 소식 안내드립니다.</td>
-								<td>베스티안부천병원</td>
-								<td><i class="fas fa-file-archive"></i></td>
-								<td>2018.12.31</td>
-							</tr>
-							<tr id="">
-								<td>12</td>
-								<td>새로운 소식 안내드립니다.</td>
-								<td>베스티안부천병원</td>
-								<td><i class="fas fa-file-archive"></i></td>
-								<td>2018.12.31</td>
-							</tr>
-							<tr id="">
-								<td>12</td>
-								<td>새로운 소식 안내드립니다.</td>
-								<td>베스티안부천병원</td>
-								<td><i class="fas fa-file-archive"></i></td>
-								<td>2018.12.31</td>
-							</tr>
-							<tr id="">
-								<td>12</td>
-								<td>새로운 소식 안내드립니다.</td>
-								<td>베스티안부천병원</td>
-								<td><i class="fas fa-file-archive"></i></td>
-								<td>2018.12.31</td>
-							</tr>
-							<tr id="">
-								<td>12</td>
-								<td>새로운 소식 안내드립니다.</td>
-								<td>베스티안부천병원</td>
-								<td><i class="fas fa-file-archive"></i></td>
-								<td>2018.12.31</td>
-							</tr>
-							<tr id="">
-								<td>12</td>
-								<td>새로운 소식 안내드립니다.</td>
-								<td>베스티안부천병원</td>
-								<td><i class="fas fa-file-archive"></i></td>
-								<td>2018.12.31</td>
-							</tr>
-							<tr id="">
-								<td>12</td>
-								<td>새로운 소식 안내드립니다.</td>
-								<td>베스티안부천병원</td>
-								<td><i class="fas fa-file-archive"></i></td>
-								<td>2018.12.31</td>
-							</tr>
-							<tr id="">
-								<td>12</td>
-								<td>새로운 소식 안내드립니다.</td>
-								<td>베스티안부천병원</td>
-								<td><i class="fas fa-file-archive"></i></td>
-								<td>2018.12.31</td>
-							</tr>
-							<tr id="">
-								<td>12</td>
-								<td>새로운 소식 안내드립니다.</td>
-								<td>베스티안부천병원</td>
-								<td><i class="fas fa-file-archive"></i></td>
-								<td>2018.12.31</td>
-							</tr>
-
-						</tbody>
-					</table>
+                  </tbody>
+               </table>
+               </div>
 
 
 
