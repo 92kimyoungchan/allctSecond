@@ -585,71 +585,87 @@ div.subP-clinical-status {
 
 /* board_faq.jsp 자주하는 질문 페이지 */
 
-div.board-faq > .board-faq-bottom {
-
+.collapsible {
+	background-color: #ffffff;
+	color: black;
+	cursor: pointer;
+	padding: 10px 20px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	border-bottom: 1px solid #ddd;
 }
 
-div.board-faq > table {
-   border-top: 2px solid;
-    border-bottom: 1px solid #ddd;
-    width: 100%;
-    height: 30%;
+.collapsible:nth-of-type(1) {
+	border-top: 2px solid black;
 }
 
-div.board-faq > table > tbody > tr {
-    border-bottom: 1px solid #ddd;
+.active, .collapsible:hover {
+	background-color: #ffffff;
+}
+
+.collapsible:after {
+	content: '\2335';
+	font-weight: bold;
+	float: right;
+}
+
+.active:after {
+	content: "\2335";
+}
+
+.content {
+	padding: 0 11px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: #eef2f5;
+}
+
+div.board-faq > button > span {
+	display: inline-block;
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: bold;
+    word-spacing: 0.5px;
+}
+
+div.board-faq > button > p {
+    margin: 0;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+div.board-faq > .content > span {
+    vertical-align: top;	
+}
+
+div.board-faq > .content > p:first-of-type {
+    margin: 17px 0 0 10;
+    display: inline-block;
+    vertical-align: top;
+    color: #3caa69;
     font-weight: bold;
 }
 
-div.board-faq > table > tbody > tr > th {
-    width: 60px;
-    text-align: center;
+div.board-faq > .content > p:last-of-type {
+	display: inline-block;
+    margin: 20px 20px 20px 29px;
+    font-size: 15px;
+    font-weight: 400;
+    text-indent: -0.5em;
 }
 
-div.board-faq > table > tbody > tr > td {
-   
-font-weight: 400;
+div.board-faq > .collapsible.is-checked {
+	color: #ffffff !important;
+	background: #3caa69;
 }
 
-.faq-table-body> th.is-checked {
-   color: #ffffff !important;
-   background: #3caa69;
-}
-
-.faq-table-body> td.is-checked {
-   color: #ffffff !important;
-   background: #3caa69;
-}
-
-.faqView > span {
-   float: right;
-   margin-right: 10px;
-}
-
-.faq-hidden {
-    background-color: #f5f5f5;
-}
-
-.faq-hidden th {
-   color:  #32b76e;
-   vertical-align: top;
-    padding-top: 18px;
-}
-
-.faq-hidden td {
-   padding: 20px 0;
-}
-div.board-faq > table > tbody > tr > th:nth-child(1) {
-   height: 50px;
-}
-
-.faq-hidden {
-   font-weight: bold;
-}
-.faq-hidden > td > p {
-   font-weight: 400;
-   font-size: 15px;
-   margin: 0;
+div.board-faq > .collapsible > p.is-checked {
+	color: #ffffff !important;
 }
 
 /* clinical_status_details.jsp 임상시험의 현황 상세 페이지 */
