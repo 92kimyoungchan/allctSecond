@@ -36,8 +36,6 @@
 		margin: 0 0 10px 14px;
 	}
 	
-	
-	
 }
 
 @media screen and (min-width:375px) and (max-width:424px) {
@@ -104,6 +102,24 @@
    div.jobInfo > table > tbody > .jobInfo-table-body > td:nth-of-type(2) {
    	  max-width: 265px;
    }
+   
+/*    div.board-faq > button {
+   	  display: table;
+   }
+   
+   div.board-faq > button > span {
+   	  display: table-cell;
+   	  padding: 0 10px;
+   }
+   
+   div.board-faq > button > p {
+      display: table-cell;
+   }
+   
+   .collapsible:after {
+   	  display: table-cell;
+
+   } */
 
 }
 
@@ -192,6 +208,32 @@
      
    }
    
+   div.board-faq > button > span {
+   	  font-size: 20px;
+   	  margin: 0;
+   }
+   
+   div.board-faq > button > p {
+      font-size: 14px;
+      white-space: pre-line;   
+   }
+   
+   .collapsible:after {
+   	  font-size: 20px;
+   }
+   
+   	.collapsible {
+		display: table;
+	}
+	div.board-faq > button > span {
+		display: table-cell;
+		padding: 10px 20px 0 0;
+	}
+	div.board-faq > button > p {
+		display: table-cell;
+	}
+   
+
 }
 
 @media screen and (max-width:580px) {
@@ -264,6 +306,9 @@
    div.subP-clinical-status-header > .recruit-box > .recruit-header > div {
    		float: left;
 		margin: 0 0 10px 25px;
+   }
+   div.board-faq > button > span {
+   	    margin-right: 10px;
    }
 
 }
@@ -492,6 +537,21 @@
 		float: left;
 		margin-bottom: 10px;
 	}
+	
+	div.board-faq > button > p {
+      white-space: pre-line;   
+   }
+   
+   div.board-faq > .content > p:first-of-type {
+   	  display: inline;
+   	  font-size: 20px;
+   }
+   
+   div.board-faq > .content > p:last-of-type {
+   	  display: inline;
+   }
+   
+   
 	
    
 }
