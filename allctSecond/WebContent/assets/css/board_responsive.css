@@ -545,10 +545,13 @@
    div.board-faq > .content > p:first-of-type {
    	  display: inline;
    	  font-size: 20px;
+   	  margin: 0;
+   	  float: left;
    }
    
    div.board-faq > .content > p:last-of-type {
    	  display: inline;
+   	  margin: 20px;
    }
    
    
