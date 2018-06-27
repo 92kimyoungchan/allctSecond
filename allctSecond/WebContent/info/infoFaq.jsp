@@ -74,28 +74,31 @@
 							<p>임상연구에 참여하고 싶습니다. 어디서 확인할 수 있나요?</p>
 						</button>
 						<div class="content">
-							<p>A</p>
-							<p>올바르게 설계되어 진행되는 임상연구는 참여자에게 최상의 접근방법으로 다음과 같은 이익이 있습니다.</p>
+							<div class="faq_answer">A</div>
+							<div class="faq_answer2"><p>올바르게 설계되어 진행되는 임상연구는 참여자에게 최상의 접근방법으로 다음과 같은 이익이 있습니다.</p>
+						</div>
 						</div>
 						<button class="collapsible">
 							<span>Q</span>
 							<p>어떤 사람이 임상연구에 참여할 수 있나요?</p>
 						</button>
 						<div class="content">
-							<p>A</p>
+							<div class="faq_answer">A</div>
+							<div class="faq_answer2">
 							<p>
 								올바르게 설계되어 진행되는 임상연구는 참여자에게 최상의 접근방법으로 다음과 같은 이익이 있습니다. <br>
 								1) 참여자가 자신의 건강관리를 위해 적극적인 역할을 하게 됩니다.<br> 2) 새로운 치료법을 보다 먼저
 								접할 수 있습니다.<br> 3) 임상연구 참여기간 동안 질 좋은 의료서비스(의료진 및 의료시설 등)를 받을
 								수 있습니다.<br> 4) 의학연구에 기여함으로써, 그 외 여러 측면에서 도움을 줄 수 있습니다.<br>
 							</p>
+							</div>
 						</div>
-						<button class="collapsible">
+						<!-- <button class="collapsible">
 							<span>Q</span>
 							<p>자원자 사례(보상)가 있습니까?</p>
 						</button>
 						<div class="content">
-							<p>A</p>
+							<div class="faq_answer">A</div>
 							<p>
 								그러나 임상시험에는 다음과 같은 위험요소도 고려해야 합니다.<br> 1) 임상연구에 따라 심각하거나
 								불쾌하고 생명을 위협하는 부작용이 있을 수 있습니다.<br> 2) 시험적 치료는 참여자들에게 효과적인
@@ -141,7 +144,7 @@
 								올바르게 설계되어 진행되는 임상연구는 참여자에게 최상의 접근방법으로 다음과 같은 이익이 있습니다. <br>
 								1) 참여자가 자신의 건강관리를 위해 적극적인 역할을 하게 됩니다.
 							</p>
-						</div>
+						</div> -->
 
 
 

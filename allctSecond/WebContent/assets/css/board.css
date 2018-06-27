@@ -617,11 +617,13 @@ div.subP-clinical-status {
 }
 
 .content {
-	padding: 0 20px;
+	padding: 0 10px;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
 	background-color: #eef2f5;
+	float: left;
+    width: 100%;
 }
 
 div.board-faq > button > span {
@@ -635,7 +637,7 @@ div.board-faq > button > span {
 div.board-faq > button > p {
     margin: 0;
     display: inline-block;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 15px;
 }
 
@@ -643,20 +645,28 @@ div.board-faq > .content > span {
     vertical-align: top;	
 }
 
-div.board-faq > .content > p:first-of-type {
+div.board-faq > .content > .faq_answer {
     margin: 17px 0 0 10;
     display: inline-block;
-    vertical-align: top;
     color: #3caa69;
+    font-size: 18px;
     font-weight: bold;
+    vertical-align: top;
+    
 }
 
-div.board-faq > .content > p:last-of-type {
+div.board-faq > .content > .faq_answer2 {
 	display: inline-block;
     margin: 20px 20px 20px 29px;
     font-size: 14px;
     font-weight: 400;
     text-indent: -0.5em;
+}
+
+div.board-faq > .content > .faq_answer2 > p {
+	font-size: 14px;
+    font-weight: 400;
+    margin: 0;
 }
 
 div.board-faq > .collapsible.is-checked {
@@ -742,4 +752,8 @@ div.board_news > table > tbody > tr > td:nth-of-type(5) {
 }
 
 div.board-select > .recruit-box > .recruit-header > .select-group > .select > .select-styled {
+}
+
+div.board_news > table > thead > tr > th {
+	padding: 0.75rem;
 }

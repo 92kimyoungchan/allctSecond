@@ -103,23 +103,11 @@
    	  max-width: 265px;
    }
    
-/*    div.board-faq > button {
-   	  display: table;
+   div.jobInfo > table > tbody > tr > td:nth-of-type(2) {
+   	  text-overflow: ellipsis;
+   	  overflow: hidden;
+   	  white-space: nowrap;
    }
-   
-   div.board-faq > button > span {
-   	  display: table-cell;
-   	  padding: 0 10px;
-   }
-   
-   div.board-faq > button > p {
-      display: table-cell;
-   }
-   
-   .collapsible:after {
-   	  display: table-cell;
-
-   } */
 
 }
 
@@ -542,16 +530,18 @@
       white-space: pre-line;   
    }
    
-   div.board-faq > .content > p:first-of-type {
+   div.board-faq > .content > .faq_answer {
    	  display: inline;
-   	  font-size: 20px;
-   	  margin: 0;
-   	  float: left;
+   	  margin: 25px 0; 
    }
    
-   div.board-faq > .content > p:last-of-type {
+   div.board-faq > .content > .faq_answer2 {
    	  display: inline;
-   	  margin: 20px;
+   	  margin: 30px;
+   }
+   
+   div.board-faq > .content > .faq_answer2 > p {
+   	  padding: 30px 40px;
    }
    
    
